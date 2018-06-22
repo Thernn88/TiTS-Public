@@ -760,7 +760,7 @@ package classes.Items.Transformatives
 					textBuff += ", and with your increasing engorgement comes the sense of being pent up, like you’ve been edging for hours. Pre-cum suddenly erupts from your [pc.cockHeads], not in lurid spurts but in debauched streams";
 					if(!pc.isCrotchExposed()) textBuff += ", soaking the inside of your [pc.crotchCover]";
 					textBuff += ", flooding out of your [pc.balls] as if there is suddenly no room for the bubbling juices.";
-					textBuff += "\n\nPumping your hips, you can’t stop yourself from grabbing hold of [pc.oneCock] and stroking yourself to orgasm any more than you can stop the sensuous lubricant from puddling in your palms. Keening in bliss, your whole crotch clenches as a teeth-rattling climax hits you. [pc.Cum] sprays out in long, voluminous lances, each thicker than the previous, discharging in sync with the thrusts of your hips. You watch it puddle, more and more of it. More than you should be able to produce, but you spurt it out all the same. You cum until that soreness you felt earlier returns, and then you cum some more.";
+					textBuff += "\n\nPumping your hips, you can’t stop yourself from grabbing hold of [pc.oneCock] and stroking yourself to orgasm any more than you can stop the sensuous lubricant from puddling in your palms. Keening in bliss, your whole crotch clenches as a [pc.teeth]-rattling climax hits you. [pc.Cum] sprays out in long, voluminous lances, each thicker than the previous, discharging in sync with the thrusts of your hips. You watch it puddle, more and more of it. More than you should be able to produce, but you spurt it out all the same. You cum until that soreness you felt earlier returns, and then you cum some more.";
 					textBuff += "The experience is exhausting but ultimately satisfying. Your body is making so much more [pc.cumNoun] now. By your estimate, you ejaculated at least six liters worth of sperm-laden goo. <b>Your cumshots have gotten significantly bigger than before!</b>";
 					textBuff = ParseText(textBuff);
 					pc.orgasm();
@@ -1192,7 +1192,7 @@ package classes.Items.Transformatives
 					//Half-bunny face
 					if(pc.faceType == GLOBAL.TYPE_LAPINE)
 					{
-						textBuff += "Your jaw locks and you reflexively clasp your hands to your face. You can tell your face is about to change. Suddenly, whiskers sprout from between your fingers. Gritting your teeth, you feel your buck-toothed maw being dragged forward bit by bit. When it stops, you experimentally bite the air a few times. Surprised at the sudden change, you pull out your Codex for a peek. <b>You now have a laquine-like muzzle.</b>";
+						textBuff += "Your jaw locks and you reflexively clasp your hands to your face. You can tell your face is about to change. Suddenly, whiskers sprout from between your fingers. Gritting your [pc.teeth], you feel your buck-toothed maw being dragged forward bit by bit. When it stops, you experimentally bite the air a few times. Surprised at the sudden change, you pull out your Codex for a peek. <b>You now have a laquine-like muzzle.</b>";
 					}
 					//Long muzzle
 					else if(pc.hasFaceFlag(GLOBAL.FLAG_MUZZLED) && pc.hasFaceFlag(GLOBAL.FLAG_LONG))
@@ -2175,3 +2175,4 @@ package classes.Items.Transformatives
 	}
 }
 
+

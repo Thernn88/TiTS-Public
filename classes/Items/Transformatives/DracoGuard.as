@@ -104,7 +104,7 @@
 						{
 							output("\n\nThe muscles along your back suddenly tighten, straining against an unbidden pressure. You grunt in discomfort,");
 							if(pc.isChestGarbed()) output(" loosening your garments and");
-							output(" moving your pack out of the way. The muscles on your shoulders twist and knot up, not quite painful but certainly uncomfortable enough to leave you gritting your teeth.");
+							output(" moving your pack out of the way. The muscles on your shoulders twist and knot up, not quite painful but certainly uncomfortable enough to leave you gritting your [pc.teeth].");
 							output("\n\nA moment later and your [pc.skinFurScalesNoun] stretches, distending just below the shoulder blades. You grimace and reach back, just in time to feel two slender growths sprouting from your back! You panic for a moment as the protrusions grow in, <b>filling out into sprawling draconic wings</b>! You feel your new limbs growing scaly coverings and growing talon-like bones at their tips.");
 							output("\n\nA few minutes later and the gryvain-like growth spurt seems to tapered off, giving you a moment’s respite to flex your muscles -- and elicit a gentle beat of your new wings! It takes a bit of getting used to, but you soon have command of your new appendages, and can even lift yourself off the ground -- if only for a few moments!");
 							
@@ -160,7 +160,7 @@
 						//Grow gryvain tail (no tail)
 						if(pc.tailCount == 0)
 						{
-							output("\n\nSomething shifts just under your [pc.skinFurScales], right above your [pc.butt]. You twist around, trying to see what’s going on... and feeling a sudden spike of pressure at the base of your spine! You grit your teeth and find yourself instinctively pushing back, in time to feel your [pc.skinFurScales] erupt in a surge of growth! The flesh around your spine expands, pushing outwards and down, drooping behind your [pc.legOrLegs]. It doesn’t take long before you realize <b>you’re growing a tail!</b>");
+							output("\n\nSomething shifts just under your [pc.skinFurScales], right above your [pc.butt]. You twist around, trying to see what’s going on... and feeling a sudden spike of pressure at the base of your spine! You grit your [pc.teeth] and find yourself instinctively pushing back, in time to feel your [pc.skinFurScales] erupt in a surge of growth! The flesh around your spine expands, pushing outwards and down, drooping behind your [pc.legOrLegs]. It doesn’t take long before you realize <b>you’re growing a tail!</b>");
 							output("\n\nA few moments of growing, expansive sensation and your body seems to settle down, leaving you with a scale-wrapped tail about as long as you are tall, and with a little effort, you’re able to start curling it and swishing it from side to side. With a little practice, you’re sure this new appendage will be incredibly dexterous! Not to mention, you feel much more sure of your balance, and find yourself moving with a greater, almost sensual confidence!");
 							
 							pc.tailCount = 1;

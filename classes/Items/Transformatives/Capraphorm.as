@@ -294,7 +294,7 @@ package classes.Items.Transformatives
 				{
 					if(target.legTypeUnlocked(GLOBAL.TYPE_GOAT) && target.legCountUnlocked(2))
 					{
-						msg += ParseText("Bones burn and muscles contract, your lower body inexplicably taken over by pain. Your [pc.legs] can’t withstand the internal onslaught of your molecular structure being rearranged and you slip down the floor with gritted teeth. By the One, it <i>hurts</i>! You can’t help but close your [pc.eyes], unwilling to see what’s going to appear below your waist. Several cracks and pangs of pain conjoin, but they’re thankfully brief. After several minutes of aches and muscle tension, you open your eyes to see your <b>furred, digitigrade goat legs and goat hooves!</b> They’re a little sore at first but you adjust to them fairly smoothly, balancing with ease on narrow hooves.");
+						msg += ParseText("Bones burn and muscles contract, your lower body inexplicably taken over by pain. Your [pc.legs] can’t withstand the internal onslaught of your molecular structure being rearranged and you slip down the floor with gritted [pc.teeth]. By the One, it <i>hurts</i>! You can’t help but close your [pc.eyes], unwilling to see what’s going to appear below your waist. Several cracks and pangs of pain conjoin, but they’re thankfully brief. After several minutes of aches and muscle tension, you open your eyes to see your <b>furred, digitigrade goat legs and goat hooves!</b> They’re a little sore at first but you adjust to them fairly smoothly, balancing with ease on narrow hooves.");
 						
 						target.legCount = 2;
 						target.genitalSpot = 0;

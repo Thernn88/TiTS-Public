@@ -110,7 +110,7 @@ package classes.Items.Transformatives
 					//7 feet and below:
 					else
 					{
-						kGAMECLASS.output("\n\nYou sigh as your body condenses and the floor gets a little closer. The way most people look at you now you can only be described as patronizing, but you don’t mind – the sense of balance that comes with such a low centre of gravity makes you feel right, more connected with the world that your senses tell you is the most important. Anyway, when a tall person’s hands are level with your throat it means your teeth are level with their groin.");
+						kGAMECLASS.output("\n\nYou sigh as your body condenses and the floor gets a little closer. The way most people look at you now you can only be described as patronizing, but you don’t mind – the sense of balance that comes with such a low centre of gravity makes you feel right, more connected with the world that your senses tell you is the most important. Anyway, when a tall person’s hands are level with your throat it means your [pc.teeth] are level with their groin.");
 						pc.tallness -= 1 + rand(2);
 					}
 					changes++;

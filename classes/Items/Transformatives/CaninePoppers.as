@@ -116,7 +116,7 @@ package classes.Items.Transformatives
 				{
 					if(pc.faceTypeUnlocked(GLOBAL.TYPE_CANINE))
 					{
-						output("\n\nA sudden burst of pain lights up your cheeks as you feel the bones underneath creaking. The sensation spreads across your [pc.face], the feeling intensifying in your teeth as they grow into a much sharper, carnivorous set. Your bones continue reform while your nose and jaw shift into position, ");
+						output("\n\nA sudden burst of pain lights up your cheeks as you feel the bones underneath creaking. The sensation spreads across your [pc.face], the feeling intensifying in your [pc.teeth] as they grow into a much sharper, carnivorous set. Your bones continue reform while your nose and jaw shift into position, ");
 						if(pc.hasFaceFlag(GLOBAL.FLAG_MUZZLED)) output("the pain slowly subsiding now that your muzzle has reshaped into a canine one");
 						else output("painfully elongating and stretching farther from your face. The agony begins to subside when your face settles into a canine muzzle");
 						output(". For a short moment, you find your breathing closed off as your nose turns black and moist. A few last cracks announce your bones falling into place, then silence. You check your appearance in the Codex and notice that <b>you now have a canine muzzle.</b>");

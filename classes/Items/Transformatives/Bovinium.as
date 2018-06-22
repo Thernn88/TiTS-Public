@@ -84,7 +84,7 @@ package classes.Items.Transformatives
 				//if PC has a non-human face:
 				if (target.faceType != GLOBAL.TYPE_HUMAN && target.faceTypeUnlocked(GLOBAL.TYPE_HUMAN))
 				{
-					output("\n\nYou feel your [pc.face] starting to crumple in, rattling your teeth and sending shockwaves of pressure through your head. You feel like you’re in a vice! Slowly but surely, your inhuman face takes on a much more common appearance, leaving you with a cute little nose, lips, human eyes -- the works. <b>You now have a human face!</b>");
+					output("\n\nYou feel your [pc.face] starting to crumple in, rattling your [pc.teeth] and sending shockwaves of pressure through your head. You feel like you’re in a vice! Slowly but surely, your inhuman face takes on a much more common appearance, leaving you with a cute little nose, lips, human eyes -- the works. <b>You now have a human face!</b>");
 					
 					target.faceType = GLOBAL.TYPE_HUMAN;
 					target.faceFlags = [];

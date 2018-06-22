@@ -809,7 +809,7 @@
 					// Increases by 3
 					if(target.hasPerk("Bulgy"))
 					{
-						output("\n\nJust when you think it’s over your [pc.balls] " + (target.balls == 1 ? "starts" : "start") + " to shudder once again, growing with frightening speed. You cum on the spot from the sensation, firing off massive gouts of [pc.cum]; but no amount of release seems to drain your constantly swelling testes as they gorge themselves on mutagen. As the growth stops, so too does your orgasm, and with plenty of [pc.cumNoun] left in your newly enhanced sack. You groan and reach down to relieve yourself, but decency kicks you in the teeth and tells you that you’ve made enough of a mess already. You’ll just have to do it after you get cleaned up, or maybe while you’re cleaning up?");
+						output("\n\nJust when you think it’s over your [pc.balls] " + (target.balls == 1 ? "starts" : "start") + " to shudder once again, growing with frightening speed. You cum on the spot from the sensation, firing off massive gouts of [pc.cum]; but no amount of release seems to drain your constantly swelling testes as they gorge themselves on mutagen. As the growth stops, so too does your orgasm, and with plenty of [pc.cumNoun] left in your newly enhanced sack. You groan and reach down to relieve yourself, but decency kicks you in the [pc.teeth] and tells you that you’ve made enough of a mess already. You’ll just have to do it after you get cleaned up, or maybe while you’re cleaning up?");
 						
 						target.ballSizeRaw += 3;
 						target.lust(100);

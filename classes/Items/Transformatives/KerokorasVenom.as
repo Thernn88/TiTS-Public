@@ -213,7 +213,7 @@ package classes.Items.Transformatives
 						
 						if(boobChanged)
 						{
-							output("\n\nYou feel a sudden tightness in your chest, causing your heart to beat faster as your hands go to your [pc.chest]. You grit your teeth and then finally suck in a gasp of air. Your breasts inflate with the inhalation, swelling to almost twice their size, the skin stretched like a drum and aching with need of release. You open your mouth to cry out, only to have a loud and inhuman <i>“CROOOOOOOOAK....”</i> escape your lips, your breasts deflating to push out the echoing sound. By the time it is finished your breasts have more than just deflated, they seem smaller than they were before.");
+							output("\n\nYou feel a sudden tightness in your chest, causing your heart to beat faster as your hands go to your [pc.chest]. You grit your [pc.teeth] and then finally suck in a gasp of air. Your breasts inflate with the inhalation, swelling to almost twice their size, the skin stretched like a drum and aching with need of release. You open your mouth to cry out, only to have a loud and inhuman <i>“CROOOOOOOOAK....”</i> escape your lips, your breasts deflating to push out the echoing sound. By the time it is finished your breasts have more than just deflated, they seem smaller than they were before.");
 							
 							changes++;
 						}
