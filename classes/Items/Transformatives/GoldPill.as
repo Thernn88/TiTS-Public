@@ -494,7 +494,9 @@ package classes.Items.Transformatives
 					// Perk Swapped!
 					if(pc.hasPerk("Myr Venom"))
 					{
-						output("\n\nWith your new genes attained, your jaw begins to shiver all over and you feel your canines tingle. You rub your [pc.tongueNoun] along the roof of your mouth and across the back of your front teeth. As you do this, a pool of pink myr venom rapidly collects and a stream of the stuff dribbles down your [pc.lip]. Surprised, you reflexively swallow it before any more can come out. You almost instantly regret the action as an overwhelming feeling of desire and anticipation skyrockets in your [pc.groin], giving way to the lust-laden effects of the venom!");
+						output("\n\nWith your new genes attained, your jaw begins to shiver all over");
+						if (pc.faceType != GLOBAL.TYPE_VYSP) output(" and you feel your canines tingle");
+						output(". You rub your [pc.tongueNoun] along the roof of your mouth and across the back of your front [pc.teeth]. As you do this, a pool of pink myr venom rapidly collects and a stream of the stuff dribbles down your [pc.lip]. Surprised, you reflexively swallow it before any more can come out. You almost instantly regret the action as an overwhelming feeling of desire and anticipation skyrockets in your [pc.groin], giving way to the lust-laden effects of the venom!");
 						output("\n\nComposing yourself, you expect the venom to replenish itself after discharging so much at once, but instead it’s just regular, watery spit. After noticing the change in your saliva, you double check your Codex and confirm that <b>you have lost your lust-inducing venom from your previous transformation</b>. It seems the ability is not compatible with this drug...");
 						// Lusty!
 						pc.maxOutLust();
@@ -506,7 +508,9 @@ package classes.Items.Transformatives
 				// Alternately remove My Venom
 				if(changes < changeLimit && pc.hasPerk("Myr Venom") && rand(4) == 0)
 				{
-					output("\n\nSuddenly, your jaw begins to shiver all over and you feel your canines tingle. You rub your [pc.tongueNoun] along the roof of your mouth and across the back of your front teeth. As you do this, a pool of pink myr venom rapidly collects and a stream of the stuff dribbles down your [pc.lip]. Surprised, you reflexively swallow it before any more can come out. You almost instantly regret the action as an overwhelming feeling of desire and anticipation skyrockets in your [pc.groin], giving way to the lust-laden effects of the venom!");
+					output("\n\nSuddenly, your jaw begins to shiver all over");
+					if (pc.faceType != GLOBAL.TYPE_VYSP) output(" and you feel your canines tingle");
+					output(". You rub your [pc.tongueNoun] along the roof of your mouth and across the back of your front [pc.teeth]. As you do this, a pool of pink myr venom rapidly collects and a stream of the stuff dribbles down your [pc.lip]. Surprised, you reflexively swallow it before any more can come out. You almost instantly regret the action as an overwhelming feeling of desire and anticipation skyrockets in your [pc.groin], giving way to the lust - laden effects of the venom !");
 					output("\n\nComposing yourself, you expect the venom to replenish itself after discharging so much at once, but instead it’s just regular, watery spit. After noticing the change in your saliva, you double check your Codex and confirm that <b>you have lost your lust-inducing venom from your previous transformation</b>. It seems the ability is not compatible with this drug...");
 					// Lusty!
 					pc.maxOutLust();
