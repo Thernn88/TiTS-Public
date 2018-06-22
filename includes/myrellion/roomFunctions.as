@@ -155,6 +155,11 @@ public function backAlleyBonus():Boolean
 		meetUpWithKaraInTheBackAlley();
 		return true;
 	}
+	if(flags["SEXED_SHADE"] != undefined && shadeAtTheBar())
+	{
+		output(" You recognize Shade’s ship, a purple MS-XI with “Mirage” painted in bold white letters across its bow, parked next to one of the hangers here.")
+	}
+	if(flags["SHADY_ALLEY_MERCH_MET"] == undefined||flags["SHADY_ALLEY_MERCH_MET"] == 0)shadyAlleyMerchantBonus(0);
 	else output(" Not much to see here.");
 	return false;
 }
