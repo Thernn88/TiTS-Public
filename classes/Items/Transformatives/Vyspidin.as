@@ -299,13 +299,13 @@
 					{
 					
 						output("\n\nYou watch as");
-						if(target.skinTone != "black")
+						if(target.skinTone != "white")
 						{
-							output(" your body turns black as night, and ");
+							output(" your body turns white, and ");
 							if(!target.hasChitin()) output("as glossy blue chitin plates grow along its surface");
 							else if(target.scaleColor != "blue") output("as your chitin pigment darkens to a glossy blue");
 						}
-						else if(!target.hasChitin()) output(" your body is affected as glossy blue chitin plates grow along the surface of your black skin");
+						else if(!target.hasChitin()) output(" your body is affected as glossy blue chitin plates grow along the surface of your white skin");
 						else output(" the pigment of your chitin gradually darkens until it is a glossy blue");
 						output(".");
 						output("You notice that sweat has stopped building on your body, your chitinous skin seemingly unable to produce it. Unable to dissipate heat, you feel yourself slowly start to grow hotter and hotter.");
@@ -315,7 +315,7 @@
 					target.skinType = GLOBAL.SKIN_TYPE_CHITIN;
 					target.clearSkinFlags();
 					target.addSkinFlag(GLOBAL.FLAG_SMOOTH);
-					target.skinTone = "black";
+					target.skinTone = "white";
 					target.scaleColor = "blue";
 					//Remove Body Perks
 					if(target.hasPerk("Black Latex"))
