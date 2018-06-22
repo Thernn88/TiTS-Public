@@ -11548,22 +11548,25 @@ public function bessGiveDoggySelected(bTargetVag:Boolean = false):void
 		output("\n\n<i>“Goooood [pc.boyGirl]. Just remember who is in charge, and maybe I’ll let you get off inside of me,”</i> [bess.name] teases you, forcibly slapping [bess.hisHer] hips back against your own. You bite your lip HARD and try not to cum at the tugging and squeezing sensation on your knotted [pc.cockNoun "+ cockIdx +"], all the while feeling your pre-cum uncontrollably dribble inside [bess.hisHer] silky depths.");
 	}
 
-	if (pc.hasCockTail())
+	if (pc.hasCockTail()||pc.hasAbdominalSexOrgan())
 	{
+		var tailType:String = "";
+		if(pc.hasAbdominalSexOrgan()) tailType="[pc.oviAbd]";
+		else tailType = "[pc.tailCock]";
 		if (bessIsDom())
 		{
-			output("\n\n<i>“Your [pc.tailCock]. Bring it to my mouth NOW, "+ bessPCSexName() +".”</i>");
+			output("\n\n<i>“Your " + tailType + ". Bring it to my mouth NOW, "+ bessPCSexName() +".”</i>");
 			
-			output("\n\nYou blush and obediently obey, bringing it up to [bess.hisHer] mouth. Seconds later, [bess.heShe]’s taking your [pc.tailCock] between [bess.hisHer] [bess.lips].");
+			output("\n\nYou blush and obediently obey, bringing it up to [bess.hisHer] mouth. Seconds later, [bess.heShe]’s taking your " + tailType + " between [bess.hisHer] [bess.lips].");
 			if (pc.hasKnot(cockIdx)) output(" Knotted in place,");
 			else output(" With one hand tightly on your leash,");
 			output(" [bess.name] fucks and sucks you off at the same time.");
 		}
 		else
 		{
-			output("\n\nActing on impure instinct, your [pc.tailCock] begins to move on its own. It slides up [bess.name]’s chest. It catches [bess.himHer] off guard when you slip it inside [bess.hisHer] half open-mouth, [bess.hisHer] eyes shooting wide in sudden shock.");
+			output("\n\nActing on impure instinct, your " + tailType + " begins to move on its own. It slides up [bess.name]’s chest. It catches [bess.himHer] off guard when you slip it inside [bess.hisHer] half open-mouth, [bess.hisHer] eyes shooting wide in sudden shock.");
 			
-			output("\n\n<i>“Mffh! Mffph... mfflrrrgh!”</i> You silence [bess.name]’s complaint with a mouth full of [pc.tailCock], stuffing it deep into [bess.hisHer] gullet. [bess.HisHer] muffled protests turn into moans as you bury it deep inside of [bess.hisHer] warm, wet gullet, taking advantage of [bess.hisHer] complete lack of a gag reflex.");
+			output("\n\n<i>“Mffh! Mffph... mfflrrrgh!”</i> You silence [bess.name]’s complaint with a mouth full of " + tailType + ", stuffing it deep into [bess.hisHer] gullet. [bess.HisHer] muffled protests turn into moans as you bury it deep inside of [bess.hisHer] warm, wet gullet, taking advantage of [bess.hisHer] complete lack of a gag reflex.");
 		}
 	}
 

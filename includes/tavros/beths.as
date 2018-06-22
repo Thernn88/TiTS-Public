@@ -430,7 +430,7 @@ public function vaandeGo():void
 	clearMenu();
 	//mark Vaande as met if first time, either intro branch present buttons ‘Fuck Pussy’,‘Ride Ovi’, ‘Back’
 	addButton(14,"Back",talkToBrothelLadyNewOmni);
-	if((pc.hasCock() && pc.cockThatFits(500) >= 0) || pc.hasTailCock() || pc.hasDickNipples()) addButton(0,"Fuck Pussy",fuckVaandesPuss,undefined,"Fuck Pussy","Use your cock on her.");
+	if((pc.hasCock() && pc.cockThatFits(500) >= 0) || pc.hasTailCock() || pc.hasDickNipples()||pc.hasAbdominalSexOrgan()) addButton(0,"Fuck Pussy",fuckVaandesPuss,undefined,"Fuck Pussy","Use your cock on her.");
 	else if(pc.hasCock() && pc.cockThatFits(500) < 0) addDisabledButton(0,"Fuck Pussy","Fuck Pussy","Here’s where you’d put your cock in her, if you had any that fit.");
 	else addDisabledButton(0,"Fuck Pussy","Fuck Pussy","Here’s where you’d put your cock in her, if you had one.");
 	//Ride Ovi
@@ -449,7 +449,8 @@ public function vaandeGo():void
 //Used to cheat for descripts
 public function vaandeCockChoice():String
 {
-	if(pc.hasCock() && pc.cockThatFits(500) >= 0) return "[pc.cock " + pc.cockThatFits(500) + "]";
+	if (pc.hasCock() && pc.cockThatFits(500) >= 0) return "[pc.cock " + pc.cockThatFits(500) + "]";
+	else if(pc.hasAbdominalSexOrgan()) return "[pc.oviAbd]";
 	else if(pc.hasTailCock()) return "[pc.tailCock]";
 	else if(pc.hasNippleCocks()) return "[pc.nippleCock]";
 	return "<b>--ERROR - NO APPROPRIATE COCK TO DESCRIBE--</b>";
@@ -479,7 +480,8 @@ public function fuckVaandesPuss():void
 	else output("and you throw yourself on her with such haste that batter your chest into hers, still deformed with finger-marks where you clutched her breasts.");
 	output(" The rahn squeals lightly when you adjust and spear her on your " + vaandeCockChoice() + ", raising her arms over her head and arching her back to push her slick, silky breasts into your [pc.skinFurScales]. Desperate desire swells in you, but your will doesn’t reach your ");
 	if(pc.hasCock() && pc.cockThatFits(500) >= 0) output("[pc.hips]");
-	else if(pc.hasTailCock()) output("[pc.tail]");
+	else if (pc.hasTailCock()) output("[pc.tail]");
+	else if(pc.hasAbdominalSexOrgan()) output("[pc.oviAbd]");
 	else output("chest");
 	output(". You’re a passenger in your own body, doomed to experience the sensations of the road but unable to alter the route or speed up - and then you realize why you can’t thrust. Vaande hasn’t given the command yet. The doh’rahn is looking at you intently, savoring the temperature and fullness of your cock, waiting for you to understand. When she sees dire panic in your expression, she smiles cruelly and her eyes glint with exhilaration.");
 	pc.cockChange();

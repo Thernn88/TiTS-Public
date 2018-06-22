@@ -3207,6 +3207,9 @@ public function variableRoomUpdateCheck():void
 		rooms["LIEVE BUNKER"].addFlag(GLOBAL.NPC);
 		rooms["803"].removeFlag(GLOBAL.OBJECTIVE);
 	}
+	//Shady Merchant stuff
+	if(flags["SHADY_ALLEY_MERCH_MET"] == undefined||flags["SHADY_ALLEY_MERCH_MET"] == 0)rooms["608"].addFlag(GLOBAL.NPC);
+	else rooms["608"].removeFlag(GLOBAL.NPC);
 	
 	/* UVETO */
 	

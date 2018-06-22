@@ -250,6 +250,7 @@ public function cleanUpWithShade():void
 
 			output("\n\n<i>“Good, I love it when you want me!”</i> she laughs, grabbing your hands. Shade laces her fingers through yours, squeezing them tight as she gets moving. Her tits bounce hypnotically as Shade starts to ride you, rocking her hips back and forth in your lap. Behind her, her parasitic tail ");
 			if(pc.hasTailCock()) output("squirms between your [pc.legs], searching out its twin. Your [pc.cockTail] is soon engulfed in Shade’s tail, sliding deep into her drooling pussy-slit.");
+			if(pc.hasTailCock()) output("squirms between your [pc.legs], searching out the abdominal appendage. Your [pc.oviAbd] is soon engulfed in Shade’s tail, sliding deep into her drooling pussy-slit.");
 			else if(pc.cockTotal() > 1) 
 			{
 				output("drools obscenely, craving a taste of dick. Your second cock is quickly engulfed in Shade’s extra cunt, sliding deep into her lusty tail-slit.");
@@ -265,7 +266,7 @@ public function cleanUpWithShade():void
 
 			output("\n\n[pc.CumNoun] gushes into Shade’s willing twat. You push your [pc.face] into her cleavage, soaking up all the little quakes and jiggles of her breasts while your [pc.cock " + x + "] unleashes its mighty load inside the beautiful MILF.");
 			if(pc.hasKnot(x)) output(" Your [pc.knot " + x + "] wedges firmly between your lover’s pussylips, tying you two together until your orgasm’s passed.");
-			else if(pc.hasTailCock()) output(" Your tail-mounted dick mimics the motions of your main dick, giving Shade’s tailcunt all the sweet spunk it craves while your main dick leaks its aftershots.");
+			else if(pc.hasTailCock()||pc.hasAbdominalSexOrgan()) output(" Your tail-mounted dick mimics the motions of your main dick, giving Shade’s tailcunt all the sweet spunk it craves while your main dick leaks its aftershots.");
 
 			output("\n\nShade’s deathgrip on you relaxes, going from fierce to a loving embrace as your cock finishes its dirty business inside her. When you extract your face from between her breasts, the first thing you see is her smile as she runs a hand across your cheek.");
 

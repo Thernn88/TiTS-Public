@@ -231,7 +231,7 @@ public function drinkDatRedVenoShitYooooooo(targetItem:RedMyrVenom):void
 	{
 		pc.lust(100);
 		output("You can’t hold back any longer. The need is too great, all but controlling you by the time you fish a vial of frothy pink venom out of your pack and pop the cork with shaky, numb fingers. You need it so badly... you need to <i>feel</i> again! In desperation, you fumble the vial up to your lips and drink down, gulping the slushing pink goo as fast as it will pour from the tube.");
-		output("\n\nThe vial clatters to the ground a moment later, falling from your leaden arms as you’re hit with a sunburst of sensation, more powerful than anything you can remember feeling - and that’s just your [pc.tongue] brushing against your teeth. You breathe hard, running your fingers across your [pc.face] as the familiar, comforting warmth of red venom spreads through you, reawakening your body from its lifeless, husk-like reverie.");
+		output("\n\nThe vial clatters to the ground a moment later, falling from your leaden arms as you’re hit with a sunburst of sensation, more powerful than anything you can remember feeling - and that’s just your [pc.tongue] brushing against your [pc.teeth]. You breathe hard, running your fingers across your [pc.face] as the familiar, comforting warmth of red venom spreads through you, reawakening your body from its lifeless, husk-like reverie.");
 		output("\n\nYour hands roam on auto-pilot across your body, pinching and caressing and fondling every curve and pleasure-point you have.");
 		imbibeVenomEffects(false);
 		if(!inCombat() && useItemFunction == inventory)

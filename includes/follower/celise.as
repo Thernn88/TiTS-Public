@@ -82,7 +82,7 @@ public function celiseFeedingRouter():void {
 	else sinkInTooltip += "teasing <i>just</i> your cock";
 	sinkInTooltip += " if you tried.";
 	addButton(3,"Sink In",zeiksCeliseSubmersionTechnique,undefined,"Sink In",sinkInTooltip);
-	if(pc.hasCock() || pc.hasVagina() || pc.hasTailCock()) addButton(4,"Use Her",zDomCeliseGo,undefined,"Use Her","Use Celise to get off. She might try to take charge, but you’ll show her who’s boss.");
+	if(pc.hasCock() || pc.hasVagina() || pc.hasTailCock()||pc.hasAbdominalSexOrgan()) addButton(4,"Use Her",zDomCeliseGo,undefined,"Use Her","Use Celise to get off. She might try to take charge, but you’ll show her who’s boss.");
 	else addDisabledButton(4,"Use Her","Use Her","You need genitals for this act.");
 	if(hasACumBubble()) addButton(5,"Cum Bubble",giveCeliseATreatSetup,undefined,"Cum Bubble","Celise loves cum right from the tap, but she’d probably enjoy a stored sample too.");
 	else addDisabledButton(5,"Locked","Locked","You do not have the item required for this scene. Purchasing a Bubble Buddy may be a good place to start...");
@@ -342,6 +342,14 @@ public function celiseSucksYouDry():void {
 			output(".");
 		}
 	}
+	if(pc.hasAbdominalSexOrgan())
+	{
+		output("\n\nYour [pc.oviAbd] is dripping, though it is not leaking ejaculate with the fervor of your bound erection");
+		if (pc.cocks.length > 1) output("s");
+		output(". That doesn’t stop Celise from noticing the way the heated droplets of pre-cum spatter across her insubstantial skin. Almost lazily, she extends a pseudopod behind you. You cannot see the rising, gooey enclosure, but you certainly feel it when it makes contact with your trembling tailcock, spreading juice-dripping lips around your thick tailboner. Inch after inch of your throbbing, posterior phallus passes into the suckling hole, and before you know it, it’s squirting out just like your other cock");
+		if(pc.cockTotal() > 1) output("s");
+		output(".");
+	}
 	//Resume
 	output("\n\n<i>“Feels like, totally good, right?”</i> Celise asks, squeezing her arms and constantly suckling dicksleeves tighter. <i>“Most bodies can’t handle this kind of suction, and they just let it all out without getting any kind of relief.”</i> Spots of [pc.cumColor] are swimming inside her as she teases you. <i>“You taste so good, too! Captain, I could keep you like this all day long!”</i>");
 	output("\n\nYou shudder, wracked by rising ecstasy and yet unable to hit the climax that feels so achingly close. The steady ejaculation continues well past when you thought you should have gone dry.");
@@ -465,6 +473,12 @@ public function celiseDoesSomeAnalMilking():void {
 	//Tailcock
 	if(pc.hasTailCock()) {
 		output("\n\nSeeing little action itself, your [pc.tailCock] can’t quite get off with its brothers, forced to lamely drip into a puddle on the floor. Celise’s base is happy to collect the spilled pre-cum");
+		if(pc.cumQ() >= 5000) output(", though she fails to retain it due to the massive fluid injections you’re forcing into her");
+		output(".");
+	}
+	if(pc.hasAbdominalSexOrgan())
+	{
+		output("\n\nSeeing little action itself, your [pc.oviAbd] can’t quite get off with its brothers, forced to lamely drip into a puddle on the floor. Celise’s base is happy to collect the spilled pre-cum");
 		if(pc.cumQ() >= 5000) output(", though she fails to retain it due to the massive fluid injections you’re forcing into her");
 		output(".");
 	}
@@ -1168,6 +1182,14 @@ public function getDrainedSexyTimes():void {
 		//n is the first tail that the PC has that is a tail vagina
 		output("\n\nWhen your [pc.tail] reveals its special treasure thanks to the situation you’re in, Celise immediately catches on and pulls said appendage up along your back so she has easier access to it. What feels like a thick cock of ooze forms at the entrance to your [pc.tailgina] and begins to thrust into it. This sends the breasts of goo on either side of your head bouncing slightly with the motion. Of course, rather than cumming into your tail mounted womanhood, this one sucks on your interior, draining all that it can out of you.");
 	}
+	else if (pc.hasAbdominalSexOrgan())
+	{
+		//If pc has an abdominal organ
+		output("\n\nGiven all the stimulation your body has received, your unusual endowment is quite easy to find and your [pc.tail] is led down");
+		if(pc.legCount > 1) output(" between");
+		output(" your [pc.legOrLegs]. The whole tail is surrounded in a thick sleeve of gel that promptly rocks forward and backwards down its full length. A small tendril of goo forms across the tip of your [pc.oviAbd] and rubs its urethra, trying to draw out as much as possible with each orgasm you experience throughout the night.");
+	}
+	
 	//cock
 	if (pc.hasCock() && (!pc.hasVagina() || rand(2) == 0))
 	{
@@ -1583,12 +1605,13 @@ public function zDomCeliseGo():void
 	output(" “<i>You know you want to let off some of those burdens of command,”</i> she sings.");
 
 	output("\n\nThe weight pressed against you increases as her gooey undercarriage shifts up into her voluminous ass, and she grabs your hands, holding them to her backside as it swells, filling your palms with supple galotian.");
-	if(pc.hasCock() || pc.hasTailCock()) 
+	if(pc.hasCock() || pc.hasTailCock()||pc.hasAbdominalSexOrgan()) 
 	{
 		output(" Under the onslaught of breast and butt, your ");
 		if(pc.hasCock()) output("[pc.cocks]");
+		else if (pc.hasAbdominalSexOrgan())output("[pc.oviAbd]");
 		else output("[pc.tailCock]");
-		if(pc.cockTotal() == 1 || pc.hasTailCock()) output(" swells");
+		if(pc.cockTotal() == 1 || pc.hasTailCock()||pc.hasAbdominalSexOrgan()) output(" swells");
 		else output(" swell");
 		output(" with blood, straining and staining ");
 		if(!pc.isCrotchGarbed()) output("the yielding skin of your lover");
@@ -1618,7 +1641,7 @@ public function zDomCeliseGo():void
 	output(". “<i>Are you going to make me eat off of the floor?”</i>");
 
 	output("\n\nThe galotian’s ass shifts and slides atop you");
-	if(pc.hasTailCock()) output(", pinning your [pc.tails] between your bodies");
+	if(pc.hasTailCock()||pc.hasAbdominalSexOrgan()) output(", pinning your [pc.tails] between your bodies");
 	output(", and Celise straddles your crotch so closely that ");
 	if(pc.hasCock() || pc.hasTailCock()) 
 	{
@@ -1696,15 +1719,15 @@ public function zDomCeliseGo():void
 	{
 		var cockSum:Number = 0;
 		if(pc.hasCock()) cockSum += pc.cockTotal();
-		if(pc.hasTailCock()) cockSum += pc.tailCount;
+		if(pc.hasTailCock()||pc.hasAbdominalSexOrgan()) cockSum += pc.tailCount;
 		
 		output("\n\nThe ravenous look in Celise’s eye is as good as a guarantee that unless you take control of the fuck, she’ll roll over you like a runaway glazed donut, leaving you sticky everywhere but ultimately unfulfilled. ");
 		if(pc.biggestCockLength() > 60) output("She practically oozes her way up your [pc.cockBiggest], stretching her body to match your enormous meat and stopping when the tip is just under her breasts. Her stomach ripples and parts around the gargantuan tool, engulfing it in her hot, gooey flesh.");
 		else 
 		{
 			output("Her stomach ripples around your ");
-			if(pc.hasCock() && pc.hasTailCock()) output("mutant tail and [pc.cocks], half-coaxing and half-sucking their secret out");
-			else if(!pc.hasCock() && pc.hasTailCock()) output("mutant tail, half-coaxing and half-sucking its secret out");
+			if(pc.hasCock() && (pc.hasTailCock()||pc.hasAbdominalSexOrgan())) output("tail and [pc.cocks], half-coaxing and half-sucking their secret out");
+			else if(!pc.hasCock() && (pc.hasTailCock()||pc.hasAbdominalSexOrgan())) output("tail, half-coaxing and half-sucking its secret out");
 			else output("[pc.cocks]");
 			output(", drawing the hot shaft");
 			if(cockSum > 1) output("s");
@@ -1769,7 +1792,8 @@ public function zDomCeliseGo():void
 			else if(pc.cumQ() < 2000) 
 			{
 				output("shoots right up into her throat, the journey made easy by the distance she has sunk down onto your ");
-				if(!pc.hasCock()) output("[pc.tailCock]");
+				if(!pc.hasCock()&&pc.hasTailCock()) output("[pc.tailCock]");
+				else if(!pc.hasCock()&&pc.hasAbdominalSexOrgan())output("[pc.oviAbd]");
 				else output("[pc.cocks]");
 				output(".");
 			}
