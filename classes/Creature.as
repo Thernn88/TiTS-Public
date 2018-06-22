@@ -2808,9 +2808,12 @@
 				case "oneCockTail":
 					buffer = oneTailGenitalDescript("cock");
 					break;
-				case "oviAbd":
-					buffer = abdomenOvipositorDescript();
-					break
+				case "abdCock":
+					buffer = abdomenCockDescript();
+					break;
+				case "abdVag":
+					buffer = abdomenVagDescript();
+					break;	
 				case "oneTailVagina":
 				case "oneTailCunt":
 				case "oneCuntTail":
@@ -11272,7 +11275,7 @@
 			
 			if(InCollection(wingType, [GLOBAL.TYPE_AVIAN, GLOBAL.TYPE_DOVE])) return GLOBAL.FLAG_FEATHERED;
 			if(InCollection(wingType, [GLOBAL.TYPE_SMALLDEMONIC, GLOBAL.TYPE_DEMONIC, GLOBAL.TYPE_SHARK, GLOBAL.TYPE_SMALLDRACONIC, GLOBAL.TYPE_DRACONIC, GLOBAL.TYPE_GRYVAIN])) return GLOBAL.FLAG_SCALED;
-			if(InCollection(wingType, [GLOBAL.TYPE_MOTHRINE, GLOBAL.TYPE_VYSP])) return GLOBAL.FLAG_CHITINOUS;
+			if(InCollection(wingType, [GLOBAL.TYPE_MOTHRINE])) return GLOBAL.FLAG_CHITINOUS;
 			return 0;
 		}
 		public function wingColor(): String
@@ -11285,7 +11288,6 @@
 			{
 				case GLOBAL.FLAG_FURRED:
 				case GLOBAL.FLAG_FEATHERED: sColor = furColor; break;
-				case GLOBAL.TYPE_VYSP: sColor = "orange"; break;
 				case GLOBAL.FLAG_SCALED:
 				case GLOBAL.FLAG_CHITINOUS: sColor = scaleColor; break;
 				default:
@@ -11294,6 +11296,7 @@
 						case GLOBAL.TYPE_DRAGONFLY: sColor = "iridescent"; break;
 						case GLOBAL.TYPE_SMALLBEE:
 						case GLOBAL.TYPE_BEE:
+						case GLOBAL.TYPE_VYSP: sColor = "orange";break;
 						case GLOBAL.TYPE_MYR: sColor = "transparent"; break;
 						case GLOBAL.TYPE_SYLVAN: sColor = "blue"; break;
 						case GLOBAL.TYPE_DARK_SYLVAN: sColor = "glittering black"; break;
@@ -17723,13 +17726,18 @@
 			}
 			return descript;
 		}
-		public function abdomenOvipositorDescript(): String
+		public function abdomenCockDescript(): String
 		{
 			var desc: String = "abdominal ";
 			desc += RandomInCollection(["ovipositor", "ovi-cock", "egg-layer", "ovi-implantor", "ovi-dong", "ovi-dick", "egg-dick", "egg-stuffer", "egg-organ", "implantor", "ovi-member", "egg-shaft", "ovi-shaft"]);
 			return desc;
 		}
-		
+		public function abdomenVagDescript(): String
+		{
+			var desc: String = "abdominal ";
+			desc += RandomInCollection(["ovipositor", "ovi-vag", "egg-vag", "ovi-cunt", "egg-cunt", "ovi-pussy", "egg-pussy", "ovi-tunnel", "egg-tunnel", "ovi-hole", "egg-hole"]);
+			return desc;
+		}
 		public function allBreastsDescript(): String {
 			var storage: String = "";
 			if (breastRows.length == 0) {
