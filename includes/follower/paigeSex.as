@@ -1425,7 +1425,9 @@ public function SSVKH(args:Array):void
 	clearOutput();
 	showPaige(true);
 	output("You reach up and cup Paige’s cheek with your hand. She leans into it affectionately, and you boldly lean forward, placing your lips on hers. She doesn’t push you away or even hum in surprise like she usually does; instead, she melts some more and opens her mouth, letting her tongue out to play.");
-	output("\n\nThough the sex is fairly casual, you both make it intimate: your hands explore each other, pressing and tickling at the spots you both know you’re weakest at. You both do half the hip movement so that one isn’t working too hard and you both massage each other’s tongues and count each other’s teeth in long, languid strokes. It’s not strenuous; it’s not exhausting; but it’s passionate, and something about it being Paige makes the experience all the more special.");
+	output("\n\nThough the sex is fairly casual, you both make it intimate: your hands explore each other, pressing and tickling at the spots you both know you’re weakest at. You both do half the hip movement so that one isn’t working too hard and you both massage each other’s tongues");
+	if (pc.faceType != GLOBAL.TYPE_VYSP) output("and count each other’s teeth");
+	output(" in long, languid strokes. It’s not strenuous; it’s not exhausting; but it’s passionate, and something about it being Paige makes the experience all the more special.");
 	output("\n\nShe pulls away and makes a show of licking her lips to enjoy your taste. She sits up, squatting her hips down onto yours, all the way to your base. <i>“You’re a good kisser,”</i> she congratulates breathlessly as she rotates her hips, nudging your [pc.cock] against every vein and bump inside her. <i>“We’ll see about putting that tongue to other use later.”</i>");
 	output("\n\nPaiges begins to bounce, her breath shallow and getting shallower every time you bottom out. She raises her arms above and behind her head, thrusting out her tits for you. <i>“Touch me,”</i> she asks. <i>“I like it when you do. I cum harder when you appreciate me and my form.”</i>");
 	output("\n\nWell, it <i>is</i> a pretty sexy form. You watch her as she flouts her body and her nipples as they draw oblong circles with her bouncing. You wouldn’t leave her waiting, would you?");
@@ -2353,7 +2355,9 @@ public function SSAKH(args:Array):void
 	output("You keep one hand on the meat of her ass to keep her steady (and also to grab a handful. Who wouldn’t?), and you use the other to gently cup the underside of Paige’s muzzle to direct her eyes to yours. Once they ");
 	if(paigeBlind()) output("(generally)");
 	output(" meet and lock, you lean forward, aggressively putting your lips to hers and, forgoing the foreplay, stick your tongue out.");
-	output("\n\nShe has enough sense to reciprocate, opening her mouth and allowing you in, although she’s fairly lazy about it. Your [pc.tongue] plays and dances with her long-and-flat Ausar tongue, tasting each other’s nuances and counting the teeth in each other’s jaws. You slow your fucking her ass slightly, your attention divided, though you hardly stop.");
+	output("\n\nShe has enough sense to reciprocate, opening her mouth and allowing you in, although she’s fairly lazy about it. Your [pc.tongue] plays and dances with her long-and-flat Ausar tongue, tasting each other’s nuances");
+	if (pc.faceType != GLOBAL.TYPE_VYSP) output(" and counting the teeth in each other’s jaws");
+	output(". You slow your fucking her ass slightly, your attention divided, though you hardly stop.");
 	output("\n\nWhile your mouth is busy, the hand on her ass crawls its fingers into the cleft of her cheeks, tickling at the rim of her asshole as it gets reamed again and again. Paige hardly notices; her eyes are closed deliriously and her tongue is moving in broad, sweeping strokes with your own. Her mind’s taken a back-seat, overloaded with the sensations in both ends of her body.");
 	output("\n\nYou can’t tell how close she is, but you know you’re just a few pumps away. You give Paige a shock to her system by releasing her asscheek and grabbing the base of her tail, your fingers scratching along its underside. You know it’s a particularly vulnerable erogenous zone, and it does what you hoped: Paige’s body stiffens and she squeals into your mouth, while her ass grips you tighter and she soaks your crotch in her feminine cum.");
 	output("\n\nAnd not a moment too soon....");
@@ -3075,7 +3079,9 @@ public function SSTS2(args:Array):void
 	if(pc.hasVagina()) output("[pc.vagina]");
 	else output("[pc.crotch]");
 	output(" is getting pounded as if Paige were actually a horny dog. You errantly wonder, if this is how Paige fucks another woman, just how hard she’d fuck you if she had a dick.");//Fuckin' tease.
-	output("\n\nShe stops your daydreaming by leaning in, planting her lips furiously against yours, her tongue snaking out to invade your mouth almost angrily. She doesn’t slow down for even a second while she counts your teeth. You taste her tongue, pressing the flat of yours against hers as she violates your privacy. In fact, judging from her intense movements and faster breathing, she’s probably close.");
+	output("\n\nShe stops your daydreaming by leaning in, planting her lips furiously against yours, her tongue snaking out to invade your mouth almost angrily. ");
+	if (pc.faceType != GLOBAL.TYPE_VYSP) output("She doesn’t slow down for even a second while she counts your teeth. ");
+	output("You taste her tongue, pressing the flat of yours against hers as she violates your privacy. In fact, judging from her intense movements and faster breathing, she’s probably close.");
 	output("\n\nGood timing.");
 
 	//[=Climax=]
@@ -4678,4 +4684,4 @@ public function SSR():void
 	addButton(0,"Embrace Her",FTEH1,args);
 	addButton(1,"Grab Her Ass",FTGHA1,args);
 	addButton(2,"Do Nothing",FTDN1,args);
-}
+}

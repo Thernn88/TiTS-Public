@@ -1134,7 +1134,9 @@ public function FFWVKH(args:Array):void
 	clearOutput();
 	showPaige(true);
 	output("Well, you certainly know one way to assert yourself, even as you’re already fucking Paige into the floor: already nose-to-nose and chest-to-[pc.chest], you close the gap and lock your [pc.lips] against hers. Her mouth is already open, and all you have to do is surge your [pc.tongue] forward to invade.");
-	output("\n\nHer breath catches at first, and then she responds eagerly, slapping her long, flat Ausar tongue against yours, tasting your tip and scrawling her way into your mouth to count your teeth and massage your tastebuds. She sucks on your tongue before devouring it back down, and she twists her head to give your tongues a different angle to dance with.");
+	output("\n\nHer breath catches at first, and then she responds eagerly, slapping her long, flat Ausar tongue against yours, tasting your tip ");
+	if (pc.faceType != GLOBAL.TYPE_VYSP) output("and scrawling her way into your mouth to count your teeth ");
+	output("and massage your tastebuds. She sucks on your tongue before devouring it back down, and she twists her head to give your tongues a different angle to dance with.");
 	output("\n\nYou don’t stop fucking her as you kiss, your [pc.hips] jackhammering into hers");
 	var x:int = -1;
 	if(pc.hasCock() && pc.cockThatFits(paige.vaginalCapacity(0)) >= 0) 
@@ -1544,4 +1546,4 @@ public function FFWAE(args:Array):void
 	output("\n\n");
 	clearMenu();
 	addButton(0,"Next",paigeExitWrapper);
-}
+}

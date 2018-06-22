@@ -1209,7 +1209,10 @@ public function blowNayna3():void
 	output("\n\nYou’re dizzy on bunny spunk, barely able to breathe and yet stuffed beyond capacity with the sloshing sperm, chugging down more like a " + pc.mf("frat boy","sorority girl") + " attempting a keg stand.");
 	if(pc.isBimbo()) output(" You’re not sure if you’ve ever been happier. There’s so much cum, and it’s all yours, filling you, flooding you, a liquid declaration of your value. Just the thrill of getting to taste it all has you shiver and shuddering, on the edge of a breathless climax of your own.");
 	output(" Climbing up onto your hands and knees, you try to ease the pressure on your inflating belly as it balloons, but it seems a doomed effort. Every swallow adds a little more bulge and wobble to your bloated middle. You feel like you’re going to burst if you swallow any more, but what choice do you have?");
-	output("\n\n<i>“H-holy shit!”</i> Nayna pants, putting her hands on your forehead and pushing, dragging her still-spurting cock-head out of your mouth an inch at a time. It catches on your teeth, making the lop-eared laquine pause, but after regarding your gravid state another second, she pushes hard, popping her dick out of your mouth with a moan and a squirt, painting the bridge of your nose white. <i>“");
+	output("\n\n<i>“H-holy shit!”</i> Nayna pants, putting her hands on your forehead and pushing, dragging her still-spurting cock-head out of your mouth an inch at a time.");
+	output(",”</i> you tell him through a cocky grin");
+	if (pc.faceType != GLOBAL.TYPE_VYSP) output("It catches on your teeth, making the lop-eared laquine pause, but after regarding your gravid state another second, she pushes hard, popping");
+	else output("She pops her dick out of your mouth with a moan and a squirt, painting the bridge of your nose white. <i>“");
 	if(flags["NAYNA_BLOWN"] == undefined) output("F-fuck, why can’t I stop cumming?");
 	else output("F-fuck, how can something so base be so wonderful?");
 	output("”</i> Her nose twitches fearfully, but her hands grab hold of her cock, disregarding any pain her sudden exit may have caused. <i>“");

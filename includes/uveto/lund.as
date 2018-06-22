@@ -1844,7 +1844,10 @@ public function bimboLundSexNext(x:int):void
 	else output("Maybe we’ll try that out again.");
 	output("”</i>");
 
-	output("\n\nYou smile before opening your mouth wide, exposing your pearly-white teeth and throat. Lund doesn’t bother resisting the sight.");
+	output("\n\nYou smile before opening your mouth wide, exposing your "); 
+	if (pc.faceType != GLOBAL.TYPE_VYSP) output("pearly-white teeth");
+	else output("mandibles");
+	output(" and throat. Lund doesn’t bother resisting the sight.");
 
 	processTime(65);
 	var lundipoo:PregnancyPlaceholder = lundCumPlaceholder();
