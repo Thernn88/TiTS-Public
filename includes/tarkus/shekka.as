@@ -1165,7 +1165,7 @@ public function tailbadism():void
 	output("\n\nNervelessly fluttering, Shekka’s fingers telegraph her orgasm directly into your ");
 	if(pc.biggestTitSize() >= 1) output("breasts");
 	else output("chest");
-	output(", catching on your [pc.nipples] and pressing into the soft, nerve-packed tips. You close your eyes and grit your teeth, holding yourself back from the edge by sheer force of will. The petite beauty above twists and wiggles through euphoric spasms, secure in your arms, juicing twat still pressed to yours around the intrusive wiggling of her tail. You press your lips to hers in a tender kiss, and she slowly stills, only occasionally trembling through aftershocks.");
+	output(", catching on your [pc.nipples] and pressing into the soft, nerve-packed tips. You close your eyes and grit your [pc.teeth], holding yourself back from the edge by sheer force of will. The petite beauty above twists and wiggles through euphoric spasms, secure in your arms, juicing twat still pressed to yours around the intrusive wiggling of her tail. You press your lips to hers in a tender kiss, and she slowly stills, only occasionally trembling through aftershocks.");
 	output("\n\nStill holding tight to her, you feel the heated waves of ecstasy fluttering in your nethers, as irresistible as the ocean tides. The cunt-clenching tsunami crashes over your crumbling wall of willpower, bathing everything in tidepools of pleasure. Your eyes roll back a second before Shekka’s clear. The crafty girl acts as soon as she realizes what’s going on. Her tail, once a passive participant for you to grind against, slithers into your [pc.vagina " + x + "], still vibrating. Your convulsing, bliss-filled walls clamp onto it. You can feel the vibrations carry through your pliant, clinging flesh");
 	if(pc.hasClit()) output(" all the way to your [pc.clits]");
 	output(".");
@@ -2301,7 +2301,7 @@ public function mendovaShekkaBot():void
 	else if(rand(2) == 0) output("Next,");
 	else output("Then,");
 	output(" you thumb the button labeled “Mendova”. Shekka gasps in pleasure, but her expression turns to a smile after a moment. This was the wrong choice for this game. The crimson tech wiz makes exaggerated moans in an attempt to coax extra feeling from you. As she does so she hits a button on her controller.");
-	output("\n\nYou grit your teeth as the metallic pole inside you becomes thicker at the base and lengthens. It becomes a chromed tentacle, churning both your insides and the thoughts in your head. It’s hard to keep your thoughts straight as the offending tendril pounds ");
+	output("\n\nYou grit your [pc.teeth] as the metallic pole inside you becomes thicker at the base and lengthens. It becomes a chromed tentacle, churning both your insides and the thoughts in your head. It’s hard to keep your thoughts straight as the offending tendril pounds ");
 	if(pc.hasVagina()) output("against your womb");
 	else output("deeper into [pc.ass]");
 	output(". If this keeps up for much longer you might be in trouble.");
@@ -3051,4 +3051,4 @@ public function shekkaRepeatJoinCrew():void
 	clearMenu();
 	addButton(0,"Welcome",welcomeShekkaToTheTeam);
 	addButton(1,"Not Yet",noFollowerYetShekka);
-}
+}

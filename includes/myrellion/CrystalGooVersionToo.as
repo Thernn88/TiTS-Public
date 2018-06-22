@@ -543,7 +543,7 @@ public function crystalGooSculptingFem():void
 	
 	output("\n\n<i>“Oh, my,”</i> the new ganrael girl sighs, swaying her chest and watching the massive breasts swing. <i>“So you like this? You like big?”</i>");
 	
-	output("\n\nYour blood stirs from the gorgeous globes jiggling in your face, but you merely grasp a breast and kiss it deeply. You nip at the flesh with your teeth, pulling it just enough to make a little point, then trace the ganrael’s new nipple with your tongue. She shudders and sighs, wrapping her arms around you to bring the other breast close for its turn.");
+	output("\n\nYour blood stirs from the gorgeous globes jiggling in your face, but you merely grasp a breast and kiss it deeply. You nip at the flesh with your [pc.teeth], pulling it just enough to make a little point, then trace the ganrael’s new nipple with your tongue. She shudders and sighs, wrapping her arms around you to bring the other breast close for its turn.");
 	
 	output("\n\nYou’re so cranked up by this point that");
 	if (pc.hasCock())
@@ -1885,4 +1885,4 @@ public function crystalGooVagooLoss():void
 
 	clearMenu();
 	CombatManager.genericLoss();
-}
+}

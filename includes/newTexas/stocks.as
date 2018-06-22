@@ -201,7 +201,7 @@ public function useMiscreantManor2():void
 		//SILLY!
 		if(silly)
 		{
-			output("\n\nA sudden sneeze makes you accidentally press your teeth against her nubby cock. She mewls and cums in reaction, quickly pulls out, and disappears before you realize what you have done. A few minutes later, you hear police sirens approaching the stocks.");
+			output("\n\nA sudden sneeze makes you accidentally press your [pc.teeth] against her nubby cock. She mewls and cums in reaction, quickly pulls out, and disappears before you realize what you have done. A few minutes later, you hear police sirens approaching the stocks.");
 			output("\n\nGAME OVER.");
 			output("\n\n\n\n\n\n\n\n\n\n\n\n(OR IS IT?)");
 			processTime(15);
@@ -362,7 +362,7 @@ public function stocksOralIntros(args:Array):void
 	{
 		output("The new-comer resolves into the shape of a well-dressed kaithrit maiden, who despite her generous curves is clearly no Treated Texan. <i>“Ohh, what a lovely attraction,”</i> she purrs at the sight of you. Her eyes flick back to your current partner, but her grin only widens at the sight of you getting absolutely plowed from behind. <i>“You’re a public use slut then, I take it?”</i> She barrels on without waiting for a response. <i>“I am so in need of relief. The males here are so... gross... and uhm... sweaty.”</i> Her ears flick nervously. <i>“And the cow-girls won’t even give me the time of day. No matter! You’ll do nicely.”</i>");
 		output("\n\nDelicate fingers tug at a single piece of lace on the cat-girl’s bodice, but from that one point comes a chain-reaction of popping buckles, whipping straps, and seam-opening movement. Just like that, the kaithrit transforms from prim and proper lady to naked, dick-girl slut, already hard. Her six-inch, nubby kitty-cock is bobbing eagerly, jutting accusingly in your direction, and her tails swish playfully behind her.");
-		output("\n\n<i>“Just don’t use your teeth.”</i> She steps closer, grinning conspiringly at your other current user. <i>“If you do, I’ll call the cops. I mean it.”</i> Running her hands ");
+		output("\n\n<i>“Just don’t use your [pc.teeth].”</i> She steps closer, grinning conspiringly at your other current user. <i>“If you do, I’ll call the cops. I mean it.”</i> Running her hands ");
 		if(pc.hasHair()) output("through your [pc.hairNoun]");
 		else output("over your head");
 		output(", the horned-up tourist admires the sight of you, watching you heave and moan. <i>“We can both enjoy this, sweet pea. I’m told that a dick in the mouth can be quite invigorating when paired with one in the puss.”</i> She rocks her hips forward, placing her cock an inch away from her mouth. When it throbs, it bounces up almost high enough to bump your nose.");
@@ -573,7 +573,7 @@ public function stocksMouthgasms(args:Array):void
 		output("\n\nZephyr grunts and growls, then bellows, <i>“Here it comes ");
 		if(pc.isTreated() || pc.race().indexOf("cow") != -1) output("cow");
 		else output("bitch");
-		output("!”</i> Her knot pops in, right behind your teeth, and swells, expanding with enough force to pry your jaw wide open. It aches, only mildly dulled by the pleasure coursing through the rest of you, but the amazonian dick-girl doesn’t seem to care in the slightest.");
+		output("!”</i> Her knot pops in, right behind your [pc.teeth], and swells, expanding with enough force to pry your jaw wide open. It aches, only mildly dulled by the pleasure coursing through the rest of you, but the amazonian dick-girl doesn’t seem to care in the slightest.");
 		output("\n\nYou ");
 		if(!pc.isBimbo()) output("nearly gag from the first squirt of her cum");
 		else output("nearly cream yourself from the first taste of her yummy, Treated cum");
@@ -582,7 +582,7 @@ public function stocksMouthgasms(args:Array):void
 		else output("any nausia fades, allowing you to enjoy the sensation of drinking down such a lovely woman’s pleasure");
 		output(". She makes so much too! You can feel it swirling around in your stomach. In short order, you can even tell that it has added a little jiggle to your middle - an obvious declaration to any wandering bulls that you’re Zephyr’s cum-drunk slut.");
 		output("\n\nGrabbing you by the back of the head, she grinds against your [pc.lips] for a few more moments, shooting her last thick lances of seed. Her knot, however, does not deflate in the slightest. It stays right where it is, trapping her dick in your mouth, allowing it to leak alabaster bliss into you the moment her balls finish brewing it.");
-		output("\n\nIt feels like hours are passing. You orgasm repeatedly from the hard fucking, your pleasured groans egging Zephyr to spurt a little more inside you before she finally, belatedly deflates. Your jaw aches, and your tongue tingles. Your teeth feel like they’re swimming in jism.");
+		output("\n\nIt feels like hours are passing. You orgasm repeatedly from the hard fucking, your pleasured groans egging Zephyr to spurt a little more inside you before she finally, belatedly deflates. Your jaw aches, and your tongue tingles. your [pc.teeth] feel like they’re swimming in jism.");
 		output("\n\nThe wet ‘pop’ of her withdraw jars you from your cummy reverie.");
 		output("\n\n<i>“Next!”</i> Zephyr’s call is loud and brazen, and you watch with lidded eyes as she leads the next willing participant around to your mouth.");
 		output("\n\nOpening wide, you let them thrust inside, savoring the unique, musky flavor of the mystery dick. You didn’t bother to get a good look at the owner. It doesn’t matter. They’re just there to give you something to do while you cum your brains out to the pounding ");
@@ -594,7 +594,7 @@ public function stocksMouthgasms(args:Array):void
 	//Hellhound
 	else if(inMouth == 2)
 	{
-		output("\n\n<i>“Swallow, bitch!”</i> the hellhound bellows, the command vibrating through you from head to toe. He slaps all the way in, popping a rapidly expanding knot in behind your teeth mere seconds before it inflates. Oh stars, does it inflate! Your jaw is pulled open to the limit and then some. It aches, but you salivate all the same, giving in to the alpha dog’s barked command with thoughtless subservience.");
+		output("\n\n<i>“Swallow, bitch!”</i> the hellhound bellows, the command vibrating through you from head to toe. He slaps all the way in, popping a rapidly expanding knot in behind your [pc.teeth] mere seconds before it inflates. Oh stars, does it inflate! Your jaw is pulled open to the limit and then some. It aches, but you salivate all the same, giving in to the alpha dog’s barked command with thoughtless subservience.");
 		output("\n\nHis cum barrels directly into your gulping throat, thick enough that it reminds you of yogurt yet alien enough to tingle deliciously on the rearmost part of your tongue. It was so nice of him to give you advanced warning. You glow with happiness as you swallow - mostly from the knowledge that you’ve brought off such a strapping male, but a little from the lovely cunt-fucking still going on just across the stocks.");
 		output("\n\nYou almost forget about the apple-sized distention keeping your mouth at a healthy gape. There’s just too many other things going on to worry about a little discomfort, too much cum pumping into you, slopping out of you, and dribbling down your [pc.thighs] in lazy, winding streams. Your [pc.belly] gurgles happily, and you join it a second later, vibrating your tongue against the domineering ausar’s throbbing cum-vein in between swallows.");
 		output("\n\n<i>He’s just so fantastically virile!</i> You drink in his masculine musk when you can. It makes you feel a little dizzy, maybe a little drunk, but you’re being such a good girl. He’s rubbing your head and telling you so! You swallow harder, noisily polishing his knob until the spunky flow slows to a trickle. He’s not going to leave, is he?");

@@ -1542,7 +1542,7 @@ public function annoFollowerAnalSex():void
 	
 	output("\n\nTaking a chance, you give Anno a relatively tame smack on the ass, just enough to get her big cheeks wobbling... and nearly find yourself cumming as she clenches down impossibly tight, her every muscle going wild in response to your sudden assault. It takes every ounce of willpower to keep Anno from milking the cum right out of you, and even then you’re left gasping for breath after the vice-like pressure relents from your [pc.cock " + selCock + "].");
 	
-	output("\n\n<i>“Oooh, that felt good,”</i> Anno purrs, tail flicking up to brush the tip of your nose. You catch the very tip in your teeth, giving it a playful shake - and feeling the ramifications in your cock as her ass jiggles in response. ");
+	output("\n\n<i>“Oooh, that felt good,”</i> Anno purrs, tail flicking up to brush the tip of your nose. You catch the very tip in your [pc.teeth], giving it a playful shake - and feeling the ramifications in your cock as her ass jiggles in response. ");
 	if(!annoIsHuskar()) output("Shooting you a grin over her shoulder, Anno reaches back and grabs one of her own cheeks, holding herself open and inviting for you.");
 	else output("Shooting you a grin over her shoulder, Anno reaches back and grabs her own ass cheeks, spreading the full pale moons apart as an open invitation for you to dig into and pound her into the ground.");
 	output(" <i>“Keep it coming, boss. I’m starting to enjoy this...”</i>");
@@ -2715,7 +2715,7 @@ public function annoPegsYouWivStraponsPtII(annoDickType:int = 0):void
 
 	output("\n\nShe doesn’t keep you waiting long.");
 
-	output("\n\nYou grit your teeth as Anno starts shifting her hips forward, slowly pressing her " + chars["ANNO"].cockNoun2(annoDick, true) + " into your [pc.vagOrAss]. Your fingers claw into the edge of the table, desperately trying to keep you steady as you feel the thick, lengthy shaft of her strapon spreading your hole wide. Her " + chars["ANNO"].cockNoun2(annoDick, false) + " sends shocks of tingling pleasure through your ");
+	output("\n\nYou grit your [pc.teeth] as Anno starts shifting her hips forward, slowly pressing her " + chars["ANNO"].cockNoun2(annoDick, true) + " into your [pc.vagOrAss]. Your fingers claw into the edge of the table, desperately trying to keep you steady as you feel the thick, lengthy shaft of her strapon spreading your hole wide. Her " + chars["ANNO"].cockNoun2(annoDick, false) + " sends shocks of tingling pleasure through your ");
 	if(!pc.hasVagina()) output("clenching ass");
 	else output("quivering cunt");
 	output(", an electric sensation that sets your hair on end. You groan, back arching as you take inch after inch of rigid energy-dick. Anno plants a hand in the small of your back, gently urging you to lay flat on your chest");

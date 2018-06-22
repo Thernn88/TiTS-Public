@@ -626,7 +626,7 @@ public function nectarSuckFromDallyProper():void
 	{
 		output("\n\nThen, you realize that he’s barely trickling any more onto your tongue. You pull off, brows knitting in irritation and ask, <i>“Where’s all the honey?”</i>");
 		output("\n\nDally looks down at you and chuckles, his cheeks flushed, <i>“You’ve got to suck it out. Kind of like cum in that regard, only it’ll flow more or less as long as you keep sucking.”</i>");
-		output("\n\nBlushing in embarrassment, you nod and gobble him back up once more, this time hollowing your cheeks to give his sugary prick a proper suckle. Dally trembles up on stage, but the honey flows as promised, bathing your tongue in more of his ambrosial goo. It’s thicker than the honey produced by terran bees and with a different flavor, almost like maple syrup. You gulp it down, the lingering bits clinging to your palate and teeth, and decide it isn’t that much like syrup either. You wouldn’t be able to drink it straight so easily.");
+		output("\n\nBlushing in embarrassment, you nod and gobble him back up once more, this time hollowing your cheeks to give his sugary prick a proper suckle. Dally trembles up on stage, but the honey flows as promised, bathing your tongue in more of his ambrosial goo. It’s thicker than the honey produced by terran bees and with a different flavor, almost like maple syrup. You gulp it down, the lingering bits clinging to your palate and [pc.teeth], and decide it isn’t that much like syrup either. You wouldn’t be able to drink it straight so easily.");
 	}
 	//Repeats
 	else

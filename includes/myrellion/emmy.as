@@ -774,7 +774,7 @@ public function askEmmyBoutMeleeShit():void
 	else output("The horn-dog of a shopkeeper");
 	output(" giggles, <i>“I think the idea of clocking someone with a hammer or slashing ‘em with a sword just seems so... silly, doncha think?”</i> She presses herself against you and lightly strokes at your ");
 	if(pc.armor.hasFlag(GLOBAL.ITEM_FLAG_AIRTIGHT)) output("covered ");
-	output("bicep. <i>“Sure, you can show off your muscles by swinging some giant hammer like a kaithrit sphynx warrior" + pc.mf("","ess") + ", but nothing beats the shivery hum of a high-powered energy rifle vibrating through your teeth as you aim down the holosights.”</i> Her whole body quivers, leaving you uncomfortably aware of the presence of her hard nipples digging into your side like bullets. <i>“But if you really want to hit something, you might as well do it with fucking lava. Or a hammer that hits with the force of a lightning strike. You have those where you’re from, right?”</i>");
+	output("bicep. <i>“Sure, you can show off your muscles by swinging some giant hammer like a kaithrit sphynx warrior" + pc.mf("","ess") + ", but nothing beats the shivery hum of a high-powered energy rifle vibrating through your [pc.teeth] as you aim down the holosights.”</i> Her whole body quivers, leaving you uncomfortably aware of the presence of her hard nipples digging into your side like bullets. <i>“But if you really want to hit something, you might as well do it with fucking lava. Or a hammer that hits with the force of a lightning strike. You have those where you’re from, right?”</i>");
 	output("\n\n<i>“");
 	if(pc.isBimbo()) output("Yeah! They’re super loud!");
 	else if(pc.isBro()) output("Yup.");
@@ -2653,7 +2653,7 @@ public function emmyCockSlobber():void
 	}
 	output("And when she finally lets go of you, the ache in your jaw, your throat, your hair, are all drowned in the profound pleasure of a being so utterly stuffed with her warm cum.");
 
-	output("\n\nEmmy pulls out of your mouth, wincing when your teeth scrape past her swollen knot. Popping her thick dick out, she leaves a wet trail of her cum behind. Your aching jaw leaves you with your mouth feeling stretched and oddly slack, adding to the dazed look already on your face. She runs her hand gently over your head as a bead of cum rolls off your glazed lips and splashes down on your [pc.chest].");
+	output("\n\nEmmy pulls out of your mouth, wincing when your [pc.teeth] scrape past her swollen knot. Popping her thick dick out, she leaves a wet trail of her cum behind. Your aching jaw leaves you with your mouth feeling stretched and oddly slack, adding to the dazed look already on your face. She runs her hand gently over your head as a bead of cum rolls off your glazed lips and splashes down on your [pc.chest].");
 
 	output("\n\n<i>“");
 	if(flags["EMMY_QUEST"] >= 6 && flags["EMMY_QUEST"] != undefined) output("Any time you get a craving for cum, I’ll be here for you. You don’t even have to knock or ask, just pin me down and fish it out.");

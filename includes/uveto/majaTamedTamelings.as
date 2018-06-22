@@ -1104,7 +1104,7 @@ public function pitchDickingToMaja(x:int):void
 	else output("I know you’re all ready to go, but I’ve gotta make sure your two-hander doesn’t hit the table. Besides, you’ve got the perfect sheath right here,”</i> you explain,");
 	output(" caressing the length of her azure lance as it grows to its full length. You guide the pointed tip right into the bottom of her cleavage, grinning as her hips buck at the sudden penetration. To your delight, even more juices flow from her pussy, and the scent of fruity mint fills the air around you.");
 
-	output("\n\nWith her cock taken care of, you return to kneading her golden furred buttocks. There isn’t much time before the heavy cloud of musk turns you into a fuck-hungry cuntslave, and you intend to spend every second of it teasing the poor animal tamer. Her cerulean gemstone of a clit pokes out just above her balls, big enough for you to lean in and pinch it gently between your teeth. Juice covers your face, steaming hot in the temperate cave. You hold your breath as you rub your nose in her sopping cunny, knowing that your next breath will bring the sweet obliteration of your restraint. You roll her clit on your [pc.tongue] till you run out of air, finally inhaling her scent in a frantic gasp.");
+	output("\n\nWith her cock taken care of, you return to kneading her golden furred buttocks. There isn’t much time before the heavy cloud of musk turns you into a fuck-hungry cuntslave, and you intend to spend every second of it teasing the poor animal tamer. Her cerulean gemstone of a clit pokes out just above her balls, big enough for you to lean in and pinch it gently between your [pc.teeth]. Juice covers your face, steaming hot in the temperate cave. You hold your breath as you rub your nose in her sopping cunny, knowing that your next breath will bring the sweet obliteration of your restraint. You roll her clit on your [pc.tongue] till you run out of air, finally inhaling her scent in a frantic gasp.");
 
 	output("\n\nThe minty aroma isn’t quite as debilitating as you thought it would be. It does a good job of overwhelming your senses, but you seem to still be in control of your faculties. You stick out your [pc.tongue], ready to resume tongue-fucking her turquoise cock-cave, only to meet empty air. Lazily, you drop your gaze to her crotch, and find your [pc.cockOrStrapon " + x + "] already lined up. The " + (x >= 0 ? "[pc.cockHead " + x + "]" : "head") + " teases at her lips, ready to fill her up. When did that happen?");
 
@@ -1273,4 +1273,4 @@ public function catchMajasCockYaSlut():void
 
 	clearMenu();
 	addButton(0,"Next",move,"KORGII T41");
-}
+}

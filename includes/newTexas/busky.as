@@ -722,9 +722,9 @@ public function buskySexAnalPitch():void {
 	if (!pc.isTaur()) output(" As soon as you plant your hands on his length he pushes himself off of the counter and lets out a loud trembling moan as he cums, your hands rapidly pumping his shaft, riding him through the orgasm. Busky’s ropes of cum arch into the air before landing on the countertop.");
 	else output(" The friction of rubbing his cock against the glass and his abs spurs on his own orgasm. He cries out in pleasure as he cums, his spurts of liquid ivory spreading across the glass counter.");
 	
-	output("\n\nAs Busky cums, so do you. Gritting your teeth you let out a low, echoing growl as you continue to thrust into his vice of an ass. Your vision starts to darken around the edges as you fill his ass with your seed. Each spurt goes deep within the bull’s warm, soft hole.");
+	output("\n\nAs Busky cums, so do you. Gritting your [pc.teeth] you let out a low, echoing growl as you continue to thrust into his vice of an ass. Your vision starts to darken around the edges as you fill his ass with your seed. Each spurt goes deep within the bull’s warm, soft hole.");
 
-	if (pc.cumQ() < 1000) output("\n\nYou grit your teeth as you empty your load inside of him, painting his walls with your hot, thick seed. Filling him quite well.");
+	if (pc.cumQ() < 1000) output("\n\nYou grit your [pc.teeth] as you empty your load inside of him, painting his walls with your hot, thick seed. Filling him quite well.");
 	else if (pc.cumQ() >= 1000 && pc.cumQ() < 5000) output("\n\nThe amount of spunk you pour into Busky is clearly enough to make an impression, as you can see him place a hand over his belly, your seed filling him to the brim.");
 	else if (pc.cumQ() >= 5000) output("\n\nThe first few spurts of your seed are already enough to fill him full, but your balls are still churning, and you aren’t pulling out.\n\nHe looks back at you as he tries to get away but you hold him tight, forcing each drop of your load into his ass. You watch as his belly expands with your cum, slowly growing and growing, until he looks like he’s about to give birth.");
 

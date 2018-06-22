@@ -2907,7 +2907,7 @@ public function eatOutPregnantUla():void
 	if(pc.hasMuzzle()) output(" as your snout burrows deep");
 	output(". You flail about inside her");
 	if(pc.hasLongTongue()) output(" and stretch, rubbing against her sealed cervix");
-	output(" until your teeth are swimming mint-flavored love, and you feel positively dizzy.");
+	output(" until your [pc.teeth] are swimming mint-flavored love, and you feel positively dizzy.");
 	output("\n\nYou don’t let something silly like the end of your furry lover’s orgasm stop you from eating her out. Not even when her thighs lock around your ears. If anything, trapping you in an enclosed space with nothing but juicy cunt to breathe makes you crave it even more. High on concentrated korgonne pheromones, it’s easy to forget about ");
 	if(pc.hasCock())
 	{

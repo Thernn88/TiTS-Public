@@ -814,7 +814,7 @@ public function consensualGangBang():void
 	}
 	else if(pc.hasCock())
 	{
-		output(" slathers your length in tongue, squeezing as he continues to suckle your head. It’s all you can do to hold on, teeth-gratingly on the edge, and not orgasm on the spot.");
+		output(" slathers your length in tongue, squeezing as he continues to suckle your head. It’s all you can do to hold on, [pc.teeth]-gratingly on the edge, and not orgasm on the spot.");
 	}
 	output(" The raskvel pinned down beneath you groans as you tense your butt-cheeks up around him and squeezes your flanks; you feel warm slime spurt up your back and crack. You frown back at him in disbelief. Has he really cum already? The youthful reptile blissfully opens his eyes and gazes back at you languidly.");
 

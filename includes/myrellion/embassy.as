@@ -273,7 +273,7 @@ public function talkWithJuroAbootOrangeMyr():void
 	
 	output("\n\n<i>“I arranged for her passage off world, diplomatic priority,”</i> Juro says simply. <i>“That’s beside the point, however. This formula... the people of Myrellion are not yet ready for integration. Neither the Republic nor the Federation would admit to it, of course. They both will claim they only want peace, that they have every intention of getting along with their sister race. But the fact of the matter is that hatred runs deep here, "+pc.mf("mister","miss")+" Steele. I’m afraid your orange myr solution will cause more harm than good, especially to the poor girls that take it. I have little desire to be the cause of a lynching.”</i>");
 	
-	output("\n\nYou grit your teeth and take your Codex back. <i>“Come on, ambassador, it can’t be that bad. If it was, why are you even bothering to try and help?”</i>");
+	output("\n\nYou grit your [pc.teeth] and take your Codex back. <i>“Come on, ambassador, it can’t be that bad. If it was, why are you even bothering to try and help?”</i>");
 	
 	output("\n\nJuro scowls. <i>“Because I </i>do<i> have hope, "+pc.mf("mister","miss")+" Steele. But diplomacy is not an overnight achievement, and is certainly not achieved with some miracle drug that you presuppose to have any chance at impacting the generations of mistrust and disdain that has formed between two nations at war. I understand and appreciate your desire to help, "+pc.mf("mister","miss")+" Steele, but an idealistic and oversimplified view of the world is not going to do Myrellion any favors.”</i>");
 	

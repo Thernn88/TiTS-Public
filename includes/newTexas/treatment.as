@@ -1709,7 +1709,7 @@ public function treatmentHourProcs(totalHours:int, effect:StorageClass):void
 			// Gain "long" tongue flag.
 			if(startHours < 90 && treatedHours >= 90 && pc.tongueType == GLOBAL.TYPE_BOVINE && !pc.hasTongueFlag(GLOBAL.FLAG_LONG) && rand(5) == 0)
 			{
-				AddLogEvent(ParseText("While admiring a passing stud, you feel your tongue push against your teeth on its own. Curiously, you open your mouth and your [pc.tongue] dangles out, longer than you remember it and still growing. It elongates more until it is a little over a foot long."), "passive", (90 - startHours) * 60);
+				AddLogEvent(ParseText("While admiring a passing stud, you feel your tongue push against your [pc.teeth] on its own. Curiously, you open your mouth and your [pc.tongue] dangles out, longer than you remember it and still growing. It elongates more until it is a little over a foot long."), "passive", (90 - startHours) * 60);
 				ExtendLogEvent("\n\nWow! You can already imagine all the new possibilities when going down on your mates. They’ll love it!");
 				
 				pc.addTongueFlag(GLOBAL.FLAG_LONG);
@@ -2069,7 +2069,7 @@ public function treatmentHourProcs(totalHours:int, effect:StorageClass):void
 				}
 				// Suck dat chode
 				ExtendLogEvent(ParseText("\n\nYour tongue touches down first, and that first contact is electric. A barrage of tastes and smells and synesthetic feelings assault you. You swear you can see the lust your cock exudes as a palpable object you could just reach out and touch, if you dared stop rubbing. You bend your neck a little and spread your [pc.lips] as wide as you dare, engulfing the [pc.cockHead " + x + "] in your slobbering maw a moment later. It feels just as good as it tastes."));
-				ExtendLogEvent("\n\nYou suck greedily. The sloppy echoes of your overeager blowjob fill the air around you, but you suck uncaringly, worshiping the pole of your phallic totem with both hands, squeezing fat drops of tasty pre-cum onto your tongue. You swish it around your teeth, delighting in the sensuous flavor, and slide your tongue out further");
+				ExtendLogEvent("\n\nYou suck greedily. The sloppy echoes of your overeager blowjob fill the air around you, but you suck uncaringly, worshiping the pole of your phallic totem with both hands, squeezing fat drops of tasty pre-cum onto your tongue. You swish it around your [pc.teeth], delighting in the sensuous flavor, and slide your tongue out further");
 				if(pc.hasTongueFlag(GLOBAL.FLAG_LONG)) ExtendLogEvent(", wrapping it around your length like the stripes of a barber’s pole");
 				ExtendLogEvent(", savoring the salty flavor of it all.");
 

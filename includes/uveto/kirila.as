@@ -163,7 +163,7 @@ public function kirilasDiet():void
 	output("\n\nShe grins and chews her rock, cracking and popping and grinding it down before swallowing. <i>“Perhaps it would taste like really nice dirt.”</i>");
 	output("\n\nWeird rock eating bugs.");
 	output("\n\n<i>“Eating is very important for us actually, well, I mean, obviously it’s important, but aside from the standard reasons. Our teeth are constantly growing, and while they are like diamonds, chewing on rocks grinds them down to keep them under control. While a spinarran can live off just eating yummy m-jelly, it would be bad since their teeth would get huge or they would have to file em down manually.”</i>");
-	output("\n\n<i>“I can’t imagine that would be very enjoyable. Grinding your teeth down.”</i> You shudder and grimace.");
+	output("\n\n<i>“I can’t imagine that would be very enjoyable. Grinding your [pc.teeth] down.”</i> You shudder and grimace.");
 	output("\n\nThe spinarran shrugs. <i>“Ehh, it’s fine I guess. It’s normal for us so it’s not really uncomfortable. Doing it manually is just boring I guess, like a human clipping their nails.”</i>");
 	output("\n\n<i>“So what is m-jelly, some kind of nutrient paste?”</i>");
 	output("\n\nThe spinarran looks at you for a moment before smiling. <i>“Yeah, something like that.”</i>");

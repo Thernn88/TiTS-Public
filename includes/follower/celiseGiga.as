@@ -240,7 +240,7 @@ public function celiseFemalePartsTentacleFun():void
 	//(if [pc.legs]=taur)
 	else if(pc.isTaur())
 	{
-		output("The emerald goo-girl circles behind you, brushing your lower body with hands and tendrils. A gooey hand slaps your rump, an action which elicits a gasp and short moan from you as you crane your neck to look. Celise parts your cheeks and buries her face in your [pc.vaginaNoun]. You forget about looking at her and clench your teeth whilst she assaults");
+		output("The emerald goo-girl circles behind you, brushing your lower body with hands and tendrils. A gooey hand slaps your rump, an action which elicits a gasp and short moan from you as you crane your neck to look. Celise parts your cheeks and buries her face in your [pc.vaginaNoun]. You forget about looking at her and clench your [pc.teeth] whilst she assaults");
 		if(pc.hasClit()) output(" [pc.oneClit]");
 		else output(" your folds");
 		output(". Her nose rubs against your hole, causing small spasms of pleasure to rock your body. You ");

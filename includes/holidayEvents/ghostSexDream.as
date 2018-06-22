@@ -176,7 +176,7 @@ public function ohnoGhostSexOverload():void
 	author("Slab Bulkhead");
 	output("The ghostly woman leans back, then grabs hold of your shoulders and pulls you up with her, swinging her legs out and winding them around your back as you sit up. She presses her chest to yours, and you reach around to take hold of her curvy ass. Both her boobs and butt start to swell again, until your hands are filled with a wide, bouncy booty, and her tits bulge out until they’re the size of her head.");
 
-	output("\n\nShe lets go of you for just a moment, dropping her hands to your glowing cock and sack again, and you grit your teeth and groan as the swelling overtakes you. Your dick bulges up to a full fifteen inches long, adding another inch of girth in the process, and your balls refill and keep growing until they’re each seven inches across.");
+	output("\n\nShe lets go of you for just a moment, dropping her hands to your glowing cock and sack again, and you grit your [pc.teeth] and groan as the swelling overtakes you. Your dick bulges up to a full fifteen inches long, adding another inch of girth in the process, and your balls refill and keep growing until they’re each seven inches across.");
 	//fifteen inch dongu
 	pc.cocks[0].cLengthRaw = 15;
 

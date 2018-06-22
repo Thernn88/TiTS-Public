@@ -1748,7 +1748,7 @@ public function gooArmorCrewTalk(arg:Array):void
 		case "healing 0":
 			txt += "Your sight quickly returns and you find yourself clutched in [goo.name]’s silvery mass.";
 			txt += "\n\n<i>“[pc.name]... are you okay?”</i>";
-			txt += "\n\nYou hope so. You don’t feel any pain, so the fall must have not been major. You run your hand across your [pc.face] just to make sure. No odd bumps on your forehead. Eyes, still intact. Nose, not dislocated. And--! You suck in a long string of air through your teeth. The pain, it stings. Your lower lip, you must have busted it falling down.";
+			txt += "\n\nYou hope so. You don’t feel any pain, so the fall must have not been major. You run your hand across your [pc.face] just to make sure. No odd bumps on your forehead. Eyes, still intact. Nose, not dislocated. And--! You suck in a long string of air through your [pc.teeth]. The pain, it stings. Your lower lip, you must have busted it falling down.";
 			txt += "\n\n<i>“Oh no, you’re bleeding!”</i> [goo.name] lightly panics.";
 			txt += "\n\nMaking sure not to cause another potential accident, you ask her to calm down a bit and tell her where the first-aid kit is on your ship.";
 			txt += "\n\n<i>“Oooh, poor thing...”</i> She ignores you, too invested in examining your wound.";

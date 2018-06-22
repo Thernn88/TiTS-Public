@@ -799,7 +799,7 @@ public function bothriocPidemmeOralTime(fromCombat:Boolean):void
 		output("\n\nYou can’t see any way out of this; you are utterly beaten and your hands are securely tied behind your back.");
 		if (bothriocAddiction() <= 24) output(" Maybe if you just don’t think about it...");
 		else output(" The warm glow inside of you helps; you find if you sink yourself into that and relax, this doesn’t seem so bad at all...");
-		output(" The purple tip bumps insistently against your lips, and closing your eyes you open up and accept the warm, oil-slathered ovipositor past your teeth.");
+		output(" The purple tip bumps insistently against your lips, and closing your eyes you open up and accept the warm, oil-slathered ovipositor past your [pc.teeth].");
 		
 		output("\n\nIt’s a little softer on the surface, perhaps, than a cock; beneath the skin though it’s a bulbous tube of restless muscle that reacts to the rubbing of your lips and tongue across it by bunching up and thrusting deeper into your maw. The first big, round segment stretches your mouth quite wide - and then it retracts, slipping back inside the bothrioc momentarily. Then it’s back, slathered with a fresh payload of oil to smear and drool across your [pc.lips], the walls of your mouth and dribble down your chin. The bothrioc groans with pleasure, one pair of hands holding your head whilst the other two busy themselves on their tiny, black nipples, as you stoically loosen your jaw and accept the bulging segment whole.");
 		

@@ -841,7 +841,7 @@ public function nenneFemaleOrHermNoOralSlorral():void
 		output(" wedged snuggly between your bodies; with every push forward, a thick dollop of pre-cum jets from you, coating your [pc.belly] and messing up the order on Nenne’s fur.");
 	}
 
-	output("\n\nWith one particularly deep-reaching push backward, Nenne’s cunt collapses wholly onto yours, her labia overlapping your own and your [pc.clits] kissing hers rather suddenly and intensely. You instinctually wince in pleasure, drawing a huge, deep breath through your nose and clenched teeth and sucking in more of her pheromones; your arms, so far relatively idle, stiffen at her back and hold the older puppy against you tightly. You think you moan out her name, but somewhere in your mind, you know you just moaned gibberish at best.");
+	output("\n\nWith one particularly deep-reaching push backward, Nenne’s cunt collapses wholly onto yours, her labia overlapping your own and your [pc.clits] kissing hers rather suddenly and intensely. You instinctually wince in pleasure, drawing a huge, deep breath through your nose and clenched [pc.teeth] and sucking in more of her pheromones; your arms, so far relatively idle, stiffen at her back and hold the older puppy against you tightly. You think you moan out her name, but somewhere in your mind, you know you just moaned gibberish at best.");
 
 	output("\n\nNenne has the same reaction and nearly pauses her humping against you, so shocked and paralyzed with pleasure as she was. She collects herself after a moment, and continues fucking you the way only another woman can: with her every wave backward, your [pc.vagina] is covered from top to bottom in the mingling juices and flowered petals of Nenne’s own pussy; with your sensitivity, you could map her every outer contour, fold, and blemish using nothing but your genitals against hers, and the more Nenne fucks you, the more you think that you’re already committing it to memory.");
 
@@ -986,4 +986,4 @@ public function peanutButterNenne():void
 	clearMenu();
 	addButton(0,"Next",mainGameMenu);
 	IncrementFlag("NENNE_COOKIES");
-}
+}

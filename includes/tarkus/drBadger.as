@@ -445,7 +445,7 @@ public function heyDocImAHero():void
 	}
 	if(pc.legType != GLOBAL.TYPE_SUCCUBUS && pc.isBiped())
 	{
-		output("\n\nYour feet tense abruptly, and you grit your teeth against a brief flash of pain as you feel your bones altering dramatically. The soles of your feet are shifted upwards, pushing you onto your tiptoes as the heels of your feet extend downwards in a thin spike. The changes finish in only a few moments, leaving you with feet that are somehow natural high heels; forcing you to totter about with your gait altered permanently. <b>Your feet are now permanent high heels</b>!");
+		output("\n\nYour feet tense abruptly, and you grit your [pc.teeth] against a brief flash of pain as you feel your bones altering dramatically. The soles of your feet are shifted upwards, pushing you onto your tiptoes as the heels of your feet extend downwards in a thin spike. The changes finish in only a few moments, leaving you with feet that are somehow natural high heels; forcing you to totter about with your gait altered permanently. <b>Your feet are now permanent high heels</b>!");
 		pc.legType = GLOBAL.TYPE_SUCCUBUS;
 		pc.clearLegFlags();
 		pc.addLegFlag(GLOBAL.FLAG_PLANTIGRADE);
@@ -919,7 +919,7 @@ public function removeDatCuntTail():void
 	}
 	if(pc.legTypeUnlocked(GLOBAL.TYPE_SUCCUBUS) && pc.legType != GLOBAL.TYPE_SUCCUBUS && pc.isBiped() && changes < 3 && rand(3) == 0)
 	{
-		output("\n\nYour feet tense abruptly, and you grit your teeth against a brief flash of pain as you feel your bones altering dramatically. The soles of your feet are shifted upwards, pushing you onto your tiptoes as the heels of your feet extend downwards in a thin spike. The changes finish in only a few moments, leaving you with feet that are somehow natural high heels; forcing you to totter about with your gait altered permanently. <b>Your feet are now permanent high heels</b>!");
+		output("\n\nYour feet tense abruptly, and you grit your [pc.teeth] against a brief flash of pain as you feel your bones altering dramatically. The soles of your feet are shifted upwards, pushing you onto your tiptoes as the heels of your feet extend downwards in a thin spike. The changes finish in only a few moments, leaving you with feet that are somehow natural high heels; forcing you to totter about with your gait altered permanently. <b>Your feet are now permanent high heels</b>!");
 		pc.legType = GLOBAL.TYPE_SUCCUBUS;
 		pc.clearLegFlags();
 		pc.addLegFlag(GLOBAL.FLAG_PLANTIGRADE);
@@ -973,4 +973,4 @@ public function badgerTailRemovalGo():void
 	pc.libido(1);
 	clearMenu();
 	addButton(0,"Next",move,rooms[currentLocation].southExit);
-}
+}

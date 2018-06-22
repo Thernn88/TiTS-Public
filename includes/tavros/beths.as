@@ -1393,7 +1393,7 @@ public function brothelTurnTrixWhoring(service:String = "none"):Number
 			if(!InCollection(3, scenesIndex) && scenesLimit > 0 && rand(scenesTotal) == 0)
 			{
 				pp.shiftCock(0, GLOBAL.TYPE_CANINE);
-				output("\n\nIn one corner booth a burly ausar turns you around and gives you a hard ass-fucking, pounding your [pc.asshole] with his hot knotted cock with relentless pumps of his thick hips whilst you grit your teeth, being used like the whore you are.");
+				output("\n\nIn one corner booth a burly ausar turns you around and gives you a hard ass-fucking, pounding your [pc.asshole] with his hot knotted cock with relentless pumps of his thick hips whilst you grit your [pc.teeth], being used like the whore you are.");
 				pc.buttChange(pp.cockVolume(0));
 				output(" He dismisses you with a grunt and a slap on the [pc.ass], leaving you to hobble away with doggie semen leaking down your [pc.hip].");
 				processTime(10);
@@ -2794,7 +2794,7 @@ public function brothelTurnTrixWhoringTrap(service:String = "none"):Number
 			if(!InCollection(3, scenesIndex) && scenesLimit > 0 && rand(scenesTotal) == 0)
 			{
 				pp.shiftCock(0, GLOBAL.TYPE_CANINE);
-				output("\n\nIn one corner booth a burly ausar turns you around and gives you a hard ass-fucking, pounding your [pc.anus] with his hot knotted cock with relentless pumps of his thick hips whilst you grit your teeth, being used like the whore you are.");
+				output("\n\nIn one corner booth a burly ausar turns you around and gives you a hard ass-fucking, pounding your [pc.anus] with his hot knotted cock with relentless pumps of his thick hips whilst you grit your [pc.teeth], being used like the whore you are.");
 				pc.buttChange(pp.cockVolume(0));
 				output(" He dismisses you with a grunt and a slap on the [pc.ass], leaving you to hobble away with doggie semen leaking down your [pc.hip].");
 				processTime(10);

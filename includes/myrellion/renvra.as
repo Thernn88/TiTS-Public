@@ -1309,7 +1309,7 @@ public function makeRenvraBegYouSillyBillySlut():void
 	output("\n\n”</i>Hey...”</i> she mumbles, taken aback.");
 	output("\n\n<i>“No touching,”</i> you admonish, shaking your [pc.butt] at her. Your hand slips back around the secret herm’s cock, and this time you bring it to your [pc.lips], softly kissing the flare. Renvra’s egg-slit twitches and contracts wetly from the affection just under your nose, suggesting itself as your target.");
 	output("\n\nYou part your [pc.lips] slowly, allowing ever-increasing wisps of breath to roll over Renvra’s tip, making sure her imagination runs wild about what’s coming. When she’s so tense that you can feel her chest lifting you and her nipples jab into you like eager little dog’s noses, you pop as much of the fat, equine flare into your mouth as you can.");
-	output("\n\n<i>“Yeah! Do it!”</i> cries Renvra, as the drug-like myrrish pre-cum numbs your lips and teeth. You suckle the end like a milky breast, feeling dollops of her male lube squeeze from her slit and into your mouth. Your [pc.tongue] slides forward, searching out the leaking opening ");
+	output("\n\n<i>“Yeah! Do it!”</i> cries Renvra, as the drug-like myrrish pre-cum numbs your lips and [pc.teeth]. You suckle the end like a milky breast, feeling dollops of her male lube squeeze from her slit and into your mouth. Your [pc.tongue] slides forward, searching out the leaking opening ");
 	if(!pc.hasTongueFlag(GLOBAL.FLAG_LONG)) output("and dipping its tip inside to ring the entrance.");
 	else output("and plunging down her drooling, egg-stretched passage. An obstruction blocks your path, and you can only guess that it’s her prostate or some other such sexual organ. Waggling the end of your tongue against it seems to make her delirious with rutting frenzy.");
 	output("\n\n<i>“Almost there,”</i> the halfbreed repeats. You pull your tongue from her and resume stroking the shaft, far enough down the base that she can’t quite get closer to climax even though she obviously enjoys it. Your mouth burns with venom, ");
@@ -1665,3 +1665,4 @@ public function renvraSuperCumPartII(x:int = -1):void
 	clearMenu();
 	addButton(0,"Next",mainGameMenu);
 }
+

@@ -2874,7 +2874,7 @@ public function peerReviewParty2():void
 	output("\n\n<i>“You don’t mind if I examine your pet here quickly, do you?”</i> the bright-blue lady asks, not taking her gaze off you.");
 	output("\n\nThe Terran woman holding your leash smirks down at her, <i>“Go ahead.”</i>");
 
-	output("\n\nWith an exclamation of <i>“Great!”</i> Lara’s inspection begins, and her hands are grabbing all over you face, holding your eyelids open so she can examine your eyes, pulling back your lips to look at your gums and teeth, and having you lift your arms and carefully examining how much they move. The whole process is fairly uncomfortable, and you give Belle a slightly worried look. She only gives you a nod in return, <i>but that small movement is enough to put your mind at ease</i>.");
+	output("\n\nWith an exclamation of <i>“Great!”</i> Lara’s inspection begins, and her hands are grabbing all over you face, holding your eyelids open so she can examine your eyes, pulling back your lips to look at your gums and [pc.teeth], and having you lift your arms and carefully examining how much they move. The whole process is fairly uncomfortable, and you give Belle a slightly worried look. She only gives you a nod in return, <i>but that small movement is enough to put your mind at ease</i>.");
 
 	output("\n\nEventually, the rahn finishes her examination and stands herself up again. <i>“Well, I have to say, I looked over all the schematics for this collar of yours and I’m actually surprised!”</i> she says, placing her hands on her hips, <i>“No pupil dilation, no gum bleeding, no shakes. One-hundred percent reliable, drug-free hypnotic suggestion! Amazing!”</i>");
 

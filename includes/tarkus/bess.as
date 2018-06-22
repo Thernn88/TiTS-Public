@@ -9817,7 +9817,7 @@ public function bessEvent28GoAfter():void
 
 	if (CodexManager.entryViewed("Maia Series AI"))
 	{
-		output("\n\nYou grit your teeth. You’d suspected [bess.name] was an illegal AI, ever since you read the codex entry on [bess.hisHer] product line. But by the look of utter shock on [bess.hisHer] face, it seems [bess.name] was completely unaware of this.");
+		output("\n\nYou grit your [pc.teeth]. You’d suspected [bess.name] was an illegal AI, ever since you read the codex entry on [bess.hisHer] product line. But by the look of utter shock on [bess.hisHer] face, it seems [bess.name] was completely unaware of this.");
 		
 		output("\n\nThe Ausar woman laughs as she sees [bess.name]’s face, tapping the side of it with her weapon.");
 		
@@ -9939,7 +9939,7 @@ public function bessEvent28NahLetEmGo():void
 	clearOutput();
 	bessHeader();
 
-	output("You grit your teeth and let them escape - shooting a fleeing unarmed enemy just isn’t your style.");
+	output("You grit your [pc.teeth] and let them escape - shooting a fleeing unarmed enemy just isn’t your style.");
 
 	bessEvent28ShipMerge();
 }
@@ -11112,7 +11112,7 @@ public function bessGetBlowjob():void
 		
 		output("\n\n<i>“Oho! Are you getting turned on by this, "+ bessPCSexName() +"?”</i> [bess.heShe] asks. You feel [bess.hisHer] strong, silvery, wrapping around [pc.oneCock]. You twitch shamefully in [bess.hisHer] hand. Pearls of [pc.cumColor] pre-cum are already forming at your tip!");
 		
-		output("\n\n<i>“N-no, "+ bessSexName() +"!”</i> You whimper out, lying through your teeth. A few more strokes and you’re gasping for air. Shamefully, you buck your hips against [bess.hisHer] stroking hand, your actions contradicting your words!");
+		output("\n\n<i>“N-no, "+ bessSexName() +"!”</i> You whimper out, lying through your [pc.teeth]. A few more strokes and you’re gasping for air. Shamefully, you buck your hips against [bess.hisHer] stroking hand, your actions contradicting your words!");
 		
 		output("\n\n<i>“Is that so? It must be someone else who’s getting hard in my hand,”</i> [bess.name] teases, firmly squeezing your [pc.cock]. <i>“...Tell me, who");
 		if (pc.cocks.length == 1) output(" does this");

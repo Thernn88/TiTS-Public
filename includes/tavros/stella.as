@@ -303,7 +303,7 @@ public function letsFuckeySuckeyStella():void
 			output("immediately lapping at your [pc.pussy] and applying those beautiful pouty lips to your [pc.clits].");
 			output("\n\n<i>“Oh, shit,”</i> you groan, holding her head in your hands while she goes to town on you. <i>“Fuuuck...”</i>");
 			output("\n\nGrinding yourself against the willing ausar’s nose, you cum so quickly under her ministrations you’re left gasping in her chair, bucking your hips even as she tries to hold you steady to keep tonguefucking your cunt.");
-			output("\n\n<i>“Rrrrnnngh!”</i> you grunt, gritting your teeth in agonizing pleasure, all pretense of class forgotten as you hold Stella against your pussy and violently grind your lips against hers. <i>“Fuckfuckfuckfuuuck good dog, good dog,”</i> you pant breathlessly, femcum sluicing all over Stella’s face and down her chin while she greedily laps at you. <i>“Ohmyfuckinnnggg-!”</i>");
+			output("\n\n<i>“Rrrrnnngh!”</i> you grunt, gritting your [pc.teeth] in agonizing pleasure, all pretense of class forgotten as you hold Stella against your pussy and violently grind your lips against hers. <i>“Fuckfuckfuckfuuuck good dog, good dog,”</i> you pant breathlessly, femcum sluicing all over Stella’s face and down her chin while she greedily laps at you. <i>“Ohmyfuckinnnggg-!”</i>");
 			output("\n\nWith a deep, guttural groan you stand up out of your chair and press down on Stella, tilting her face upwards into your pussy as you squirt all over her beautiful features. You tense so hard that when you finally relax, all you can do is collapse back into the chair while Stella sits in front of you, dazed but happy.");
 			output("\n\n<i>“Holy </i>shit<i>,”</i> you moan, reaching out to tickle one of her ears. <i>“You </i>are<i> a good bitch.”</i>");
 		}
@@ -921,7 +921,7 @@ public function stellaOralStuff(forceVaginal:Boolean = false):void
 		}
 		else if(cumQ < 5000) 
 		{
-			output("You clench your teeth in pleasure while you");
+			output("You clench your [pc.teeth] in pleasure while you");
 			if(pc.balls > 1) output("r churning balls empty themselves");
 			else output("empty yourself");
 			output(" into her tummy, painting the back of her throat [pc.cumColor] with your seed. Stella seems perfectly content to swallow it all down, her eyes having rolled back in her head the moment you started cumming.");
@@ -981,7 +981,7 @@ public function stellaOralStuff(forceVaginal:Boolean = false):void
 		if(pc.vaginas[0].looseness() <= 1) output("finger all the way inside you");
 		else if(pc.vaginas[0].looseness <= 4) output("fingers all the way inside you");
 		else output("balled-up fist inside your wet, loose pussy");
-		output(". You scream in wanton pleasure and cum on the spot, clenching your teeth so hard it hurts while she artfully sucks on your [pc.clit].");
+		output(". You scream in wanton pleasure and cum on the spot, clenching your [pc.teeth] so hard it hurts while she artfully sucks on your [pc.clit].");
 
 		output("\n\nStella doesn’t let up with her tongue, lapping greedily at your oversensitive buzzer even as you double over groaning in ecstasy, squeezing her face between your [pc.thighs] while your legs shake. Eventually, it’s too much to take and you push her down on the bed, setting her giggling even as she licks her big, wet lips while you collapse on top of her.");
 
@@ -1170,7 +1170,7 @@ public function breedStella():void
 	if(pc.cumQ() < 1000) output(" You shudder in pleasure as you shoot several thick ropes of seed inside her, pressed right up against the entrance to her womb, your spunk joining the rest of what you’ve fucked inside her");
 	else if(pc.cumQ() < 4000) output(" Groaning, you shake in pleasure while what feels like a gallon of spunk pours into Stella’s womb, the bimbo moaning like a whore in heat the entire time");
 	else if(pc.cumQ() < 8000) output(" You groan through grit teeth while you unload more than a gallon of thick [pc.cum] right into Stella’s overstuffed womb, ejaculating so much that her lower stomach begins to outwardly sag");
-	else if(pc.cumQ() < 12000) output(" You clench your teeth and hiss in fierce satisfaction while you slowly hump Stella’s womb full of what must be two or three gallons of [pc.cum], listening to her slutty moans all the while. By the time you’re done, she’s cumming again and her tummy is sagging with the liquid weight of your spunk");
+	else if(pc.cumQ() < 12000) output(" You clench your [pc.teeth] and hiss in fierce satisfaction while you slowly hump Stella’s womb full of what must be two or three gallons of [pc.cum], listening to her slutty moans all the while. By the time you’re done, she’s cumming again and her tummy is sagging with the liquid weight of your spunk");
 	else if(pc.cumQ() < 25000) output(" [pc.Cum] jets from your [pc.cockHead " + x + "], filling Stella’s womb to the brim and then, finding no escape, swelling her even further. Her loud, slutty moans accompanying each pulsing ejaculation, you rapidly swell her tummy outwards with the sheer liquid weight of your cum. By the time you’re done, her formerly flat, fit stomach is about as big as her massive tits");
 	else
 	{
@@ -1691,4 +1691,4 @@ public function stellaKidTalkScene():void
 	pc.lust(5);
 	//Go to sex menu, with Breed available (sry).
 	stellaMenu();
-}
+}

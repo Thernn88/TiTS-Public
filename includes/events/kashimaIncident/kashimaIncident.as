@@ -492,7 +492,7 @@ public function lustyBugponyCocked():void
 			
 			output("\n\nThe way she’s treating your prick, it’s not long before you feel the inevitable, wonderful pressure start churning in your [pc.balls]. You grunt, trying to hold it back, to take every second of ecstasy you can from the perfect pussy between the Chief’s ample haunches, but your baser side simply won’t be denied.");
 			
-			output("\n\n<i>“Gonna-”</i> you manage to grunt out between gritted teeth. The Chief gasps, suddenly squirming under you, but your lusts take full control and slam your hips against her ass, burying yourself to the hilt and leaving her a cumming mess on the floor for you to pump full of [pc.cum]. She lets out an orgiastic cry of pleasure as your [pc.cock "+cIdx+"] throbs and spurts, letting loose a thoroughly-milked load of [pc.cumNoun] deep into her womb.");
+			output("\n\n<i>“Gonna-”</i> you manage to grunt out between gritted [pc.teeth]. The Chief gasps, suddenly squirming under you, but your lusts take full control and slam your hips against her ass, burying yourself to the hilt and leaving her a cumming mess on the floor for you to pump full of [pc.cum]. She lets out an orgiastic cry of pleasure as your [pc.cock "+cIdx+"] throbs and spurts, letting loose a thoroughly-milked load of [pc.cumNoun] deep into her womb.");
 
 			output("\n\nWhen the orgasm passes, the Chief’s left panting, gasping for breath, resting her bunny-eared head against the bulkhead while you pump her sodden slit full of cum. Her chest heaves, making those amazing tits of hers jiggle and quake with every breath, and her twat is a waterfall of lurid juices even before you finally pull out of her.");
 
@@ -548,7 +548,7 @@ public function lustyBugponyCocked():void
 			}
 			else
 			{
-				output("\n\n<i>“Yeah, yeah,”</i> you moan through gritted teeth, trying not to let the vice-like grip of her backdoor just milk you to orgasm right then and there.");
+				output("\n\n<i>“Yeah, yeah,”</i> you moan through gritted [pc.teeth], trying not to let the vice-like grip of her backdoor just milk you to orgasm right then and there.");
 			}
 			output(" For someone claiming to be an anal novice, the Chief’s definitely got some serious talent back there! She huffs at you, feigning offense, but a thrust of your [pc.hips] to drive your [pc.cock "+cIdx+"] ");
 			if (pc.balls > 0) output("balls-");

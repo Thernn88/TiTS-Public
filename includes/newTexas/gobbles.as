@@ -270,7 +270,7 @@ public function orderUpOneCumshakeForTurkeySlut():void
 	
 	output("\n\nShe shifts her whole body after a moment, using her torso to pull her tits up and down your rod. One long, slow stroke from crown to base, going deep enough that your [pc.cockHead] pokes out between her teats, just in time to sheathe in her waiting mouth. She lets out a cute little moo as you enter her, quickly silenced by your cock lodged flush with her lips. She gives you a loving little lick, lapping the pre from your slit before moving her body again, taking you out of her mouth and back into the heavenly grasp of her cleavage. Again and again she repeats that motion, burying you in boob and then lovingly tending to your cockhead. You rest a hand atop her head, gently controlling the steadily-increasing tempo of her titfucking, guiding her towards the perfect pace of pleasure for you.");
 	
-	output("\n\nShe starts to wiggle her shoulders as she bounces and in turn, her tits quake like water, jiggling obscenely in your lap. You nearly cum on the spot, having to fight with every ounce of willpower to keep yourself at bay. <i>“Not yet,”</i> you grunt, gritting your teeth against the influx of quivering boobflesh.");
+	output("\n\nShe starts to wiggle her shoulders as she bounces and in turn, her tits quake like water, jiggling obscenely in your lap. You nearly cum on the spot, having to fight with every ounce of willpower to keep yourself at bay. <i>“Not yet,”</i> you grunt, gritting your [pc.teeth] against the influx of quivering boobflesh.");
 	
 	output("\n\n<i>“Eh?”</i> the cow giggles, moving faster. <i>“You don’t want to cover my tits in cum?”</i>");
 

@@ -391,7 +391,7 @@ public function fertilityPriestessFuckHerGoHard():void
 
 	if (!pc.hasCock()) output("\n\nWell, she’ll see <i>something</i> alright...");
 	else output("\n\nToo late to back out now - not with her begging for your cum, and her pussy doing everything it can to milk it all out.");
-	output(" You grit your teeth and hammer your hips, pounding away at that plump derriere until the familiar rush of pleasure tightens in your loins.");
+	output(" You grit your [pc.teeth] and hammer your hips, pounding away at that plump derriere until the familiar rush of pleasure tightens in your loins.");
 	if (pc.hasCock() && pc.balls > 0) output(" You feel a churning in your [pc.balls], full of [pc.cum] ready to flood the sabertooth slut’s waiting womb.");
 
 	output("\n\n<i>“Give it to me!”</i> she barks, squeezing your [pc.cockOrStrapon] hard, working her muscles from");
@@ -468,7 +468,7 @@ public function fertilityPriestessFuckHerSwitch():void
 	}
 	else
 	{
-		output("\n\nA moment of tightness in your [pc.balls] presages your own impending climax. Gritting your teeth and thrusting in as deep as you can, you let loose the first [pc.cumVisc] spurts of seed erupting into her bowels. The priestess’s back arches with a long, lurid moan.");
+		output("\n\nA moment of tightness in your [pc.balls] presages your own impending climax. Gritting your [pc.teeth] and thrusting in as deep as you can, you let loose the first [pc.cumVisc] spurts of seed erupting into her bowels. The priestess’s back arches with a long, lurid moan.");
 		if (pc.hasKnot())
 		{
 			output(" Not one drop escapes her abused anus thanks to your [pc.knot]. You can feel the liquid load sloshing around just around your bitch-breaker before slowly draining into her belly.");
