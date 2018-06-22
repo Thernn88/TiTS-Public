@@ -368,9 +368,6 @@ public function appearance(forTarget:Creature):void
 		case GLOBAL.TYPE_MOTHRINE:
 			output2("Your moth-like face is covered in " + faceFurScales + " and has a sculpted look.");
 			break;
-		case GLOBAL.TYPE_VYSP:
-			output2("Your wasp-like face is covered in white chitin, almost like you are wearing a mask. A thin line, that stretchs nearly the width of your face, runs through your " + target.lipColor + " lips.  It indicats the extent of your mouth when it is fully open. Inside your mouth are two sets of insectile mandibles.");
-			break;
 	}
 	if(target.hasStatusEffect("Mimbrane Face"))
 	{
@@ -545,13 +542,7 @@ public function appearance(forTarget:Creature):void
 				}
 				output2(", interfering with the natural light around them.");
 			}
-		case GLOBAL.TYPE_VYSP:
-			output2(" Your four insectile eyes "); 
-			if(hasMetallicEyes) output2("all reflect back a metallic " + target.eyeColor + " in the light.");
-			else if(hasGemstoneEyes) output2("all shimmer " + target.eyeColor + " in the light like jewels.");
-			else if(hasLuminousEyes) output2("all beam " + target.eyeColor + " in the darkness.");
-			else output2("are " + target.eyeColor + ", solid orbs.");
-			output2(" A glowing, red dot, visible in each eye, indicates where your attention is currently focused.");
+			else output2(" Your " + target.eyeColor + " orbs-for-eyes bulge slightly forward, bathed in a muted, ambient glow.");
 			break;
 		default:
 			if(hasMetallicEyes) output2(" Metallically glistening " + target.eyeColor + " eyes allow you to take in your surroundings without trouble.");
@@ -655,9 +646,6 @@ public function appearance(forTarget:Creature):void
 				break;
 			case GLOBAL.TYPE_DEER:
 				output2(" A pair of pointed, oval-shaped ears poke out from the sides of your " + headNoun + ", flicking and flopping about, making you look very much like a deer.");
-				break;
-			case GLOBAL.TYPE_VYSP:
-				//Don't have ears so output nothing!
 				break;
 			case GLOBAL.TYPE_DRACONIC:
 			case GLOBAL.TYPE_GRYVAIN:
@@ -996,9 +984,6 @@ public function appearance(forTarget:Creature):void
 		case GLOBAL.TYPE_TENTACLE:
 			output2(" Your mouth contains a long, prehensile tentacle-like tongue.");
 			break;
-		case GLOBAL.TYPE_VYSP:
-			output2(" Your mouth contains a long, thin, prehensile tongue able to extend nearly three feet.");
-			break;
 		default:
 			if(target.hasTongueFlag(GLOBAL.FLAG_LONG)) output2(" Your mouth contains a lengthy tongue.");
 			else output2(" Your mouth contains " + indefiniteArticle(target.tongueDescript()) + ".");
@@ -1298,9 +1283,6 @@ public function appearance(forTarget:Creature):void
 				else output2(" They feel very light and delicate to the touch.");
 				output2(" They fold behind you neatly and compactly, the ends in line with the back of your lower calves. They let you hover for a short time and glide easily, although true flight is deceptively difficult to maintain.");
 				break;
-			case GLOBAL.TYPE_VYSP:
-				output2(" a quartet of four large, orange, membranous insectile wings sprout from your back. They’ll easily bear your weight in flight.");
-				break;
 		}
 	}
 	else output2(".");
@@ -1511,7 +1493,6 @@ public function appearance(forTarget:Creature):void
 			if(rand(2) == 0) output2(" Your arms are almost skeletal, a fine exoskeleton of " + target.scaleColor + " " + (target.hasArmFlag(GLOBAL.FLAG_GOOEY) ? "goo" :"chitin") + " giving them a spindly look.");
 			else output2(" Your lithe, graceful arms and hands are deceptively sturdy and covered in " + target.scaleColor + " " + (target.hasArmFlag(GLOBAL.FLAG_GOOEY) ? "goo" :"chitin") + ".");
 			break;
-		case GLOBAL.TYPE_VYSP:
 		case GLOBAL.TYPE_MYR:
 			if(target.hasArmFlag(GLOBAL.FLAG_GOOEY)) output2(" Shiny hardened " + target.scaleColor + " goo");
 			else output2(" Shining " + target.scaleColor + " exoskeleton");
@@ -1986,15 +1967,6 @@ public function appearance(forTarget:Creature):void
 			else output2(" " + target.scaleColor + " chitin");
 			output2(" that is smooth to the touch.");
 			break;
-		case GLOBAL.TYPE_VYSP:
-			output2("\n\nA large, insectile abdomen dangles from just above your backside. It is covered in hard");
-			if(target.hasTailFlag(GLOBAL.FLAG_GOOEY)) output2("ened " + target.scaleColor + " goo");
-			else output2(" " + target.scaleColor + " chitin");
-			output2(" that is smooth to the touch. Many of your organs, including ");
-			if(target.vaginas.length == 2)output2("one of your wombs,");
-			else output2("your womb,");
-			output2(" reside here. Every so often, small plates open and expel hot air along with a hint of musky pheromones. At the very back, exists a retractable stinger full of potent, arousing venom.");
-			break;
 		case GLOBAL.TYPE_SHARK:
 		case GLOBAL.TYPE_SIREN:
 			output2(" A long, shark-tail trails down from your backside, swaying to and fro while ");
@@ -2269,28 +2241,14 @@ public function appearance(forTarget:Creature):void
 		if(target.hasParasiteTail()) output2(" that always seems primed for breeding");
 		output2(".");
 	}
-	
-	// Has a non tailcock type tail genitalia
-	if(target.hasAbdominalSexOrgan())
-	{
-		output2("The end of your abdomen holds a multi-functional organ able to not only act as a vaginal canal but also extend to inseminate partners.");  
-	}
-	
 	//Ovipositor
 	if(target.hasTailOvipositor())
 	{
-		//if (target.tailCount == 1 && target.tailType == GLOBAL.TYPE_VYSP)
-		//{
-			//output2("The end of your abdomen holds a multi-functional ovipositor able to act as a vaginal canal but also extend to inseminate partners or deposit eggs.\n\n");  
-		//}
 		output2(" In addition,");
 		if(target.tailCount == 1) output2(" it is an organ");
 		else output2(" your [target.tails] are organs");
 		output2(" capable of laying eggs into an orifice.");
-	//	if (target.tailCount == 1 && target.tailType == GLOBAL.TYPE_VYSP)output2("\n\n");
 	}
-	
-	output2("\n\n");
 	
 	//LEGS
 	//legType notez!
@@ -2300,10 +2258,6 @@ public function appearance(forTarget:Creature):void
 		case GLOBAL.TYPE_HUMAN:
 			if(target.legCount < 4) output2(" " + StringUtil.upperCase(num2Text(target.legCount)) + (target.hasLegFlag(GLOBAL.FLAG_GOOEY) ? " gooey" : " normal") + " human legs extend below your waist, ending in normal human feet.");
 			else output2(" You have " + (target.hasLegFlag(GLOBAL.FLAG_GOOEY) ? "gooey" : "normal") + " human legs that end in " + target.feet(true,true) + ".");
-			break;
-		case GLOBAL.TYPE_VYSP:
-			if(target.legCount < 4) output2(StringUtil.upperCase(num2Text(target.legCount)) +" " + (target.hasLegFlag(GLOBAL.FLAG_GOOEY) ? "hardened" : "chitinous") + " legs extend below your waist. They are thick and powerful at the thigh but narrow below the knee and end in Y-shaped feet consisting of three segmented claws.");
-			else output2("You have"  + (target.hasLegFlag(GLOBAL.FLAG_GOOEY) ? "hardened" : "chitinous") + " legs. They are thick and powerful at the thigh, but narrow below the knee and end in Y-shaped feet consisting of three segmented claws.");
 			break;
 		case GLOBAL.TYPE_MYR:
 			if(target.legCount < 4) output2(" " + StringUtil.upperCase(num2Text(target.legCount)) + " human-like legs extend below your waist, covered in numerous " + (target.hasLegFlag(GLOBAL.FLAG_GOOEY) ? "semi-solid" : "chitin") + " plates all the way to your feet.");
@@ -3943,13 +3897,7 @@ public function dickBonusForAppearance(forTarget:Creature = null, x:int = 0):voi
 			if(rand(2) == 0) output2(" It’s a sensitive tube of stiff muscle that retracts inwards when soft. The head is pointed and slightly damp, suggesting self-lubrication.");
 			else output2(" It’s essentially a flexible, semi-hollow, sensitive tube that retracts inwards when not aroused. The head of your moth-cock is slightly pointed but soft, springy and a little moist.");
 			break;
-		case GLOBAL.TYPE_VYSP:	
-			output2(" With your cock's " + (target.cocks[x].hasFlag(GLOBAL.FLAG_TAPERED) ? "tapered" : "bulbous") + " tip, there are few holes you wouldn’t be able to get into.");
-			output2(" It’s a deep, iridescent " + target.cocks[x].cockColor + " in color.");
-			break;
-	}	
-	
-			
+	}
 	
 	//Nubby or Ribbed
 	if((target.cocks[x].hasFlag(GLOBAL.FLAG_NUBBY) && target.cocks[x].cType != GLOBAL.TYPE_FELINE) || target.cocks[x].hasFlag(GLOBAL.FLAG_RIBBED))
@@ -4104,7 +4052,6 @@ public function vaginaBonusForAppearance(forTarget:Creature = null, x:int = 0, e
 			else output2("\nEach vagina’s exterior lips are fat and swollen. They could easily be described as rubbery, and they often shine with a wet sheen, regardless of your arousal. When you’re aroused, you’re told that they wink.");
 			break;
 		//Lapinara flavor
-		case GLOBAL.TYPE_VYSP:
 		case GLOBAL.TYPE_LAPINARA:
 			if(!eachOne) output2(" The exterior lips are chubby and the entrance seems eager to be packed with an ovipositor - or any phallus-shaped object.");
 			else output2("\nEach vagina’s exterior lips are chubby and their entrances seem eager to be packed with ovipositors - or any other phallus-shaped objects.");
@@ -4333,4 +4280,5 @@ public function colorIsGemstone(sColor:String = ""):Boolean
 public function colorIsLuminous(sColor:String = ""):Boolean
 {
 	return (sColor.indexOf("luminous") != -1 || sColor.indexOf("glowing") != -1 || sColor.indexOf("fiery") != -1);
-}
+}
+

@@ -2537,7 +2537,6 @@ public function kq2KaraTakeKittydick():void
 	
 	output("\n\nTrapped between your two bodies, her cock throbs to the beat of your lover’s racing heart, smearing your [pc.belly] with a musky dose of her excitement.");
 	if (pc.hasTailCock()) output(" Responding with its own growing arousal, your [pc.cockTail] slithers around your [pc.leg], slipping up towards Kara’s defenseless rear. She gasps, eyes going wide as you feel your cock-tipped tail slip into something warm and wet. Doesn’t look like Kara minds, though, and after a moment to recover, she wiggles her hips and starts to move.");
-	else if (pc.hasAbdominalSexOrgan()) output(" Responding with its own growing arousal, your [pc.tail] homes in on Kara’s defenseless rear. She gasps, eyes going wide as you feel your [pc.oviAbd] slip into something warm and wet. Doesn’t look like Kara minds, though, and after a moment to recover, she wiggles her hips and starts to move.");
 	output(" Giving you a husky purr, your lover laces her hands around your shoulders and gives you a push down.");
 	
 	output("\n\nSuddenly freed from her boobalicious embrace, you’re left flat on your back as the amorous cat-girl crawls back, her slitted eyes drawing down to your [pc.vagOrAss]. <i>“You helped me out so much,”</i> she murmurs, tracing a finger along your bare thigh, slipping her hand towards your hole. <i>“Now it’s my turn.");
@@ -2552,17 +2551,15 @@ public function kq2KaraTakeKittydick():void
 	output(", leaving your [pc.vagOrAss] presented for Kara’s inspection. She licks her lips and dives in without a second thought, running her soft tongue across your hole with unabashed eagerness. You gasp, body clenching at the sudden touch, but another two or three hungry licks have you moaning and digging your fingers into the sheets.");
 	if (pc.hasVagina()) output(" Not surprisingly, this pussy-cat knows how to eat pussy!");
 	output(" Kara’s tongue circles your hole, teasing, never quite touching your entrance for what feels like tantalizing minutes.");
-	if (pc.hasTailCock()||pc.hasAbdominalSexOrgan()) output(" Between her mouth and the feeling of her pussy clenching around your thrusting tail, she has you on edge before you can blink!");
+	if (pc.hasTailCock()) output(" Between her mouth and the feeling of her pussy clenching around your thrusting tail, she has you on edge before you can blink!");
 	output(" She teases you until you can’t take it anymore, waiting until the last strands of your nerve threaten to snap before she finally hooks her thumbs in and spreads you wide, revealing the dark passage before her. She looks up, gives you a wink, and thrusts her tongue in.");
 
 	output("\n\nYou gasp with pleasure, feeling her tongue slurp around your inner walls. Reacting on instinct, your body clamps down on the invading muscle, trying to push her back. All you manage to do is wrap yourself around her tongue, making sure she’s able to tease every inch of your [pc.vagOrAss]. Kara’s hands sink into your [pc.butt], groping at your backside while she slathers your hole as deep as she can reach.");
 	if (pc.hasTailCock()) output(" As she does, your [pc.tailCock] squirms inside Kara’s own little hole, pumping deep into her pussy. With every thrust, you can feel her cock throbbing against your [pc.butt], starting to drool with pre. You’re not sure how long Kara can hang on!");
-	else if (pc.hasAbdominalSexOrgan()) output(" As she does, your [pc.oviAbd] squirms inside Kara’s own little hole, pumping deep into her pussy. With every thrust, you can feel her cock throbbing against your [pc.butt], starting to drool with pre. You’re not sure how long Kara can hang on!");
-	
 	else if (pc.hasTailCunt()) output(" Your pussy-lipped tail squirms underneath the orally-fixated cat-girl, driven mad by the half-hard kitty-cock she’s ignoring between her legs. Kara’s eyes go wide for a moment as your cunt-tail slurps up her cock, giving Kara a taste of the pleasure you’re getting.");
 
 	output("\n\nShe keeps licking and tongue-thrusting until you’re almost on the edge, panting and moaning and clawing at her sheets.");
-	if (pc.hasTailCock() || pc.hasTailCunt()||pc.hasAbdominalSexOrgan())
+	if (pc.hasTailCock() || pc.hasTailCunt())
 	{
 		output(" You can’t feel bad for cumming, though, with Kara so close behind you. She gasps, cock pushing hard against your raised behind, and starting to spasm. You have just a moment of warning before your lover’s body tenses, and then her cock erupts");
 		if (!pc.hasTailCunt()) output(" all over you");
@@ -2570,7 +2567,7 @@ public function kq2KaraTakeKittydick():void
 		output(", moaning quietly and bucking her hips... and never stopping her oral assault.");
 	}
 	output(" Your [pc.vagOrAss] squeezes around Kara’s thrusting tongue, helpless but to succumb to her magnificent skill. You cum, hard, screaming with pleasure as Kara’s tongue pushes you over the edge");
-	if (pc.hasTailCock()||pc.hasAbdominalSexOrgan()) output(" and your tail fills her twat with cream");
+	if (pc.hasTailCock()) output(" and your tail fills her twat with cream");
 	output(".");
 
 	output("\n\nIn your orgasmic high, you barely notice Kara pulling out, licking her slick lips like she’s savoring your taste. Before you can catch your breath, the buxom cat lunges forward,");
@@ -2610,7 +2607,6 @@ public function kq2KaraTakeKittydick():void
 
 	output("\n\nNow that you’re on top, you start to take it slow, rising on your [pc.knees] and dragging Kara’s nub-ringed cock out to the crown");
 	if (pc.hasTailCock()) output(" while your tail-cock rams itself in to the hilt in her pussy, almost ready to give her another parasitic creampie");
-	else if (pc.hasAbdominalSexOrgan()) output(" while your [pc.oviAbd] rams itself in to the hilt in her pussy, almost ready to give her another creampie");
 	output(". Your hands slide up Kara’s svelte, sweat-slickened body, running your thumbs across the pert, pierced pink promontories on her chest before reaching in to give her breasts more serious attention. As your hips slide down, your hands cup and squeeze her tits, playing with her piercings until your lover’s squirming into your grasp, trying not to moan like a queen cat in heat. Oh, she’s <i>sensitive</i>!");
 
 	output("\n\nBetween rocking your [pc.hips], you lean in to run your [pc.tongue] across one of Kara’s teats, stopping to suck on it. your [pc.teeth] wrap around the bars of her piercing, giving her a gentle tug on the one hand, while the other is twisted between your fingers. The sudden sensation is too much for her, and you instantly feel Kara’s cock react to your teasing, swelling up inside you. Her legs clench around your hips, pulling you down until your [pc.butt] is flush with her lap, and her kitty-prick’s buried to the hilt in your [pc.vagOrAss].");
@@ -2620,7 +2616,6 @@ public function kq2KaraTakeKittydick():void
 	else output(" ass");
 	output(" getting flooded is enough to push you over with her, as soon you’re screaming in pleasure again, voice muffled in the soft embrace of Kara’s breast. Her arms wrap tight around you, holding you close as your bodies undulate together in mind-numbing pleasure.")
 	if (pc.hasTailCock()) output(" Your tailcock erupts a moment later, filling your lover with a second helping of its cream and leaving her already-sodden box absolutely drenched with your tail-cum.");
-	else if (pc.hasAbdominalSexOrgan()) output(" Your [pc.oviAbd] erupts a moment later, filling your lover with a second helping of its cream and leaving her already-sodden box absolutely drenched with your tail-cum.");
 	if (pc.hasCock()) output(" Clenched between your grinding bodies, your [pc.cock] joins your [pc.vagOrAss] in orgasm. Cum slathers your [pc.belly], making a mess of you and Kara both - and acting as lube as the two of you move, faster and faster in the throes of pleasure.");
 
 	output("\n\nBy the time your orgasm subsides, you’ve left your lover a breathless, wet mess. Your head rests in the valley between her big, soft breasts until you feel a pair of hands reaching down to cup your cheeks, bringing you up and into a long, tongue-filled kiss. Kara moans happily, contentedly, and you can feel her tails raising around you.");
