@@ -268,7 +268,26 @@ public function availableFaps(roundTwo:Boolean = false, checkOnly:Boolean = fals
 			faps.push(fap);
 		}
 	}
-
+	//Abdominal Tail Faps
+	if (pc.hasTailFlag(GLOBAL.FLAG_OVIPOSITOR)&&pc.hasVagina())
+	{
+		fap = new FapCommandContainer();
+		fap.text = "Egg Yourself";
+		fap.ttHeader = "Lay Those Eggs";
+		fap.ttBody = "Use your abdominal ovipositor to stuff yourself with your own eggs.";
+		fap.func = oviAbdFuckPussyEggd;
+		faps.push(fap);
+	}	
+	if (pc.hasTailFlag(GLOBAL.FLAG_MULTIPURPOSE)&&pc.hasVagina())
+	{
+		fap = new FapCommandContainer();
+		fap.text = "AbdVagFuck";
+		fap.ttHeader = "Cream Your Pussy";
+		fap.ttBody = "Use your abdominal ovipositor to cream your own pussy.";
+		fap.func = oviAbdFuckPussyCum;
+		faps.push(fap);
+	}
+	
 	if (!pc.isTaur())
 	{
 		fap = new FapCommandContainer();
