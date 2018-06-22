@@ -10979,8 +10979,8 @@
 					vaginas[slot].loosenessRaw = 3;
 					break;
 				case GLOBAL.TYPE_VYSP:
-					vaginas[slot].clits = 8;
-					vaginas[slot].vaginaColor = "black";
+					vaginas[slot].clits = 2;
+					vaginas[slot].vaginaColor = "white";
 					vaginas[slot].wetnessRaw = 2;
 					vaginas[slot].loosenessRaw = 3;
 					vaginas[slot].addFlag(GLOBAL.FLAG_NUBBY);
@@ -11197,7 +11197,7 @@
 					cocks[slot].addFlag(GLOBAL.FLAG_OVIPOSITOR);
 					break;
 				case GLOBAL.TYPE_VYSP:
-					cocks[slot].cockColor = "black";
+					cocks[slot].cockColor = "white";
 					cocks[slot].knotMultiplier = 1;
 					cocks[slot].cThicknessRatioRaw = 1;
 					cocks[slot].addFlag(GLOBAL.FLAG_RIBBED);
