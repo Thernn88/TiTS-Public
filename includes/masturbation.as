@@ -157,7 +157,7 @@ public function availableFaps(roundTwo:Boolean = false, checkOnly:Boolean = fals
 	// This enables us to check if the LAST_FAP targetted command is available (it'll be in the array), otherwise hide repeat.
 	
 	// List all the faps!
-	if (InShipInterior() && celiseIsCrew() && pc.hasTailCock())
+	if (InShipInterior() && celiseIsCrew() && (pc.hasTailCock()||pc.hasAbdominalSexOrgan()))
 	{
 		fap = new FapCommandContainer();
 		fap.text = "Porn&Celise";
@@ -268,7 +268,26 @@ public function availableFaps(roundTwo:Boolean = false, checkOnly:Boolean = fals
 			faps.push(fap);
 		}
 	}
-
+	//Abdominal Tail Faps
+	if (pc.hasTailFlag(GLOBAL.FLAG_OVIPOSITOR)&&pc.hasVagina())
+	{
+		fap = new FapCommandContainer();
+		fap.text = "Egg Yourself";
+		fap.ttHeader = "Lay Those Eggs";
+		fap.ttBody = "Use your abdominal ovipositor to stuff yourself with your own eggs.";
+		fap.func = abdCockFuckPussyEggd;
+		faps.push(fap);
+	}	
+	if (pc.hasTailFlag(GLOBAL.FLAG_MULTIPURPOSE)&&pc.hasVagina())
+	{
+		fap = new FapCommandContainer();
+		fap.text = "AbdVagFuck";
+		fap.ttHeader = "Cream Your Pussy";
+		fap.ttBody = "Use your abdominal ovipositor to cream your own pussy.";
+		fap.func = abdCockFuckPussyCum;
+		faps.push(fap);
+	}
+	
 	if (!pc.isTaur())
 	{
 		fap = new FapCommandContainer();
@@ -511,9 +530,10 @@ public function availableFaps(roundTwo:Boolean = false, checkOnly:Boolean = fals
 		fap.func = dickTailFuck;
 		faps.push(fap); 
 	}
+	
 	if(pc.hasCockTail() && pc.hasGenitals())
 	{
-		if(pc.isCumCow() && pc.hasTailCock() && pc.hasGenitals()) 
+		if(pc.isCumCow() && pc.hasTailCock()&& pc.hasGenitals()) 
 		{
 			fap = new FapCommandContainer();
 			fap.text = "Tailsuck";
@@ -806,6 +826,11 @@ public function masturbateMenu(roundTwo:Boolean = false):void
 // Accessed from Masturbate menu whilst shipboard
 public function tailCockCeliseFaps():void {
 	clearOutput();
+	
+	var tailType:String = "";
+	if(pc.hasAbdominalSexOrgan()) tailType="[pc.abdCock]";
+	else tailType = "[pc.tailCock]";
+	
 	author("Savin");
 	output("God damn you’re horny.");
 	output("\n\nYou breathe a lusty sigh as the heat of arousal courses through your body, demanding release. You ");
@@ -813,21 +838,26 @@ public function tailCockCeliseFaps():void {
 	output("toss your gear aside before flopping down on your bed, ");
 	if(pc.isTaur()) output("your [pc.legs] curled up under your belly");
 	else output("your [pc.legOrLegs] kicked up behind you");
-	output(" as you grab your codex tablet and hook it into its stand at your bedside. Opening up the extranet, you flick through a quick search for free porn. Your hand idly reaches around as you scroll, grabbing your [pc.tailCock] and gently stroking it to hardness as you search, browsing past a dozen quick vids of buxom women and chisel-chested men of a dozen races, all oiled up with bodies entangled in myriad erotic poses. Hot. Your stroking slowly picks up in pace");
+	output(" as you grab your codex tablet and hook it into its stand at your bedside. Opening up the extranet, you flick through a quick search for free porn. Your hand idly reaches around as you scroll, grabbing your " + tailType + " and gently stroking it to hardness as you search, browsing past a dozen quick vids of buxom women and chisel-chested men of a dozen races, all oiled up with bodies entangled in myriad erotic poses. Hot. Your stroking slowly picks up in pace");
 	if(pc.biggestTitSize() > 1) output(", your hand occasionally trailing from the tablet to grope and squeeze your [pc.chest], pinching the hardening teats atop them");
 	output(".");
 	output("\n\nIt takes a good long while to finally find a good vid: one you think you can actually stomach all the way through. One of the actors is a little butter-faced, but hey, the curves on the other one... damn. Oh, that’s nice.... You stroke harder and faster as the foreplay starts in earnest, a meaty cock finding a nice sheath in an alien girl’s mouth, making her throat bulge with the gene-spliced boy’s massive girth. Your tail-wang writhes in your hand, straining against your grasp as you jerk it, the first pearly beads forming at your tip.");
-	output("\n\nThe way it pools and dribbles in your hand makes you think of a certain galotian who’s probably about ready for a snack. Getting a nice and dirty thought forming in your mind, you key the ship’s intercom and call the goo-girl up to your quarters for a meal at the captain’s mess. She’s quick on her... uh... gooey amorphus mass... and before the first blowjob scene’s over, you hear a faint knock on your door. About as heavy as a goo-girl can manage, given her make-up. You call, <i>“Enter,”</i> shooting the green girl a grin, making sure she can see exactly what’s on screen and just how hard your [pc.tailCock] is.");
+	output("\n\nThe way it pools and dribbles in your hand makes you think of a certain galotian who’s probably about ready for a snack. Getting a nice and dirty thought forming in your mind, you key the ship’s intercom and call the goo-girl up to your quarters for a meal at the captain’s mess. She’s quick on her... uh... gooey amorphus mass... and before the first blowjob scene’s over, you hear a faint knock on your door. About as heavy as a goo-girl can manage, given her make-up. You call, <i>“Enter,”</i> shooting the green girl a grin, making sure she can see exactly what’s on screen and just how hard your " + tailType + " is.");
 	output("\n\nShe may not be a genius, but Celise’s cock-hungry nature takes the fore as she slithers over, her blobby mass of green gel rolling over itself as she approaches, a great big smile on her face. <i>“Oooh, I don’t get to come up here much,”</i> she says, looking around your cabin with mock interest, her eyes never leaving the cock in your hand. <i>“But if I knew there were going to be treats like that, I’d be up here like, every day.”</i>");
 	output("\n\nYou feel a surge of affection at her eagerness, and quickly lay back down on your belly, tail wagging enticingly at the galotian in the closest facsimile to a <i>“come hither”</i> waggle as you can manage with a rock-hard pre-dripping tail-cock. Celise hops into your bed, snuggling up next to you, her flank sticking wetly to your [pc.skin]. <i>“Oooh, whatcha watching?”</i>");
-	output("\n\nYou hover a finger over the name of the vid, but the sudden insertion of a huge cock into a huge-titted bimbo’s asshole opposite the two in her mouth gets the point across pretty quickly. Celise licks her lips as she watches the holo-vid progress, but you’ve got more in mind than just snuggling with a porno. You reach your tail around and nuzzle it against her cheek, letting it practically submerge in the hot, viscous gel of her body. With a squeal of delight, Celise rolls onto her back, taking your tail-cock in her mouth as her eyes keep trained on the vid. You let out a contented little sigh as your [pc.tailCock] finds a nice, warm, wet sheathe to hold it, but that turns into a low moan of pleasure as Celise’s mouth starts to work its wonders, gyrating and washing over and around your cock rather than simply fellating it, getting the most out of her alien biology as her semi-liquid body churns around your member.");
-	output("\n\nMmmm, that’s niiiiice. Your breath comes heavier as Celise suckles from your cock, little droplets of pre starting to float listlessly in her transparent head. You see a hand vanish down into her crotch, pleasuring her one constant feature -- her big, loose, gooey cunt - as she watches the porno progress from DP to cowgirl as the busty alien rides a huge cock, giving handies to two other males and a hung hermaphrodite pleasures herself with the whore’s big tits. Following along herself, Celise pops your [pc.tailCock] out of her mouth, shifting it downward to her big, bouncy teats and locking it between them, binding your dick in a prison of soft warm goo-tit. Still raptly watching the orgy onscreen, Celise starts to squeeze and move her tits, wanking you off between the two huge orbs. You moan, hips wiggling happily as your cock is coated in green slime, slipping easily through her cleavage again and again, with just enough resistance to let you feel the cum bubbling up through your prick, making you even harder as your seed comes up to feed your gooey friend.");
-	output("\n\nWith your cock submerged in Celise’s gooey tits, your orgasm mounts toward the inevitable, spurred on by her slick sliding tits as she moves them faster and faster. But just before your climax can come, the pornstar’s position changes, the girl rolling onto all fours to be pounded in every hole by her lovers. A moment later, she slides up onto your back, flopping down atop you with breasts pressing into your back, hands stroking your shoulders soothingly as her big, bubbly buttcheeks lock around your [pc.tailCock], squeezing it ever so smoothly. Celise flexes her cheeks, massaging your prick as she works your shoulders, cheek nuzzling against your own as you watch the money shot, cum splattering everywhere on the bimbo’s body, three cocks all coating her in a multi-colored spunk parade.");
+	output("\n\nYou hover a finger over the name of the vid, but the sudden insertion of a huge cock into a huge-titted bimbo’s asshole opposite the two in her mouth gets the point across pretty quickly. Celise licks her lips as she watches the holo-vid progress, but you’ve got more in mind than just snuggling with a porno. You reach your tail around and nuzzle it against her cheek, letting it practically submerge in the hot, viscous gel of her body. With a squeal of delight, Celise rolls onto her back, taking your tail-cock in her mouth as her eyes keep trained on the vid. You let out a contented little sigh as your " + tailType + " finds a nice, warm, wet sheathe to hold it, but that turns into a low moan of pleasure as Celise’s mouth starts to work its wonders, gyrating and washing over and around your cock rather than simply fellating it, getting the most out of her alien biology as her semi-liquid body churns around your member.");
+	output("\n\nMmmm, that’s niiiiice. Your breath comes heavier as Celise suckles from your cock, little droplets of pre starting to float listlessly in her transparent head. You see a hand vanish down into her crotch, pleasuring her one constant feature -- her big, loose, gooey cunt - as she watches the porno progress from DP to cowgirl as the busty alien rides a huge cock, giving handies to two other males and a hung hermaphrodite pleasures herself with the whore’s big tits. Following along herself, Celise pops your " + tailType + " out of her mouth, shifting it downward to her big, bouncy teats and locking it between them, binding your dick in a prison of soft warm goo-tit. Still raptly watching the orgy onscreen, Celise starts to squeeze and move her tits, wanking you off between the two huge orbs. You moan, hips wiggling happily as your cock is coated in green slime, slipping easily through her cleavage again and again, with just enough resistance to let you feel the cum bubbling up through your prick, making you even harder as your seed comes up to feed your gooey friend.");
+	output("\n\nWith your cock submerged in Celise’s gooey tits, your orgasm mounts toward the inevitable, spurred on by her slick sliding tits as she moves them faster and faster. But just before your climax can come, the pornstar’s position changes, the girl rolling onto all fours to be pounded in every hole by her lovers. A moment later, she slides up onto your back, flopping down atop you with breasts pressing into your back, hands stroking your shoulders soothingly as her big, bubbly buttcheeks lock around your " + tailType + ", squeezing it ever so smoothly. Celise flexes her cheeks, massaging your prick as she works your shoulders, cheek nuzzling against your own as you watch the money shot, cum splattering everywhere on the bimbo’s body, three cocks all coating her in a multi-colored spunk parade.");
 	output("\n\n<i>“You wanna cum, too?”</i> Celise asks, her breasts pressing down into your back, practically folding around you. Her ass never stops jacking you off, harder and faster until she’s leaving you with little choice but to join in on the on-screen debauchery. With a grunt and a lusty moan, you feel the spunk traveling up your tail as you finally reach the pinnacle of pleasure, and a moment later Celise yelps with sudden glee as the first of many great [pc.cumColor] globs burst out from between her ass cheeks, raining down onto her back. She rolls over, mouth open wide as your spunk falls all over her, absorbed into her gooey body as she feeds on your sexual release.");
 	output("\n\nYou ride the orgasm out, humping your hips against her quivering body as Celise sucks up every drop you have to give her; soon she’s got your cock plugged into her twat, wringing out anything that didn’t burst onto her back moments before. When the [pc.cumColor] explosion comes to an end, Celise seems awfully pleased, rolling back onto her belly, practically wrapping your head in her giant tits as she plants a kiss on your head. <i>“That was a nice snack, cap’n. We should do this again sometime, like, soon.”</i>");
-	output("\n\nYou nod, yawning powerfully as your tailcock slithers out of her, wrapping back around");
-	if(pc.legCount > 1) output(" one of");
-	output(" your [pc.legOrLegs]. To your surprise, though, the goo’s already curled up on you, snoring softly. You sigh and reach back, patting her jiggling ass cheek before locking your arms under your own [pc.face] for a quick nap in the afterglow.");
+	if(pc.hasAbdominalSexOrgan()) output("\n\nYou nod, yawning powerfully as your [pc.abdCock] pulls out of her, retracting back into your abdomen.");
+	else 
+	{
+		output("\n\nYou nod, yawning powerfully as your tailcock slithers out of her, wrapping back around");
+		if(pc.legCount > 1) output(" one of");
+		output(" your [pc.legOrLegs].");
+	}
+	output("To your surprise, though, the goo’s already curled up on you, snoring softly. You sigh and reach back, patting her jiggling ass cheek before locking your arms under your own [pc.face] for a quick nap in the afterglow.");
 	processTime(45 + rand(5));
 	pc.orgasm();
 	celise.orgasm();
@@ -2019,6 +2049,12 @@ public function wutwutindabuttbuttFap():void
 	if (pc.hasTailCock())
 	{
 		output(" A spray of [pc.cum] issues from the tip of your tail-mounted dick, angled to shoot all over your");
+		if (pc.isLactating() && milk >= 500) output(" [pc.milkNoun]-covered");
+		output(" [pc.chest].");
+	}
+	if (pc.hasAbdominalSexOrgan())
+	{
+		output(" A spray of [pc.cum] issues from the tip of your abdominal dick, angled to shoot all over your");
 		if (pc.isLactating() && milk >= 500) output(" [pc.milkNoun]-covered");
 		output(" [pc.chest].");
 	}
