@@ -1136,8 +1136,8 @@ public function annoFollowerSexMenu():void
 	if(flags["ANNO_TRIBERATOR_USED"] == undefined) addButton(8,"Vibrator",annosTriberatorGatorMatorHater,undefined,"Vibrator","Is that an ausar vibrator over there? Maybe you can use it on her.");
 	else addButton(8,"Vibrator",annosTriberatorGatorMatorHater,undefined,"Vibrator","Use Anno’s vibrator on her again.");
 
-	if (pc.cockThatFits(anno.analCapacity()) != -1 && pc.hasTailCock() && pc.hasParasiteTail()) addButton(9, "Tailfuck", annoFollowerTailcockSex, undefined, "Tailfuck", "Pitch Anno a little tail-cock loving.");
-	else addDisabledButton(9, "Tailfuck", "Tailfuck", "You need an appropriately-sized penis and a parasitic tailcock for this.");
+	if (pc.cockThatFits(anno.analCapacity()) != -1 &&(( pc.hasTailCock() && pc.hasParasiteTail())||pc.hasAbdominalSexOrgan())) addButton(9, "Tailfuck", annoFollowerTailcockSex, undefined, "Tailfuck", "Pitch Anno a little tail-cock loving.");
+	else addDisabledButton(9, "Tailfuck", "Tailfuck", "You need an appropriately-sized penis and either a parasitic tailcock or an abdominal dick for this.");
 
 	if(pc.hasVagina() || (pc.hasCock() && pc.cockThatFits(anno.vaginalCapacity(0)) >= 0))
 	{
@@ -3027,24 +3027,30 @@ public function annoFollowerTailcockSex(asFollower:Boolean = true):void
 	annoFollowerHeader(true);
 	author("Archangel");
 
+	var tailType:String = "";
+	if(pc.hasAbdominalSexOrgan()) tailType="[pc.abdCock]";
+	else tailType = "[pc.tailCock]";
+
 	output("You look Anno up and down, a lecherous smirk spreading across your face as you decide what to do with the sexy, snowy ausar in front of you. <i>“Gonna keep undressing me with your eyes or actually do something with me?”</i> she says, giggling, her tail wagging.");
 
-	if(pc.isBro()) output("\n\n<i>“Bend over, bitch. I’m going to fuck you senseless with this!”</i> you say, bringing your [pc.tailCock] around and tapping her jaw with it.");
-	else if(pc.isBimbo()) output("\n\n<i>“Look, Anno! I got us a new toy to play with! This is going to be suuuper fun!”</i> you say, turning around and bending over so Anno can get a good look at your [pc.tailCock].");
-	else if(pc.isNice()) output("\n\n<i>“You wanna try this on for size?”</i> you ask, your [pc.tailCock] making an appearance between your legs, right below your [pc.cocks].");
-	else if(pc.isMischievous()) output("\n\n<i>“Oh, I was just wondering how loudly you would moan when I stuff you with this!”</i> you say, bringing your [pc.tailCock] around and wagging it in front of her.");
-	else if(pc.isAss()) output("\n\n<i>“I’m going to stuff this up what ever hole I please, and you’re going to like it,”</i> you say, grinning evilly and grabbing your [pc.tailCock] below the head and holding it up to her face.");
+	if(pc.isBro()) output("\n\n<i>“Bend over, bitch. I’m going to fuck you senseless with this!”</i> you say, bringing your " + tailType + " around and tapping her jaw with it.");
+	else if(pc.isBimbo()) output("\n\n<i>“Look, Anno! I got us a new toy to play with! This is going to be suuuper fun!”</i> you say, turning around and bending over so Anno can get a good look at your " + tailType + ".");
+	else if(pc.isNice()) output("\n\n<i>“You wanna try this on for size?”</i> you ask, your " + tailType + " making an appearance between your legs, right below your [pc.cocks].");
+	else if(pc.isMischievous()) output("\n\n<i>“Oh, I was just wondering how loudly you would moan when I stuff you with this!”</i> you say, bringing your " + tailType + " around and wagging it in front of her.");
+	else if(pc.isAss()) output("\n\n<i>“I’m going to stuff this up what ever hole I please, and you’re going to like it,”</i> you say, grinning evilly and grabbing your " + tailType + " below the head and holding it up to her face.");
 
-	output(" Anno’s eyes widen when she sees the parasite attached to the base of your spine.");
+	if (tailType=="[pc.tailCock]")
+	{
+		output(" Anno’s eyes widen when she sees the parasite attached to the base of your spine.");
 
-	output("\n\n<i>“Uh... As much as I like trying out new things, I’m not sure I want a parasite anywhere inside me, Boss...”</i> she says, casting a worried glance at your [pc.tailCock].");
+		output("\n\n<i>“Uh... As much as I like trying out new things, I’m not sure I want a parasite anywhere inside me, Boss...”</i> she says, casting a worried glance at your [pc.tailCock].");
 
-	if(pc.isBimbo()) output("\n\n<i>“Wha-? W- why not? Like I said, it’s going to be loads of fun!”</i> you bubble, your foggy mind unable to wrap around the idea that someone could pass up something so fun and sexually gratifying.");
-	else if(pc.isBro()) output("\n\n<i>“I don’t recall giving you a choice, puppyslut. Now bend over!”</i> you growl.");
-	else if(pc.isNice()) output("\n\n<i>“Oh come on! Just try it out! I promise, you won’t be infected with any tiny parasite babies! Cross my heart and hope to die!”</i> you say, grinning.");
-	else if(pc.isMischievous()) output("\n\n<i>“Oh come on! Just try it out! I promise, you won’t be infected with any tiny parasite babies! Cross my heart and hope to die!”</i> you say, grinning.");
-	else if(pc.isAss()) output("\n\n<i>“I don’t recall giving you a choice, puppyslut. Now bend over!”</i> you growl.");
-
+		if(pc.isBimbo()) output("\n\n<i>“Wha-? W- why not? Like I said, it’s going to be loads of fun!”</i> you bubble, your foggy mind unable to wrap around the idea that someone could pass up something so fun and sexually gratifying.");
+		else if(pc.isBro()) output("\n\n<i>“I don’t recall giving you a choice, puppyslut. Now bend over!”</i> you growl.");
+		else if(pc.isNice()) output("\n\n<i>“Oh come on! Just try it out! I promise, you won’t be infected with any tiny parasite babies! Cross my heart and hope to die!”</i> you say, grinning.");
+		else if(pc.isMischievous()) output("\n\n<i>“Oh come on! Just try it out! I promise, you won’t be infected with any tiny parasite babies! Cross my heart and hope to die!”</i> you say, grinning.");
+		else if(pc.isAss()) output("\n\n<i>“I don’t recall giving you a choice, puppyslut. Now bend over!”</i> you growl.");
+	}
 	output("\n\nAnno scrunches her face up and scratches her chin for a few seconds before sighing. <i>“Alright, Boss. I’ll... give it a shot. But if I get infected with anything, your ass is going to meet my knotty ausar dildo!”</i> she says, before turning around and starting to take off her catsuit. You quietly do a victory fistpump behind her before setting your mind to the task at hand.");
 
 	if (anno.armor is AnnosCatsuit) output("\n\nAnno pulls the zipper of the catsuit down, letting her prodigious breasts pop out. She then pulls the rest of her outfit down, wiggling her booty and giving you a front row view of her already dripping pussy and the winking star of her asshole. Stepping out of the suit, she kicks it to the side and turns to face you.");
@@ -3074,17 +3080,17 @@ public function annoFollowerTailcockSex(asFollower:Boolean = true):void
 	output("\n\nYou slowly finger-fuck her tight bum, her moans increasing when you add a second finger.");
 
 	if(pc.cockTotal() == 1) {
-		output(" Spreading her cheeks wide to ease your entrance, you let your [pc.tailCock] press against her sphincter. It slides in with hardly any resistance, although there was so much lube you couldn’t really tell if Anno was squeezing down or not. Anno on the other hand, arches her back and whines when she feels your [pc.tailCock] ravaging her tight colon. You press your hips forwards, your [pc.cock] parting her wet folds and sinking to the hilt in her tight pussy. Anno moans and whines in equal measure, trying to get used to the sensation of having both her holes so utterly filled with thick, throbbing cockflesh.");
-		output("\n\nYou give her a few minutes to adjust before languidly withdrawing both tailcock and penis. The synchronous jackhammer thrusts of your [pc.cock] and [pc.tailCock] has Anno cumming in less than a minute, whimpering and spraying her femcum all over your [pc.lowerBody]. You laugh and slap her ass for her bad manners, which has the added effect of making her asshole tighten around your [pc.tailCock] and her pussy clench just a little harder around your [pc.cock]. With all the earlier teasing, it’s no surprise you feel your [pc.balls] tensing up, ready to discharge your seed into a wet, waiting hole. You groan and finally let go, feeling your [pc.cumType] rush up your shafts.");
+		output(" Spreading her cheeks wide to ease your entrance, you let your " + tailType + " press against her sphincter. It slides in with hardly any resistance, although there was so much lube you couldn’t really tell if Anno was squeezing down or not. Anno on the other hand, arches her back and whines when she feels your " + tailType + " ravaging her tight colon. You press your hips forwards, your [pc.cock] parting her wet folds and sinking to the hilt in her tight pussy. Anno moans and whines in equal measure, trying to get used to the sensation of having both her holes so utterly filled with thick, throbbing cockflesh.");
+		output("\n\nYou give her a few minutes to adjust before languidly withdrawing both " + tailType + " and penis. The synchronous jackhammer thrusts of your [pc.cock] and " + tailType + " has Anno cumming in less than a minute, whimpering and spraying her femcum all over your [pc.lowerBody]. You laugh and slap her ass for her bad manners, which has the added effect of making her asshole tighten around your " + tailType + " and her pussy clench just a little harder around your [pc.cock]. With all the earlier teasing, it’s no surprise you feel your [pc.balls] tensing up, ready to discharge your seed into a wet, waiting hole. You groan and finally let go, feeling your [pc.cumType] rush up your shafts.");
 
-		output("\n\nYour [pc.tailCock] swells momentarily before blasting into Anno’s rectum, painting her inner walls [pc.cumColor]. Your [pc.cock] blasts [pc.cumType] into her pussy, bloating the condom out inside her.");
+		output("\n\nYour " + tailType + " swells momentarily before blasting into Anno’s rectum, painting her inner walls [pc.cumColor]. Your [pc.cock] blasts [pc.cumType] into her pussy, bloating the condom out inside her.");
 	}
 	else {
-		output(" Spreading her cheeks wide to ease your entrance, you let your [pc.cocks] penetrate her. Anno arches her back and whines when she feels your [pc.cocks] spread her asshole and pussy wide, ravaging her depths. You give her a few minutes to adjust before languidly withdrawing both cocks at the same time until just the tips are spreading her open, then roughly slamming back in. Anno lets loose a combination of a moan and howl.\n\nYour [pc.tailCock] seizes the opportunity to give Anno a bone. Fast as lightning, it fills her mouth. Anno’s eyes widen, trying to adjust to the girth filling her mouth. The tentacle doesn’t give her any rest, continuing to thrust into her mouth. In the end, she just gives up and lets her jaw hang open, the parasite plundering her throat with wild abandon. Anno moans and whines in equal measure, trying to get used to the sensation of having all her holes so utterly filled with thick, throbbing cockflesh. The triple penetration has Anno cumming again in less than a minute, whimpering and squirting her femcum all over her thighs.");
+		output(" Spreading her cheeks wide to ease your entrance, you let your [pc.cocks] penetrate her. Anno arches her back and whines when she feels your [pc.cocks] spread her asshole and pussy wide, ravaging her depths. You give her a few minutes to adjust before languidly withdrawing both cocks at the same time until just the tips are spreading her open, then roughly slamming back in. Anno lets loose a combination of a moan and howl.\n\nYour " + tailType + " seizes the opportunity to give Anno a bone. Fast as lightning, it fills her mouth. Anno’s eyes widen, trying to adjust to the girth filling her mouth. The tentacle doesn’t give her any rest, continuing to thrust into her mouth. In the end, she just gives up and lets her jaw hang open, the parasite plundering her throat with wild abandon. Anno moans and whines in equal measure, trying to get used to the sensation of having all her holes so utterly filled with thick, throbbing cockflesh. The triple penetration has Anno cumming again in less than a minute, whimpering and squirting her femcum all over her thighs.");
 
 		output("\n\nYou laugh and slap her ass for her bad manners, which has the added effect of making her asshole and pussy tighten around your [pc.cocks]. With all the earlier teasing, it’s no surprise you feel your [pc.balls] tensing up in response, ready to discharge their contents into a wet, waiting hole. You groan and finally let go, feeling your [pc.cumType] rush up your shafts.");
 
-		output("\n\nYour [pc.tailCock] swells momentarily before blasting into Anno’s throat, filling her stomach with [pc.cumType]. Your [pc.cocks] aren’t far behind, [pc.cock] blowing its load into her bowels, and [pc.cock] filling up the condom with [pc.cumType].");
+		output("\n\nYour " + tailType + " swells momentarily before blasting into Anno’s throat, filling her stomach with [pc.cumType]. Your [pc.cocks] aren’t far behind, [pc.cock] blowing its load into her bowels, and [pc.cock] filling up the condom with [pc.cumType].");
 	}
 
 	output("\n\nAnno whines and scratches at the bedcovers, feeling the condom bloat inside her pussy. Carefully, she reaches back and grasps the sheath at the base of the inflation, cutting off the backwards flow of [pc.cumType]. You pull your dick");
