@@ -329,7 +329,7 @@ package classes.Items.Transformatives
 				// (Enlarge cock if under 8")
 				if (hasShortCock && (forceChanges || (changes < changeLimit && rand(3) == 0)) && !hasChangedCock)
 				{
-					output("\n\nYour tiny [pc.cock " + targetCock + "] aches for a moment. Blood rushes to it, and before long it is positively throbbing, almost painfully. You clench your [pc.teeth] and wince. Your hands dart to your cock, and realize your manhood is <i>growing</i>. You watch in rapt fascination as your cock pulses, growing larger and larger. <b>By the time it stops, you’re left with a penis about two inches longer!</b>");
+					output("\n\nYour tiny [pc.cock " + targetCock + "] aches for a moment. Blood rushes to it, and before long it is positively throbbing, almost painfully. You clench your teeth and wince. Your hands dart to your cock, and realize your manhood is <i>growing</i>. You watch in rapt fascination as your cock pulses, growing larger and larger. <b>By the time it stops, you’re left with a penis about two inches longer!</b>");
 
 					target.cocks[targetCock].cLengthRaw += 2;
 					if (target.hasPerk("Hung") && target.cocks[targetCock].cLengthRaw > 22) target.cocks[targetCock].cLengthRaw = 22;

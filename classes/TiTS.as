@@ -171,7 +171,6 @@
 		include "../includes/masturbation/exhibitionismPerk.as";
 		include "../includes/masturbation/hardlightAGThong.as";
 		include "../includes/masturbation/magicMilker.as";
-		include "../includes/masturbation/ovipositorMasturbation.as";
 		include "../includes/masturbation/sleepFapnea.as";
 		include "../includes/masturbation/sukMastr.as";
 		include "../includes/rivalEncounters.as";
@@ -312,9 +311,7 @@
 		include "../includes/tarkus/sydianMale.as";
 		include "../includes/tarkus/taxi.as";
 		include "../includes/tarkus/theMess.as";
-		include "../includes/tarkus/tessa.as";
 		include "../includes/tarkus/verusha.as";
-		
 
 		//Third planet
 		include "../includes/newTexas/newTexas.as";
@@ -381,7 +378,6 @@
 		include "../includes/myrellion/rooms.as";
 		include "../includes/myrellion/roomFunctions.as";
 		include "../includes/myrellion/seer.as";
-		include "../includes/myrellion/shadyMerchant.as";
 		include "../includes/myrellion/steph.as";
 		include "../includes/myrellion/tavern.as";
 		include "../includes/myrellion/taivrasPalace.as";
