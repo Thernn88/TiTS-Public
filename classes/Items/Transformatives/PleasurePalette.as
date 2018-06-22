@@ -374,7 +374,7 @@
 				else output(" pinching");
 				output(" your sensitive teats in an effort to draw out your motherly bounty while your attentions are focused on them. You feel the warmth in your [pc.fullChest] grow ever stronger as your skillful ministrations continue, watching with curiosity as your [pc.nipples] change color from [pc.nippleColor] to " + newColor);
 				if(colorType == "glowing") output(", glowing brighter as you feel yourself beginning to approach glorious boobgasm");
-				output(". You shudder, sucking air between your [pc.teeth] as your [pc.fullChest] " + (!target.canMilkSquirt() ? "squirt" : "fountain") + " [pc.milk]. You heave a sigh of relief as some of the fluid weight of your [pc.chest] is relieved, even if only for now.");
+				output(". You shudder, sucking air between your teeth as your [pc.fullChest] " + (!target.canMilkSquirt() ? "squirt" : "fountain") + " [pc.milk]. You heave a sigh of relief as some of the fluid weight of your [pc.chest] is relieved, even if only for now.");
 				
 				// Milk fullness reset
 				if(isLactating) target.milked(100);

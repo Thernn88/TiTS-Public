@@ -80,7 +80,6 @@
 		public static const FLAG_TONGUE:int									= 45;
 		public static const FLAG_FRECKLED:int                               = 46;
 		public static const FLAG_PLUGGED:int                   	            = 47;
-		public static const FLAG_MULTIPURPOSE:int              	            = 48;//Should ONLY be used if abdomen genitalia but NOT tailcock or tailcunt.
 		
 		public static const FLAG_NAMES:Array = [
 			"OFFSET -- INVALID",
@@ -131,7 +130,6 @@
 			"Tongued",
 			"Freckled",
 			"Plugged",
-			"Multipurpose",
 		];
 		
 		public static const VALID_SKIN_FLAGS:Array = [
@@ -232,7 +230,6 @@
 		public static const TYPE_ADREMMALEX:int 							= 80;
 		public static const TYPE_MOTHRINE:int 								= 81;
 		public static const TYPE_FROSTWYRM:int 								= 82;
-		public static const TYPE_VYSP:int 									= 83;
 		
 		public static const TYPE_NAMES:Array = [
 			"Human",
@@ -318,7 +315,6 @@
 			"Adremmalex",
 			"Mothrine",
 			"Frostwyrm",
-			"Vysp",
 		];
 		
 		public static const VALID_FACE_TYPES:Array = [
@@ -349,7 +345,6 @@
 			TYPE_LUPINE,
 			TYPE_SHEEP,
 			TYPE_REDPANDA,
-			TYPE_VYSP,
 		];
 		
 		public static const VALID_FACE_FLAGS:Array = [
@@ -359,7 +354,6 @@
 			FLAG_ANGULAR,
 			FLAG_BEAK,
 			FLAG_FRECKLED,
-			FLAG_CHITINOUS
 		];
 		
 		public static const VALID_EYE_TYPES:Array = [
@@ -378,7 +372,6 @@
 			TYPE_GRYVAIN,
 			TYPE_SHEEP,
 			TYPE_COCKVINE,
-			TYPE_VYSP,
 		];
 		
 		public static const VALID_TONGUE_TYPES:Array = [
@@ -398,7 +391,6 @@
 			TYPE_BEE,
 			TYPE_FROG,
 			TYPE_TENTACLE,
-			TYPE_VYSP,
 		];
 		
 		public static const VALID_TONGUE_FLAGS:Array = [
@@ -445,7 +437,6 @@
 			TYPE_LUPINE,
 			TYPE_SHEEP,
 			TYPE_REDPANDA,
-			TYPE_VYSP,
 		];
 		
 		public static const VALID_ARM_TYPES:Array = [
@@ -470,7 +461,6 @@
 			TYPE_TENTACLE,
 			TYPE_LUPINE,
 			TYPE_REDPANDA,
-			TYPE_VYSP,
 		];
 
 		public static const VALID_ARM_FLAGS:Array = [
@@ -521,7 +511,6 @@
 			TYPE_LUPINE,
 			TYPE_SHEEP,
 			TYPE_REDPANDA,
-			TYPE_VYSP,
 		];
 		
 		public static const VALID_LEG_FLAGS:Array = [
@@ -548,7 +537,6 @@
 			TYPE_SYDIAN,
 			TYPE_MYR,
 			TYPE_HRAD,
-			TYPE_VYSP,
 		];
 		
 		public static const VALID_HORN_TYPES:Array = [
@@ -584,7 +572,6 @@
 			TYPE_GRYVAIN,
 			TYPE_COCKVINE,
 			TYPE_TENTACLE,
-			TYPE_VYSP,
 		];
 		
 		// None is for specifying no tail, which would normally pull the HUMAN name.
@@ -628,7 +615,6 @@
 			TYPE_LUPINE,
 			TYPE_SHEEP,
 			TYPE_REDPANDA,
-			TYPE_VYSP,
 		];
 		
 		public static const VALID_TAIL_FLAGS:Array = [
@@ -654,7 +640,6 @@
 			FLAG_STICKY,
 			FLAG_TAPERED,
 			FLAG_CORKSCREWED,
-			FLAG_MULTIPURPOSE, //Use this flag if you want Abdominal Dick and Vag but its not a tentacle tailcock.
 		];
 		
 		public static const TAIL_GENITAL_NONE:int 	= 0;
@@ -685,7 +670,6 @@
 			TYPE_VULPINE,
 			TYPE_FLOWER,
 			TYPE_TENTACLE,
-			TYPE_VYSP,
 		];
 		
 		//SKINTYPES
@@ -968,7 +952,6 @@
 			TYPE_GRYVAIN,
 			TYPE_SWINE,
 			TYPE_FROSTWYRM,
-			TYPE_VYSP,
 		];
 		
 		public static const VALID_COCK_FLAGS:Array = [
@@ -1014,7 +997,6 @@
 			TYPE_SWINE,
 			TYPE_MOUTHGINA,
 			TYPE_FROSTWYRM,
-			TYPE_VYSP,
 		];
 		
 		// As far as I can tell, at time of writing there are no flags currently used/assigned to vaginas
