@@ -619,7 +619,10 @@ package classes.Characters
 				{
 					nyreaEggStuff(totalDays);
 				}
-				
+				if (hasStatusEffect("Vysp Royal") && fertility() > 0 && hasOvipositor())
+				{
+					vyspEggStuff(totalDays);
+				}
 				updateExhibitionism(totalDays);
 				myrVenomUpdate(totalDays);
 				processOmegaFever(totalDays);
@@ -788,6 +791,33 @@ package classes.Characters
 			}
 		}
 		
+		private function vyspEggStuff(totalDays:uint):void
+		{
+			var effect:StorageClass = getStatusEffect("Vysp Royal");
+			
+			effect.value1 += Math.round(3 * effect.value2 * fertility()/2) * totalDays;
+			if (hasPerk("Fertility"))
+			{
+				for (var i:int = 0; i < totalDays; i++)
+				{
+					effect.value1 += 5 + rand(5);
+				}
+			}
+			
+			if (effect.value1 > 200 && rand(2) == 0)
+			{
+				AddLogEvent("You feel completely bloated with your production of vysp eggs... Perhaps you should make some time to expel them?", "passive", ((1440 - (GetGameTimestamp() % 1440)) + ((totalDays - 1) * 1440)));
+			}
+		}
+		
+		public function removeTailFlagCheaters(): void //Change this if abdominal organ added to another race.
+		{	
+			if(tailType!=GLOBAL.TYPE_VYSP&&hasTailFlag(GLOBAL.FLAG_MULTIPURPOSE))
+			{
+				removeTailFlag(GLOBAL.FLAG_MULTIPURPOSE);
+		
+			}
+		}
 		private function fecundFigure(totalDays:uint):void
 		{
 			var numPreg:int = totalPregnancies();
