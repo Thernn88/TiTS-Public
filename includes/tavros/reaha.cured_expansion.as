@@ -1320,7 +1320,7 @@ public function goddamnSavinsAsslust(x:int):void
 	else output("shimmering hardlight crown");
 	output(" ever so slightly. Oh, she wants it bad. You dig your fingers in, holding her swaying ass steady for the final push.");
 
-	output("\n\nYou grit your [pc.teeth] and thrust in, ");
+	output("\n\nYou grit your teeth and thrust in, ");
 	if(!reaha.ass.hasFlag(GLOBAL.FLAG_PUMPED) && !reaha.ass.hasFlag(GLOBAL.FLAG_SLIGHTLY_PUMPED)) output("fighting against the tightness of the cow’s squeezing ass");
 	else output("easily sinking into the spongy, soft grip of her plumped-up pucker");
 	output("; she lets out a bellowing moo, back arching as your crown pierces her behind. <i>“Aaaaahhhhh. S-slow down! Lemme get used to iiitttt,”</i> she cries, but you keep a steady pace as your [pc.cockOrStrapon " + x + "] slides into her rump, fingers kneading her fleshy cheeks, keeping her spread wide to ease your entrance. You spend nearly a minute sliding into your cow’s hole, pushing into her clenching, spasming anus until ");
@@ -1335,7 +1335,7 @@ public function goddamnSavinsAsslust(x:int):void
 
 	output("\n\nYou give her another swat on the ass, sending her big cheeks jiggling - and that’s enough to send her over. Reaha’s voice breaks into an unintelligible moo as she cums again, cunt spasming");
 	//output(" around her fingers");
-	output(" and ass squeezing so tight you’re afraid your cock’ll burst. Her tits stream out even more than before, visibly diminishing as she orgasms hard enough to nearly drain herself, coating your hands and the bed beneath you with what seems like gallons of [reaha.milk]. Her anal squeezing nearly pushes you over the edge, her muscles writhing and spasming wildly as the cow-slut cums and cums; you grit your [pc.teeth], trying to hold back, but to no avail. With a primal roar you join her in orgasm, [pc.cockOrStrapon " + x + "] ");
+	output(" and ass squeezing so tight you’re afraid your cock’ll burst. Her tits stream out even more than before, visibly diminishing as she orgasms hard enough to nearly drain herself, coating your hands and the bed beneath you with what seems like gallons of [reaha.milk]. Her anal squeezing nearly pushes you over the edge, her muscles writhing and spasming wildly as the cow-slut cums and cums; you grit your teeth, trying to hold back, but to no avail. With a primal roar you join her in orgasm, [pc.cockOrStrapon " + x + "] ");
 	if(x < 0) output("throbbing with an overload of sensation");
 	else output("unleashing a torrent of seed deep into Reaha’s bowels");
 	if(pc.cumQ() >= 10000 && x >= 0) output(", making her belly bulge with each spurt until she looks massively pregnant");
@@ -1447,7 +1447,7 @@ public function getATitjobFromCuredReaha():void
 	output("\n\nYou grasp Reaha’s shoulders and start hammering, thrusting your [pc.hips] hard into her eager tits until the sound of [pc.skin] smacking sodden skin echoes throughout the room, mixing with her moans and yours as you vigorously titfuck the busty cow-girl. Her fingers dig into her squishy flesh, practically disappearing into her tits and urging out an all-new stream of [reaha.milk] that squirts onto your thighs and crotch, giving you just that little bit more lube to start ramping up the speed. Reaha gives a muffled cry as you push her head down on your ");
 	if(x >= 0) output("[pc.cockHead " + x + "]");
 	else output("hardlight crown");
-	output(", pistoning through her tits and into her welcoming mouth, through a valley of wet warmth into a steamy, tongue-filled sheathe. She moans and groans around a mouthful of [pc.cockOrStrapon], squeezing her tits as tightly together as she can to milk <i>you</i> right back. You grit your [pc.teeth], trying to hold yourself back as the lusty cow starts to shake her shoulders, making her tits jiggle obscenely around your turgid shaft as she sucks up every spare inch of cockflesh she can get her lips around.");
+	output(", pistoning through her tits and into her welcoming mouth, through a valley of wet warmth into a steamy, tongue-filled sheathe. She moans and groans around a mouthful of [pc.cockOrStrapon], squeezing her tits as tightly together as she can to milk <i>you</i> right back. You grit your teeth, trying to hold yourself back as the lusty cow starts to shake her shoulders, making her tits jiggle obscenely around your turgid shaft as she sucks up every spare inch of cockflesh she can get her lips around.");
 	output("\n\nMouth, tits, and tongue together are just too much for you. Roaring with ecstatic pleasure, you slam your hips forward, pumping as hard and as fast as you possibly can into the tight embrace of Reaha’s titties, reaching down to pinch and squeeze her gushing teats until she’s joining you full on with screams of pleasure, shooting arcs of [reaha.milk] high into the air. Her boobgasm neatly presages your own orgasm, the cow’s body quaking to its core as she cums, girl-spunk gushing out of her spasming, fist-gaped vag as your ");
 	if(x < 0) output("synthetic cock overloads with pleasure, sending shockwaves of ecstasy up your spine.");
 	else output("[pc.cock " + x + "] erupts into her mouth, shooting a thick stream of [pc.cum] to splatter on that big, wide tongue of hers. She gasps, choking on throbbing cock and steaming-hot spooge until she coughs it up down her chin, spunk drooling out her mouth and onto the shiny-wet tops of her breasts.");
@@ -1534,7 +1534,7 @@ public function curedReahaFucksASubbyPCsButt():void
 	{
 		output("\n\n<i>“Let’s... uh, I guess I should lube you up, now?”</i> You nod. <i>“Um, alright... let’s try this...”</i> she mumbles, reaching up to her udders and grabbing one of her over-sized teats in either hand. She bends down, dragging her big, soft tits across your back; you shudder as her hot flesh grazes yours, tempered by beads of cool [reaha.milk] trickling from her swollen nipples as the cow-girl lines her boobs up with your behind");
 		if(!pc.isCrotchExposed() && !pc.isAssExposed()) output(" pulling off the last of your [pc.lowerGarments] to reveal your [pc.vagOrAss]");
-		output(". Your breath catches as a sudden squirt of [reaha.milk] splatters across your [pc.butt], wetness rolling down your round cheeks in creamy rivulets as the cow-slut aims her tit’s stream right for your [pc.vagOrAss]. Your hole clenches reflexively as her [reaha.milk]-lube smears across it; you grit your [pc.teeth] and try to relax, letting a tiny trickle of the rich fluid right into your hungry fuckhole. With a delightful shiver, you get used to the feeling of Reaha’s personal lube flowing into your [pc.vagOrAss], and she really opens the floodgates, practically pushing her teat into your ");
+		output(". Your breath catches as a sudden squirt of [reaha.milk] splatters across your [pc.butt], wetness rolling down your round cheeks in creamy rivulets as the cow-slut aims her tit’s stream right for your [pc.vagOrAss]. Your hole clenches reflexively as her [reaha.milk]-lube smears across it; you grit your teeth and try to relax, letting a tiny trickle of the rich fluid right into your hungry fuckhole. With a delightful shiver, you get used to the feeling of Reaha’s personal lube flowing into your [pc.vagOrAss], and she really opens the floodgates, practically pushing her teat into your ");
 		if(!pc.hasVagina()) output("butt");
 		else output("pussy");
 		output(" and squirting, showering your backside in [reaha.milk].");
@@ -1659,7 +1659,7 @@ public function dominantlyTakeItInThebUttFromReahaLel():void
 		if(pc.cockTotal() > 1) output("s");
 		output(".");
 	}
-	output(" Gritting your [pc.teeth], you slide down the pole of latex, forcing yourself to take inch after inch of oversized toy until your [pc.butt] is finally nestled in Reaha’s lap, grinding against her leather-clad crotch.");
+	output(" Gritting your teeth, you slide down the pole of latex, forcing yourself to take inch after inch of oversized toy until your [pc.butt] is finally nestled in Reaha’s lap, grinding against her leather-clad crotch.");
 	output("\n\n<i>“You okay, Captain?”</i> Reaha asks, hands caressing your [pc.hips] as you settle into her lap. You give her a quieting look, squeezing her tits by way of answer. A clear bead of [reaha.milk] forms at the tips of her nipples which you lean down to lick off, groaning as the strapon bends inside you to accommodate the motion, dragging a fist’s length out of you. Reaha moans as you give her tit a little suckle, drawing out a thin stream of her sweet cream to fill your mouth. Drinking from the cow, you start up a rhythm: suck and thrust, rising off Reaha’s lap as you fill your cheeks with [reaha.milk], swallowing as you descend. Your stomach bulges with the great girth of the cock ");
 	if(!pc.hasVagina()) output("reaming your ass");
 	else output("spearing your puss");

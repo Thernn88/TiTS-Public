@@ -327,7 +327,7 @@ public function femaleCrystalGooWin():void
 	if(pc.hasCock()) output("Shouldn’t you use a");
 	else output("Don’t you want me to give you a");
 	output(" dick, since I’m shaped like a girl?”</i> She asks as you rub her fingers over your folds. You smile coyly and slip your fingers over the edge of her chestplate. The top of her bust is squashed down by the offending garment, and you pull it off. Her thankful DD-cups spring free, jiggling in the cave air.");
-	output("\n\n<i>“Don’t you know? Some princesses prefer the female knights,”</i> you tell her before taking one of her gooey nipples between your [pc.teeth]. The jellied nub is slightly tougher than its surroundings, and offers a little resistance when you press it down with your tongue. The ganraen girl coos in resignation, brushing a hand ");
+	output("\n\n<i>“Don’t you know? Some princesses prefer the female knights,”</i> you tell her before taking one of her gooey nipples between your teeth. The jellied nub is slightly tougher than its surroundings, and offers a little resistance when you press it down with your tongue. The ganraen girl coos in resignation, brushing a hand ");
 	if(!pc.isBald()) output("through your [pc.hair]");
 	else output("over your bare head");
 	output(". You cease your guidance, and she continues to rub your [pc.vagina] with her other hand.");

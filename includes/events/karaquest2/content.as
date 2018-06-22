@@ -2330,7 +2330,7 @@ public function kq2AmaraPCVictory():void
 	// Nuke due to explode within 30 minutes
 	if (flags["KQ2_NUKE_STARTED"] >= 0)
 	{
-		output(" And just in time: you cover your eyes as a nuke goes off in the caldera, a flash of light followed by a shockwave that makes your [pc.teeth] ache. Luckily, the re-activated shields protect you from harm.");
+		output(" And just in time: you cover your eyes as a nuke goes off in the caldera, a flash of light followed by a shockwave that makes your teeth ache. Luckily, the re-activated shields protect you from harm.");
 		flags["KQ2_NUKE_EXPLODED"] = 1;
 		if(shipLocation == "600") shipLocation = "SPACE";
 	}
@@ -2500,7 +2500,7 @@ public function kq2KaraSexytimes():void
 	else output(" and circling it with her tongue");
 	output(". She comes up with a husky sigh, grabbing the zipper on the neck of her catsuit and pulling it down, tantalizingly slow.");
 
-	output("\n\nYou can’t wait until the cat-girl finishes her show, and lean up to grab the zipper’s tab between your [pc.teeth], pulling down down in one rough yank that frees her breasts from the suit’s tight embrace. They’re even more gorgeous than you’d hope, two perfectly sculpted mounds of feline flesh, each tipped with a pale pink teat that’s been pierced by a little silver bar. From where you are already, it’s impossible not to dig your face in between them, nuzzling into Kara’s supple cleavage. She giggles and moans, wrapping her arms around you and letting her eyes sink closed.");
+	output("\n\nYou can’t wait until the cat-girl finishes her show, and lean up to grab the zipper’s tab between your teeth, pulling down down in one rough yank that frees her breasts from the suit’s tight embrace. They’re even more gorgeous than you’d hope, two perfectly sculpted mounds of feline flesh, each tipped with a pale pink teat that’s been pierced by a little silver bar. From where you are already, it’s impossible not to dig your face in between them, nuzzling into Kara’s supple cleavage. She giggles and moans, wrapping her arms around you and letting her eyes sink closed.");
 
 	output("\n\nWhile you’re busy enjoying her rack, Kara peels her suit off her shoulders, down around her waist. Your hands are already firmly planted on the kitty’s tush, and after one last moan-inducing squeeze, you reach up to grab the latex scrunched up around her flared hips. You peel it down, freeing her pert behind... and letting a hot, heavy rod of meat flop onto your belly, followed by a pair of meaty weights that brush against your");
 	if (pc.hasCock()) output(" own cock");
@@ -2609,7 +2609,7 @@ public function kq2KaraTakeKittydick():void
 	if (pc.hasTailCock()) output(" while your tail-cock rams itself in to the hilt in her pussy, almost ready to give her another parasitic creampie");
 	output(". Your hands slide up Kara’s svelte, sweat-slickened body, running your thumbs across the pert, pierced pink promontories on her chest before reaching in to give her breasts more serious attention. As your hips slide down, your hands cup and squeeze her tits, playing with her piercings until your lover’s squirming into your grasp, trying not to moan like a queen cat in heat. Oh, she’s <i>sensitive</i>!");
 
-	output("\n\nBetween rocking your [pc.hips], you lean in to run your [pc.tongue] across one of Kara’s teats, stopping to suck on it. your [pc.teeth] wrap around the bars of her piercing, giving her a gentle tug on the one hand, while the other is twisted between your fingers. The sudden sensation is too much for her, and you instantly feel Kara’s cock react to your teasing, swelling up inside you. Her legs clench around your hips, pulling you down until your [pc.butt] is flush with her lap, and her kitty-prick’s buried to the hilt in your [pc.vagOrAss].");
+	output("\n\nBetween rocking your [pc.hips], you lean in to run your [pc.tongue] across one of Kara’s teats, stopping to suck on it. Your teeth wrap around the bars of her piercing, giving her a gentle tug on the one hand, while the other is twisted between your fingers. The sudden sensation is too much for her, and you instantly feel Kara’s cock react to your teasing, swelling up inside you. Her legs clench around your hips, pulling you down until your [pc.butt] is flush with her lap, and her kitty-prick’s buried to the hilt in your [pc.vagOrAss].");
 
 	output("\n\nA rush of wet, sticky heat fills your loins, bubbling up from Kara’s buried cock. Your lover moans, biting her lip and bucking her hips against your ass. Cum spurts into you, squirt after squirt as the catgirl climaxes. Feeling your");
 	if (pc.hasVagina()) output(" pussy");
@@ -2665,7 +2665,7 @@ public function kq2KaraFuckKittysKitty():void
 	else output(" I need you to fuck me hard. Think you’re up for it?");
 	output("”</i>");
 	
-	output("\n\nYou answer with your body, flipping the kaithrit babe onto her back and rolling onto her, pinning her arms to the bed. She gasps, arching her back when you dive in to lick and suck at her breasts. Gently, you pinch her pierced teats between your [pc.teeth], nibbling until she’s gasping with pleasure. Her cock leaps to attention, smacking your thigh with impotent need. No more playing with that - you’ve got this pussy’s needy pussy to deal with!");
+	output("\n\nYou answer with your body, flipping the kaithrit babe onto her back and rolling onto her, pinning her arms to the bed. She gasps, arching her back when you dive in to lick and suck at her breasts. Gently, you pinch her pierced teats between your teeth, nibbling until she’s gasping with pleasure. Her cock leaps to attention, smacking your thigh with impotent need. No more playing with that - you’ve got this pussy’s needy pussy to deal with!");
 	
 	output("\n\nKara twists under you, sending a shock up your back of the strangest wringing sensation around your womb-deep [pc.cock]. Getting herself up on her knees, your lover braces her hands on the headboard and slaps her ass with a tail, inviting you to have your way with her - to fuck her like an animal! An offer you take eagerly...");
 	

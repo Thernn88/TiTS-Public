@@ -636,7 +636,7 @@ public function queenOfTheDeepClimb():void
 
 	if (pc.reflexes() >= 20 + rand(15))
 	{
-		output("\n\nYou leap forward, running straight at the creature, hoping to take her by surprise. She shrieks and jabs one of her huge legs at you, slamming it into the water just inches from you. You bob and weave, evading her strikes until you’re just under her carapaced lower body. Gritting your [pc.teeth], you grab hold of one of her legs’ spikey outcroppings and start to haul yourself up, scrambling out of the water and up onto the creature’s back.");
+		output("\n\nYou leap forward, running straight at the creature, hoping to take her by surprise. She shrieks and jabs one of her huge legs at you, slamming it into the water just inches from you. You bob and weave, evading her strikes until you’re just under her carapaced lower body. Gritting your teeth, you grab hold of one of her legs’ spikey outcroppings and start to haul yourself up, scrambling out of the water and up onto the creature’s back.");
 		
 		output("\n\n<i>“UNHAND ME!”</i> she bellows, thrashing about in an attempt to dislodge you. You scream and dig your fingers into her plated back, finding handholds to grab onto as she tries to shake you off!");
 		
@@ -1275,4 +1275,3 @@ public function queenPregnancyEndsIII():void
 	clearMenu();
 	addButton(0, "Next", mainGameMenu);
 }
-

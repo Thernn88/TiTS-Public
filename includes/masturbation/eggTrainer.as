@@ -402,7 +402,7 @@ public function layingTrainingTwo():void
 
 	output("\n\nYour hands run across your bare, swollen belly, feeling the eggs shift inside you, tumbling towards your gaping opening. A shockwave of pleasure hammers through your [pc.vagOrAss " + x + "], forcing you to clench down around the flood of lube and growing pressure inside you. The holoscreen urges you to relax: <i>“You don’t want to hurt your eggs, do you? Relax that cute little hole of yours and push!”</i>");
 
-	output("\n\nSeems like a contradiction in terms from where you’re sitting, but you try your best. Your [pc.legs] squeeze around the sides of the box, steadying you as the first egg starts to crown. Looking down, you watch with wide eyes as the firm, sloping head of the egg peeks out. You push, as hard as you can with gritted [pc.teeth] and white knuckles until with a wet squirt the first <b><i>pops</i></b> out of you, plopping into the lube-tank inside the machine. More of the hot, thick liquid splashes up onto your thighs, as if to pave the way for the next egg... and the next. Each egg you pass is an explosion of pleasure that drowns out all thought, all other sensation. You cum again");
+	output("\n\nSeems like a contradiction in terms from where you’re sitting, but you try your best. Your [pc.legs] squeeze around the sides of the box, steadying you as the first egg starts to crown. Looking down, you watch with wide eyes as the firm, sloping head of the egg peeks out. You push, as hard as you can with gritted teeth and white knuckles until with a wet squirt the first <b><i>pops</i></b> out of you, plopping into the lube-tank inside the machine. More of the hot, thick liquid splashes up onto your thighs, as if to pave the way for the next egg... and the next. Each egg you pass is an explosion of pleasure that drowns out all thought, all other sensation. You cum again");
 	if(pc.hasCock())
 	{
 		output(", your ");
@@ -873,7 +873,7 @@ public function eggTrainerPreggoRemoval():void
 	//Small egg fork:
 	if(pData.pregnancyBellyRatingContribution < 30)
 	{
-		output("\n\nYou grit your [pc.teeth] and push as hard as you can, bracing against the box for a little extra leverage.");
+		output("\n\nYou grit your teeth and push as hard as you can, bracing against the box for a little extra leverage.");
 		output("\n\nThe egg inside you might not have grown very much, but it’s still bigger than what would normally pass through you - and bigger than the average TamaniCorp egg. Whatever the tentacle pumped into you ");
 		if(x >= 0) output("has relaxed your womb, making it open up and regurgitate its unwanted occupant");
 		else output("is make your ass spasm, finally flushing the thick bundle of synthetic substance that’s been nesting inside you for ages");
@@ -1454,7 +1454,7 @@ public function eggTrainerOvalastingRemoval(oIdx:int = -2):void
 	output(". The unexpected climax leaves you slumping against the machine, knuckles white from how hard you’re gripping the handlebars and leaking lube from your pregnant hole.");
 	output("\n\nWhatever the tendril shot into your " + (oIdx < 0 ? "colon" : "womb") + " seems to have affected your egg. The synthetic orb shifts restlessly inside you. Your gut gurgles uneasily as the egg dislodges and shrinks a bit, getting properly aligned for what’s to come.");
 	output("\n\nThe holoscreen helpfully tells you to please face your rump into the lube-tank. The lid slides off, revealing the sloshing tank of hot, steamy lube for you to give “birth” into. You swing your [pc.legOrLegs] forward, grabbing your belly to steady yourself as you feel the egg start to drop. A big, bold, pink word appears on screen: “<b>PUSH</b>.”");
-	output("\n\nYou grit your [pc.teeth] and push as hard as you can, bracing against the box for a little extra leverage.");
+	output("\n\nYou grit your teeth and push as hard as you can, bracing against the box for a little extra leverage.");
 	output("\n\nHonestly, for a well-broken-in incubator like you, it’s a piece of cake. Almost disappointingly so. Whatever the tentacle pumped into you " + (oIdx < 0 ? "is make your ass spasm, finally flushing the thick bundle of synthetic substance that’s been nesting inside you for ages" : "has relaxed your womb, making it open up and regurgitate its unwanted occupant") + ". You grunt and push, and nearly orgasm again thanks to how well-trained to pump out eggs your body has become.");
 	output("\n\nIt doesn’t take long for your seasoned muscles long to work the oval out, right up to your " + (oIdx < 0 ? "anal ring" : "pussy-lips") + " and then, with a climactic burst of effort, it pops out and goes sailing into the lube-bath, splashing into the tank with its friends. The breath goes out of you with a ragged gasp of pleasure, and you all but collapse backwards. A feeling of utter, absolute contentment spreads slowly through you. After that, you feel like you could drift off to sleep.");
 	output("\n\nThe machine beeps something at you, but you’re way too worn out to get up and read it. Smiling to yourself, you glance into the tub, and see a pink ball slightly bigger than the other eggs resting atop the trainer’s payload, slowly submerging in the heated lube. A pang of... regret? Longing? Some emotion you can’t quite put words to tugs at your heartstrings for a moment as the lid slides closed, and you’re left to recover.");
@@ -1499,4 +1499,3 @@ Pink Eggs
 
 */
 
-

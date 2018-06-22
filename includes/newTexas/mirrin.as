@@ -1183,7 +1183,7 @@ public function talkToMirrinAbootYuuuu():void
 	output("\n\nThe talk quickly shifts to the mess surrounding your inheritance of SteeleTech, the mention of which makes the attentive Mirrin raise an eyebrow.");
 	output("\n\n<i>“That’s you?? I thought Steele was just a common name. But holy <i>shit</i>, that’s actually pretty baller,”</i> she exclaims, inching ever so slightly closer to you. <i>“So what, you’ve got your ship here and just do anything anywhere being the baddest ass?”</i>");
 	output("\n\nMy ass isn’t <i>that</i> bad, you think to yourself. Oh wait.");
-	output("\n\n<i>“Uh, yes! At the minute, I’m trying to out-do my cousin,”</i> you say, ‘cousin’ said through gritted [pc.teeth], <i>“and we’ve got this whole ace space-race...? Going on.”</i>");
+	output("\n\n<i>“Uh, yes! At the minute, I’m trying to out-do my cousin,”</i> you say, ‘cousin’ said through gritted teeth, <i>“and we’ve got this whole ace space-race...? Going on.”</i>");
 	output("\n\nWas that intentional?");
 	output("\n\n<i>“Sounds like a hell of a life. Must have some good friends, no?”</i> She asks, a little bit of curiosity in her voice.");
 	output("\n\n<i>“Yes, on my ship actually, I’ve got ");

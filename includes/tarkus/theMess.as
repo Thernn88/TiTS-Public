@@ -336,7 +336,7 @@ public function buttStretchDelsAnus():void
 		output(" best...”</i> she adds happily, planting a kiss on the tip.");
 	}
 	output(" You shudder as the sensation of her tongue on your most sensitive flesh snakes through your body, and you’re forced to grip the bar to support yourself, [pc.legOrLegs] shaky under the startlingly skilled ministrations of the trappy slut.");
-	output("\n\n<i>“Juuust like that,”</i> you moan through clenched [pc.teeth], trying to control yourself. Your fingers snake through Deliliah’s blonde-dyed hair, coaxing her on as she licks and kisses at the underside of your member, slowly but surely working herself up to taking it wholesale.");
+	output("\n\n<i>“Juuust like that,”</i> you moan through clenched teeth, trying to control yourself. Your fingers snake through Deliliah’s blonde-dyed hair, coaxing her on as she licks and kisses at the underside of your member, slowly but surely working herself up to taking it wholesale.");
 	if(pc.balls > 0 && delilahSubmissiveness() >= 5) 
 	{
 		output(" But first, she lets a hand wander free up");

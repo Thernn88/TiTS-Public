@@ -980,7 +980,7 @@ public function lieveSexEntry():void
 	{
 		output("Lieve and her girls seem quite friendly, and the display of bare bosoms and the sexy, hungry looks of her harem has you burning up under the collar. After a moment’s hesitation, you take a step forward and ask if she’s up for it.");
 
-		if (pc.isMasculine()) output("\n\nAfter a moment’s thought, Lieve flashes you a slight smile and says, <i>“I think we can do that. Go on, girls, I know you’ve been wanting to sink your [pc.teeth] into him since you saw him.”</i>");
+		if (pc.isMasculine()) output("\n\nAfter a moment’s thought, Lieve flashes you a slight smile and says, <i>“I think we can do that. Go on, girls, I know you’ve been wanting to sink your teeth into him since you saw him.”</i>");
 		else output("\n\n<i>“I thought you’d never ask,”</i> Lieve answers with a big grin. <i>“Just toss your gear aside and relax, [pc.name]. My girls and I will take good care of you...”</i>");
 	}
 	else

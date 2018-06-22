@@ -874,9 +874,9 @@ public function milliePersonallyDrainsYerTiTS():void
 	//Nice
 	else if(pc.isNice()) output("<i>“Ohhh, you’d do that? Yes, please.”</i>");
 	//Mischievous
-	else if(pc.isMischievous()) output("<i>“So long as you don’t use your [pc.teeth], they’re all yours.”</i>");
+	else if(pc.isMischievous()) output("<i>“So long as you don’t use your teeth, they’re all yours.”</i>");
 	//Hard
-	else output("<i>“Fine, but you’d better not use your [pc.teeth].”</i>");
+	else output("<i>“Fine, but you’d better not use your teeth.”</i>");
 
 	//Merge
 	output("\n\nMillie licks her lacquered lips and practically pounces on you, lifting you up and bearing you to the table ");
@@ -1110,7 +1110,7 @@ public function soloMilkingUpgrade():void
 		output("\n\n[pc.Milk] gushes out before you can even finish hooking yourself up. The relief is palpable; all that pressure venting out from you is dizzyingly wonderful, and you stagger back to lie down on a padded bench, lest you collapse, gushing fluid.");
 		output("\n\nThe soft whir emanating from the device pitches up to a straining hum, and the vacuum pressure around your [pc.nipples] doubles, almost painfully so. This isn’t the relaxing milking you expected! Instead of getting to relax while your frothing fluids are harvested, you’re arching your back and struggling not to cry out. The machine, true to its thoughtless nature, mercilessly draws the [pc.milkNoun] from your body as if your free-flowing squirting wasn’t enough. Noisily, it pulses, lewdly slurping to quench an inexhaustible, robotic thirst.");
 		output("\n\nYou whimper. There is an undeniable erotic thrill to being treated so roughly, but the pain rhythmically coursing through your tender [pc.nipplesNoun] more freely than your [pc.milkNoun] keeps you from truly enjoying yourself. The best you can do is tough it out. At this rate, you’ll be drained dry in no time. The primary storage tank is already sloshing, mostly filled.");
-		output("\n\nGritting your [pc.teeth], you close your eyes and wait, almost relieved when your [pc.milkNoun]-flow slows to a less-enthusiastic trickle. Surely the auto function will shut off soon.");
+		output("\n\nGritting your teeth, you close your eyes and wait, almost relieved when your [pc.milkNoun]-flow slows to a less-enthusiastic trickle. Surely the auto function will shut off soon.");
 		output("\n\nBut it doesn’t.");
 		output("\n\nYour [pc.chest] ache");
 		if(pc.biggestTitSize() < 1) output("s");

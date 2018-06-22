@@ -1004,7 +1004,7 @@ public function verushaRutScene():void
 	//pc normal amount of cum: 
 	if(pc.cumQ() < 250) output("You give it your all, pumping all of your [pc.cum] that your [pc.balls] can give into the depths of her pussy.");
 	else if(pc.cumQ() < 3000) output("\n\nYou grasp her hips tighter, managing in just a bit more of your dick into her pussy before you begin unloading your [pc.cum] into her pussy, her belly swelling a bit from the productivity of your [pc.balls].");
-	else output("You moan through your [pc.teeth], and your mind goes blank as your fall over the edge. [pc.cumVisc] pumps into her pussy, and she moans as her belly swells. It stops once she actually looks three months pregnant.");
+	else output("You moan through your teeth, and your mind goes blank as your fall over the edge. [pc.cumVisc] pumps into her pussy, and she moans as her belly swells. It stops once she actually looks three months pregnant.");
 	output("\n\nYou pull out from her pussy, earning a displeased grunt from Verusha and ");
 	if(pc.cumQ() < 3000) output("some of your [pc.cum] leaking onto your bed");
 	else output("a flood of your [pc.cum] from her pussy");

@@ -499,7 +499,7 @@ public function girlsGetZeAntGurlSexWithLilianaNotLyrallaNoTheyreTotallyDifferen
 	else if(pc.hasFlatNipples()) output(" swell");
 	else if(pc.hasFuckableNipples()) output(" moisten");
 	else output(" stiffen");
-	output(" in anticipation as you lean down, taking one of her nubs gently between your [pc.teeth]. She gasps as you bite down and begin to suck, brushing a hand ");
+	output(" in anticipation as you lean down, taking one of her nubs gently between your teeth. She gasps as you bite down and begin to suck, brushing a hand ");
 	if(pc.hasHair()) output("through your [pc.hair]");
 	else output("across your bare head");
 	output(".");

@@ -87,7 +87,7 @@ public function shukuchiTavrosChase():void
 	output("\n\nYou see the hood raise his fist in the air, something small and blue peeking out between the clenched fingers: a grenade?!");
 	output("\n\nWith a quick series of motions, the hood chucks his payload right before the officers, leapfrogs one of the confused lawbringers and springboards off of another!");
 	output("\n\nYou’ve only a second of taking in the acrobatic display before having to cover your face with your arms!");
-	output("\n\n<i><b>PREEEEeeeeeeeeeeeee!</b></i>\nInstead of the bone breaking, horrific explosion you were expecting, a punctuating wail and impossibly bright light makes its way into your peripheral vision! You can’t help but grunt and grit your [pc.teeth], still staggering forward in the direction you think you were moving in.");
+	output("\n\n<i><b>PREEEEeeeeeeeeeeeee!</b></i>\nInstead of the bone breaking, horrific explosion you were expecting, a punctuating wail and impossibly bright light makes its way into your peripheral vision! You can’t help but grunt and grityour teeth, still staggering forward in the direction you think you were moving in.");
 	output("\n\nThe screams and shouts from around you seem to blur into nothingness and the only focus is the masked culprit. With some hefty blinks and a wall to lean on, you catch a blurry glimpse of that hood and mask looking back at you for a few solid seconds. It’s almost as if he’s taunting you from afar...");
 	output("\n\nDetermined not to let this criminal go, you give chase once again with a renewed surge of energy!");
 	

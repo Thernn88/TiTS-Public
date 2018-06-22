@@ -939,7 +939,7 @@ public function lundDoggyStyle():void
 		else output("down around your [pc.hips]");
 		output(", he begins to fuck you with heavy, pounding slaps of flesh, the noise resounding in his room.");
 
-		output("\n\nYou grit your [pc.teeth] and grunt in pleasure, aggressively pushing back into him on every instroke with your hands digging into his sheets, giving and taking in equal measure. You can feel his already expansive base thickening, beginning to stretch your hole to its limits, and bounce on his thighs even harder. There’s no way you’re letting him keep his big, fat knot on the outside. If you’re going to take him, you’re going to take <i>all</i> of him.");
+		output("\n\nYou grit your teeth and grunt in pleasure, aggressively pushing back into him on every instroke with your hands digging into his sheets, giving and taking in equal measure. You can feel his already expansive base thickening, beginning to stretch your hole to its limits, and bounce on his thighs even harder. There’s no way you’re letting him keep his big, fat knot on the outside. If you’re going to take him, you’re going to take <i>all</i> of him.");
 
 		output("\n\nYour nonverbal message apparently getting through to the panting korgonne loud and clear, Lund responds to your desires the only way he can. ");
 		if(pc.hasHorns() && pc.hornLength >= 3 && !pc.isTaur()) 
@@ -969,8 +969,8 @@ public function lundDoggyStyle():void
 		output("\n\nYou rut like mindless beasts, minutes passing by while your sweaty forms bounce and grab at each other, wordlessly fighting as the two of you seek to establish dominance over the other. Finally, though, you can feel Lund’s knot getting even bigger as he prepares to cum, his movements getting more frenetic and desperate. Though you’d never admit it out loud, you’re intensely grateful that you’ll be able to cum at the same time he will; in the lust for dominance, you’ve been fighting against the sensation of orgasm almost since he started railing you.");
 
 		output("\n\nHe cums with a mighty roar, pushing down on your back hard enough to put your face in the sheets while he thrusts once, twice, then rams himself to the hilt, knot and all. ");
-		if(x >= 0) output("Pussy juices squirt from around his knot again and again, your face scrunched up and [pc.teeth] grit against the pleasure while you grunt and groan like an animal");
-		else output("As taut as your asshole is, you can feel yourself flexing and tightening around him anyway, the intensity of your orgasm inciting your body to react instinctively, your face scrunched up and [pc.teeth] grit against the pleasure while you grunt and groan like an animal");
+		if(x >= 0) output("Pussy juices squirt from around his knot again and again, your face scrunched up and teeth grit against the pleasure while you grunt and groan like an animal");
+		else output("As taut as your asshole is, you can feel yourself flexing and tightening around him anyway, the intensity of your orgasm inciting your body to react instinctively, your face scrunched up and teeth grit against the pleasure while you grunt and groan like an animal");
 		output(". Picturesque you aren’t, but right now you couldn’t possibly care less. The way you’re fucking rippling around his knot feels <i>so</i> goddamn good, and if his loud groans are any indication, he’s feeling it too");
 		output("\n\nWhen he finally finishes, he leaves his knot inside you and plops down on your back with a grunt. You both take a deep inhale and groan, the exertion of the past half an hour washing over you in spades. Lund stretches atop you, limbs splaying to either side.");
 		output("\n\n<i>“Guess they weren’t kidding it being about the size of fight in the dog,”</i> you mumble, reaching back to rub his neck scruff. <i>“That was... satisfying.”</i>");
@@ -2031,7 +2031,7 @@ public function repeatLundCookies():void
 
 		output("\n\nHis bodily reaction is sudden: your pursed lips pry apart with his inflating Korgonne cock, and your tongue, which was lavishly bathing the end of his sheath, is bumped out of the way by his eager, immediate erection. Your taste buds are caked first with his runny pre, then with a thick mouthful of his delicious, virile cum; you’re pushed away to make room for his inflating cock, but his hand keeps you in place, and suddenly, your mouth, from your [pc.lips] to your throat, is swamped with everything Lund: his expanding dick; his pumping jizz; and his inflating knot, tying your jaw to him.");
 		output("\n\nHis hand rubs at your scalp roughly as he chomps through his flaky treat; every time his teeth chew down, you’re given a fresh batch of Lund for you to swallow. You and Lund are in perfect sync: a single bite into the cookies in his mouth causes his balls to bounce and his dick to pulse, and your cheeks balloon twice over with his cum, and you struggle to maintain pace with him.");
-		output("\n\nLund hums in delight at the taste of the cookies, and at you, his willing, receptive pet, chugging at his spasming cock like the willing cocksock you both know you are for him. He swallows a chunk, and his dick lurches upward, scraping its tip along your palette; his knot is so huge inside your mouth that it’s difficult to not pinch him with your [pc.teeth], and your [pc.lips] mesh wonderfully against his taut sheath. His balls flex against your chin with every potent blast of his jizz into your throat, and you swallow every drop.");
+		output("\n\nLund hums in delight at the taste of the cookies, and at you, his willing, receptive pet, chugging at his spasming cock like the willing cocksock you both know you are for him. He swallows a chunk, and his dick lurches upward, scraping its tip along your palette; his knot is so huge inside your mouth that it’s difficult to not pinch him with your teeth, and your [pc.lips] mesh wonderfully against his taut sheath. His balls flex against your chin with every potent blast of his jizz into your throat, and you swallow every drop.");
 		output("\n\nYou don’t dare reach for your own ");
 		if(pc.hasCock()) output("[pc.multiCocks]");
 		if(pc.isHerm()) output(" or your ");
@@ -2362,7 +2362,7 @@ public function againLundAgainForeverAndEver():void
 	else output("Will you be a good pet for me and stay here?");
 	output("”</i> he asks, his heavy, furry balls clapping and bouncing off the cheeks of your [pc.ass] in between his words.");
 
-	output("\n\n<i>“Yes,”</i> you say through clenched [pc.teeth], your next orgasm on its way. You wonder what exactly that will entail: will you sleep in a doghouse or something? Wear a collar? Answer to a new name? Eat particular food? Whatever, you’ll do what it takes, as long as Lund keeps fucking you.");
+	output("\n\n<i>“Yes,”</i> you say through clenched teeth, your next orgasm on its way. You wonder what exactly that will entail: will you sleep in a doghouse or something? Wear a collar? Answer to a new name? Eat particular food? Whatever, you’ll do what it takes, as long as Lund keeps fucking you.");
 
 	if(pc.hasVagina())
 	{

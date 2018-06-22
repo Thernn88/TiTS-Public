@@ -306,7 +306,7 @@ public function boneHeidrun(x:int):void
 	if(!korgiTranslate()) output("<i>“Alien so good, Heidrun couldn’t hold it.”</i>");
 	else output("<i>“Wow, you’re a good lay. I don’t cum that fast normally.”</i>");
 	output(" She pants into her pillow in between huge gasps for air. It takes a while for her to notice you’re still rock hard inside her pussy. Her only reaction to your remarkable stamina is a small whimper, a teasing wiggle of her hips, and a clench of her cunt.");
-	output("\n\nWith this wordless encouragement, you take hold of her shoulders and start to fuck her hard and fast once more, making her whimpering even louder. Unfortunately, you’re not too far from the edge either, so you won’t be keeping this up for much longer. Gritting your [pc.teeth], you fuck her like your life depends on it.");
+	output("\n\nWith this wordless encouragement, you take hold of her shoulders and start to fuck her hard and fast once more, making her whimpering even louder. Unfortunately, you’re not too far from the edge either, so you won’t be keeping this up for much longer. Gritting your teeth, you fuck her like your life depends on it.");
 
 	output("\n\nYou can already feel your orgasm swelling inside you, and with few more thrusts, you hilt inside her. Your [pc.balls] tighten");
 	if(pc.balls <= 1) output("s");

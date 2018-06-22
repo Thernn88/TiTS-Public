@@ -2063,7 +2063,7 @@ public function zilCallGirlFuckHer(inAppt:Boolean = false):void
 	if (pc.cocks[x].cLength() > 6) output(" her belly is stretching around your tremendous rod, fully packed with cockmeat. If you blew your load now, you’d be painting her womb with seed!");
 	else output(" you’re hilted against her dark cunt, completely buried in the hot, luridly lubricated hole.");
 	
-	output("\n\nYou grab both of her breasts in that moment, roughly squeezing the full, fleshy mounds until her sin-black teats bubble up with a thick, yellow honey. She gasps with pleasure, sucking in an unexpected breath as you suck up her nectar, running your tongue around her nipples and gently nibbling on them, using your [pc.teeth] to coax out more and more of her honey");
+	output("\n\nYou grab both of her breasts in that moment, roughly squeezing the full, fleshy mounds until her sin-black teats bubble up with a thick, yellow honey. She gasps with pleasure, sucking in an unexpected breath as you suck up her nectar, running your tongue around her nipples and gently nibbling on them, using your teeth to coax out more and more of her honey");
 	if (zilCallGirlPregTime(true) > 33) output(" -- and as gravid as she is, her body is swollen not only with life but with a greater abundance of honey, leaving so much for you, that comes out so easily");
 	output(". The ");
 	if (CodexManager.entryViewed("Zil")) output("zil");
@@ -2161,7 +2161,7 @@ public function zilCallGirlSuckleHoney(doClear:Boolean = true):void
 	else output("waspy alien");
 	output(" moans quietly, letting her head roll back as you play with her chest. <i>“Mmm, hungry, darling?”</i> she buzzes. <i>“With all the wonderful food on this station, I’ve got more than enough honey to feed all of my friends.”</i>");
 	
-	output("\n\nHer black-chitined fingers reach up, running across your [pc.hair] and gently guiding you down towards the rolling crest of honey-laden titflesh riding high on her chest. Your hands release her, letting your [pc.lips] take their place; you flick your [pc.tongue] across her oil-black nipple, circling around it before you latch on. your [pc.teeth] close around her black teat, rolling it between them until a sweet, thick taste bubbles out to stain your tongue. After that, it takes just the barest amount of suction to start her nectar flowing like liquid gold into your mouth");
+	output("\n\nHer black-chitined fingers reach up, running across your [pc.hair] and gently guiding you down towards the rolling crest of honey-laden titflesh riding high on her chest. Your hands release her, letting your [pc.lips] take their place; you flick your [pc.tongue] across her oil-black nipple, circling around it before you latch on. Your teeth close around her black teat, rolling it between them until a sweet, thick taste bubbles out to stain your tongue. After that, it takes just the barest amount of suction to start her nectar flowing like liquid gold into your mouth");
 	// if preg:
 	if (zilCallGirlPregnant()) output(", coming in great waves that you struggle to keep up with -- her body is making so much more than a normal woman, now, that you barely have to do anything to get a mouthful of sweet honey");
 	output(".");

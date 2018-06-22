@@ -2806,7 +2806,7 @@ public function vagisilSexForEmbry(spentTime:Boolean = false):void
 	output("and she lets out a delighted noise.");
 
 	output("\n\nFor you, her [embry.nipples] are like a red flag to a bull. You seize one between your lips, suckling on it. Your simii lover delightedly moans. Her slender hands wrap around your neck. She pulls you into her [embry.breasts].");
-	output("\n\n<i>“M-more...”</i> she breathily sighs. You tease her [embry.nipple] between your [pc.teeth], lips, and tongue. She shivers with delight underneath you. Her [embry.legs] are parted");
+	output("\n\n<i>“M-more...”</i> she breathily sighs. You tease her [embry.nipple] between your teeth, lips, and tongue. She shivers with delight underneath you. Her [embry.legs] are parted");
 	//frontcock:
 	if(!pc.isTaur() && pc.hasCock()) output(", and your [pc.cock] is rubbing against her clothed sex.");
 	else if(!pc.isTaur() && pc.hasVagina()) output(", and your lower belly is rubbing against her clothed sex.");

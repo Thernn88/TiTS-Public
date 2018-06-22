@@ -139,7 +139,7 @@ public function loseToUrbolg():void
 		if(pc.hasChitin() || pc.hasFur() || pc.hasFeathers() || pc.hasScales()) output(" A faint hiss sounds as it eats through your [pc.skinFurScales] to press against the bare skin beneath.");
 		output(" You poke and prod at the nefarious piece of jewelry, but when you begin to wiggle a finger beneath the metal, everything below your neck lights up in incandescent pain.");
 		output("\n\nYou thrash and scream while the korgonne drags you up the ramp into your ship. Lightning eats at you from your fingertips to your [pc.toes].");
-		output("\n\n<i>“See? Stupid. Somebody slaps an obedience collar on ye and the first thing ye do is trigger the failsafe.”</i> The frustrated dog-man drops you on the deck and pulls hand-sized computer out of a pocket. <i>“Good thing I was here ta baby ye, or you’d be screaming till I wandered back.”</i> A few taps on its screen end the torture, though your [pc.teeth] chatter at the same, still trying to come to terms with the unearthly agony.");
+		output("\n\n<i>“See? Stupid. Somebody slaps an obedience collar on ye and the first thing ye do is trigger the failsafe.”</i> The frustrated dog-man drops you on the deck and pulls hand-sized computer out of a pocket. <i>“Good thing I was here ta baby ye, or you’d be screaming till I wandered back.”</i> A few taps on its screen end the torture, though your teeth chatter at the same, still trying to come to terms with the unearthly agony.");
 		if(pc.lust() >= pc.lustMax()) output(" The previously overwhelming lust feels so much more manageable now.");
 		output("\n\n<i>“Wha...?”</i>");
 		output("\n\nStepping over your middle, the mechanic rudely sits down on your [pc.chest]");
@@ -804,7 +804,7 @@ public function getDoggyDoggyUrbolg(x:int):void
 		output(" how to properly please a man, slut.”</i>");
 	}
 	output("\n\nYou moan, <i>loud</i>, as the korgonne sinks half of his length into you in one stroke. With the next, he’s balls deep and you’re face down on your pillow,");
-	if(pc.isTaur()) output(" gritting your [pc.teeth] and trying not to sound like you’re his bitch mare");
+	if(pc.isTaur()) output(" gritting your teeth and trying not to sound like you’re his bitch mare");
 	else output(" ass in the air and trying not to scream in pleasure");
 	output(". It doesn’t work, though. It only takes a few seconds of him pounding your");
 	if(x >= 0) output(" slick, welcoming cunt");

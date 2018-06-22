@@ -1982,7 +1982,7 @@ public function acceptPunishmentSucky():void
 	}
 	else
 	{
-		output("\n\nOh, brother. You set your [pc.teeth] against Brave Sir Azaphel’s dick - a little warning not to milk it too much - and then withdraw to energetically thrust your mouth up and down his cock, hollowing your cheeks around it stringently, eager to get him off as quickly as possible.");
+		output("\n\nOh, brother. You set your teeth against Brave Sir Azaphel’s dick - a little warning not to milk it too much - and then withdraw to energetically thrust your mouth up and down his cock, hollowing your cheeks around it stringently, eager to get him off as quickly as possible.");
 		output("\n\nThe raskvel boi is evidently not one to look a gift suck in the mouth, and is quiet aside from his deepening, ragged breath as you blow him hard and fast, filling the hollow with slurps and smacks of your [pc.lips]. Eventually though the pent-up trap can’t contain his excitement, and he grabs your head with feverish hands and gives back with athletic, juddering thrusts of his muscle-packed hips. You gag slightly as the pointed, pre-beading end sticks into your throat, but fortunately the thing is shaped so it’s much easier to take than it ordinarily would. You control yourself and let him face-fuck you, concentrating on keeping your mouth pliant and open for him, trying to ignore his giant balls slapping against your chin.");
 	}
 	// {merge}
@@ -2554,7 +2554,7 @@ public function fuckTheSydianQueen2(x:int):void
 	else output("[pc.cockHead " + x + "] to halfway down the massive shaft");
 	output(" in simmering, orange delight. She gestures over your shoulder distractedly. <i>“I demand a soundtrack of boy fuckings! Uff! ThequeenhasspokenYES!”</i>");
 
-	output("\n\nYour [pc.lips] descend to her nipples, so protuberant and swollen from the merciless mauling they were receiving from their owner, and you are rewarded with another gleeful hiss when you roll one hungrily between your [pc.teeth], flicking at it with your [pc.tongue]. She claps her thighs against you roughly, rocking the throne beneath you, urging you on, until you’ve got them hiked up at the knees and are thrusting your fuck-pole into her wet depths with everything you’ve got, sweat glossing your [pc.skinFurScales] and her own, soft inner flesh, sheer pleasure tightening up your muscles.");
+	output("\n\nYour [pc.lips] descend to her nipples, so protuberant and swollen from the merciless mauling they were receiving from their owner, and you are rewarded with another gleeful hiss when you roll one hungrily between your teeth, flicking at it with your [pc.tongue]. She claps her thighs against you roughly, rocking the throne beneath you, urging you on, until you’ve got them hiked up at the knees and are thrusting your fuck-pole into her wet depths with everything you’ve got, sweat glossing your [pc.skinFurScales] and her own, soft inner flesh, sheer pleasure tightening up your muscles.");
 	output("\n\n<i>“Breed me,”</i> she snarls in your [pc.ear], arm hooked around your neck. <i>“Give me children born of alien stamina and honor, so I may have a dynasty that SHAKES this dying world!”</i>");
 	output("\n\nCertainly, you’re shaking something for her. You reach into her deep and orgasm in an unstoppable torrent, your [pc.cock " + x + "] twitching and then disgorging [pc.cum] in ecstatic blasts. ");
 	if(pc.hasKnot(x)) output("A breeding is what she wants, and a breeding is what she’s going to get. She whines and then huffs as you push your [pc.knot " + x + "] in, swelling up and stretching her plump entrance closed with your hard, bulging meat. ");
@@ -3040,7 +3040,7 @@ public function fuckAzrasCuntPussy1stTimeEverytime3(xx:int):void
 	//Tall - Describe frenching.
 	else
 	{
-		output("\n\nYou blink in surprise when Azra’s tongue slips across your [pc.lipsChaste]. The slithering muscles slide back and forth teasingly, warm and wet and promising a deeper, more debauched embrace. You give it what it wants by pursing your lips and leaning forward, feeling the curious muscle curl around inside your maw. More slithering shark packs in behind your [pc.teeth] as you finally make contact with Azra’s onyx-rimmed mouth and return the favor, plunging inside her in two locales instead of one.");
+		output("\n\nYou blink in surprise when Azra’s tongue slips across your [pc.lipsChaste]. The slithering muscles slide back and forth teasingly, warm and wet and promising a deeper, more debauched embrace. You give it what it wants by pursing your lips and leaning forward, feeling the curious muscle curl around inside your maw. More slithering shark packs in behind your teeth as you finally make contact with Azra’s onyx-rimmed mouth and return the favor, plunging inside her in two locales instead of one.");
 	}
 	//Merge
 	processTime(10);

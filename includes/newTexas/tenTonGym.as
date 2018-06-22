@@ -146,7 +146,7 @@ public function hardWorkout():void
 		shekkaGymmusInterruptus(false);
 		return;
 	}
-	output("\n\nOne of the bulls starts lifting at the bar next to you, and an impromptu contest begins, both of you lifting heavier and heavier weights as the other does. You grit your [pc.teeth] and push through it, determined to show the locals you’ve got what it takes.");
+	output("\n\nOne of the bulls starts lifting at the bar next to you, and an impromptu contest begins, both of you lifting heavier and heavier weights as the other does. You grit your teeth and push through it, determined to show the locals you’ve got what it takes.");
 	output("\n\nThe contest comes to an abrupt end when a cowgirl walks by and tickles the bull’s crotch, nearly making him drop the bar. He struggles to right his weight, and you do the same. It’s a strain to even sit up after that, but you nod to your worthy opponent, then head off to stretch out the soreness.");
 	output("\n\nYour muscles have become considerably more toned.");
 	// +3 muscle tone, +2 toward [Sore] debuff, +2 [Sweaty], -50 energy, Time: 30 minutes
@@ -1452,7 +1452,7 @@ public function simoneWorkoutGo(response:String = ""):void
 			output("You tell Simone to bring it on, trying to hide your smile. Better make this look convincing; she looks like she takes this seriously.");
 			output("\n\nYou lie down on another chest press machine, and set the weights on the fourth setting, as per Simone’s instructions. She says, <i>“Ready? Go!”</i> and you start lifting. You start off fast, to make it look like you’re going to burn yourself out quickly.");
 			output("\n\nBy the time you’ve increased the weight twice, you slow it down a little, and let out a grunt as you finish your reps. When you glance over at Simone, she looks like she’s plowing through this with ease. Perfect.");
-			output("\n\nWhen you have the weights stacked up to seven, you start breathing hard, and after adding the eighth weight, you struggle, straining against the bar to no avail. When Simone laughs, you look over, and see her raising her stack to the ninth weight. You force the bar up one last time, gritting your [pc.teeth] with a loud grunt, then let the bar slam down hard. The sound of metal on metal is just barely loud enough to cover your strained breathing.");
+			output("\n\nWhen you have the weights stacked up to seven, you start breathing hard, and after adding the eighth weight, you struggle, straining against the bar to no avail. When Simone laughs, you look over, and see her raising her stack to the ninth weight. You force the bar up one last time, gritting your teeth with a loud grunt, then let the bar slam down hard. The sound of metal on metal is just barely loud enough to cover your strained breathing.");
 			output("\n\nSimone hefts her way through her set of five, then adds the tenth weight and pushes through another set, just to ensure her victory. Once finished, she stands up with a hearty laugh, then steps over to your machine. <i>“Aww, [pc.name]. Is that all you’ve got?”</i>");
 			output("\n\nLooks like it. You shrug and laugh, trying to look like you really meant to win. Whether you fooled her or not, the glint in her eye makes it clear she’s taking her victor’s spoils.");
 			output("\n\n<i>“Oh, don’t get up,”</i> Simone says, and hooks one thumb into her pink shorts’ waistband. Her smirk returns. <i>“Just scoot down a little, so the bar’s out of the way. You’re not going anywhere.”</i>");
@@ -2602,4 +2602,4 @@ public function liftVoyeurism():void
 
 	clearMenu();
 	addButton(0,"Next",mainGameMenu);
-}
+}

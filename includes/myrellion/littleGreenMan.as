@@ -452,11 +452,11 @@ public function lirielButtSex(myrWomen:Boolean = false):void
 	// if (assIsTight):
 	else if (pc.ass.looseness() <= 1)
 	{
-		output("\n\nYou begin to feel the thick, bullet-shaped head of the buxom babe’s cock sliding against your rear entrance. It leaks profusely, wetting your [pc.asshole] even more as it begins to nose its way inside. You try to relax, but can’t help clenching your [pc.teeth] as you feel your anal ring being stretched across her fat cock. You");
+		output("\n\nYou begin to feel the thick, bullet-shaped head of the buxom babe’s cock sliding against your rear entrance. It leaks profusely, wetting your [pc.asshole] even more as it begins to nose its way inside. You try to relax, but can’t help clenching your teeth as you feel your anal ring being stretched across her fat cock. You");
 		if (pc.legCount > 1) output(" spread your [pc.legOrLegs] and");
 		output(" arch your back, doing anything you can to let that big dick into your [pc.asshole].");
 		output("\n\n<i>“It’s a little hard to get up in here,”</i> she says. Looking back, you watch Liriel pout for a second before saying, <i>“...but all things cum to those who take!”</i>");
-		output("\n\nHer first attempt to thrust into you is met with all the resistance your body can muster. You continue to grit your [pc.teeth] and groan as your body is assaulted by an army of sensations ranging from euphoria to ecstasy. She strains to submerge the full length of her cock into you before wiggling the big green monster around, stirring your guts as she finally fully pentrates you down to the hilt. She keeps doing this until your ass properly relaxes and she can take things up a notch.");
+		output("\n\nHer first attempt to thrust into you is met with all the resistance your body can muster. You continue to grit your teeth and groan as your body is assaulted by an army of sensations ranging from euphoria to ecstasy. She strains to submerge the full length of her cock into you before wiggling the big green monster around, stirring your guts as she finally fully pentrates you down to the hilt. She keeps doing this until your ass properly relaxes and she can take things up a notch.");
 		output("\n\nAnd take things up a notch she does.");
 	}
 	// if (assIsMedium)
@@ -493,7 +493,7 @@ public function lirielButtSex(myrWomen:Boolean = false):void
 			output(" expel");
 			if (pc.cockTotal() == 1) output("s");
 			output(" [pc.cum], painting a small portion of mushroom and your stomach [pc.cumColor].");
-			output("\n\nYou clench your [pc.teeth] as she fucks your spasming hole at top speed, taking full advantage of your orgasm to increase her own pleasure.");
+			output("\n\nYou clench your teeth as she fucks your spasming hole at top speed, taking full advantage of your orgasm to increase her own pleasure.");
 		}
 		// if (cumHigh)
 		else if (pc.cumQ() < 500)
@@ -502,7 +502,7 @@ public function lirielButtSex(myrWomen:Boolean = false):void
 			if (pc.cockTotal() == 1) output(" is");
 			else output("s are");
 			output(" creating.");
-			output("\n\nYou clench your [pc.teeth] as she fucks your still spasming hole at top speed, taking full advantage of your orgasm to increase her own pleasure.");
+			output("\n\nYou clench your teeth as she fucks your still spasming hole at top speed, taking full advantage of your orgasm to increase her own pleasure.");
 		}
 		// if (cumVeryHigh)
 		else if (pc.cumQ() < 5000)

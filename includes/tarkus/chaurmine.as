@@ -1086,7 +1086,7 @@ public function intimateCatchChaurmine():void
 	//pcIsAnalOrVagVirgin:
 	if((x < 0 && pc.analVirgin) || (x >= 0 && pc.vaginalVirgin))
 	{
-		output("\n\nYou give a hoarse grunt and clench your [pc.teeth] together, your tender walls writhing and wreathing the titan’s tip as he momentarily fights for more ground. He stops when he can’t make any progress, growling in pained pleasure at the tight grip.");
+		output("\n\nYou give a hoarse grunt and clench your teeth together, your tender walls writhing and wreathing the titan’s tip as he momentarily fights for more ground. He stops when he can’t make any progress, growling in pained pleasure at the tight grip.");
 		output("\n\n<i>“[pc.name], breathe,”</i> his words gladly obeyed as you let out a strained gasp, chest heaving as you try to accommodate the obscenely thick insertion, <i>“Fff-fuckin’, damn [pc.name], am I the first one in here?”</i>");
 		if(pc.isMischievous()) output("\n\n<i>“Why? Are you- is it in yet?”</i> you struggle to ask with a level voice, let alone a straight face");
 		else output("\n\nYou moan as his bulging penis flexes, before nodding, your face blushing");
@@ -1877,4 +1877,4 @@ public function dislikeChaurmine():void
 	flags["CHAURMINE_LOVER"] = -1;
 	clearMenu();
 	addButton(0,"Next",mainGameMenu);
-}
+}

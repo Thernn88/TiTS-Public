@@ -317,7 +317,7 @@ public function akaneShootMe():void
 	output("\n\nYou nod of course, having already made up your mind. 100%, this is exactly what you want. Yep.");
 	output("\n\nNo regrets.");
 	output("\n\n<i>“Fine. Cheo? Clean shot,”</i> she commands, a rough hand gripping you by the back of the head.");
-	output("\n\nWith clenched [pc.teeth], you bear it all as the whine of a laser powering up clouds your ears.");
+	output("\n\nWith clenched teeth, you bear it all as the whine of a laser powering up clouds your ears.");
 	output("\n\nYou regret everything.");
 	output("\n\n<i>PHHHHIIIIII-</i>");
 	output("\n\n...");
@@ -798,7 +798,7 @@ public function akaneShockMeAgainRegularly():void
 	output("<i>“Can we do it like the first time...?”</i> you pipe up, your gaze getting ensnared in her dark-eyed stare.");
 	if (flags["AKANE_TIMES_SHOCKED"] == undefined)
 	{
-		output("\n\n<i>“Ahhhh, I see you’ve got a taste for it already, hmmm?”</i> teases the mob boss, her thumb massaging your [pc.skinFurScales] with slow and soft motions. The smooth metal glides over the surface and leaves a residual sting. You grit your [pc.teeth] and inhale as the sting takes a few seconds to subside, the dissipation turning into warmth and soothed nerves. You feel a gasp rise up through your throat...");
+		output("\n\n<i>“Ahhhh, I see you’ve got a taste for it already, hmmm?”</i> teases the mob boss, her thumb massaging your [pc.skinFurScales] with slow and soft motions. The smooth metal glides over the surface and leaves a residual sting. You grit your teeth and inhale as the sting takes a few seconds to subside, the dissipation turning into warmth and soothed nerves. You feel a gasp rise up through your throat...");
 		output("\n\n<i>“..aah....hh!”</i>");
 		output("\n\nAkane giggles deliriously as her fingers manipulate your flesh, her other hand pointing to <i>that</i> room.");
 		output("\n\n<i>“Let’s get you what you need, you poor " + pc.mf("boy", "girl") +". Some tender, loving care, ”</i> she says breathily, excitement coloring every part of her. <i>“Go on then...”</i>");
@@ -1030,7 +1030,7 @@ public function akanePlsWhipMe():void
 	
 	output("\n\n<i>Wuh-<b>TSSCH!</b></i>");
 	output("\n\nIn that instant, an impossibly sharp pain and a piercing whipsnap breaks across your back and in your ears. You lurch forward in your bonds as the force, shock and speed takes your body by surprise. ");
-	output(painslutornot("Y - yes... another! MORE!\nYou almost orgasm on the spot", "Fuuuckkk..!\nYou grunt through your [pc.teeth]"));
+	output(painslutornot("Y - yes... another! MORE!\nYou almost orgasm on the spot", "Fuuuckkk..!\nYou grunt through your teeth"));
 	output(" as the split-second of contact takes a moment to sink in. A reflexive inhale stifles your reaction: ");
 	output(painslutornot("can’t give in now, it’s only just started!\n\n<i>“Oh come now, don’t make it easy for me, precious,”</i>", "gotta be strong, it wasn’t that b-bad, you can take... more!\n\n<i>“There there, that was just a love tap,”</i>"));
 	output(" chides Akane, the sounds of coiling leather coming from behind.");
@@ -1116,7 +1116,7 @@ public function akaneMyWhippingWillGoOn():void
 	}
 	else if (flags["AKANE_TIMES_WHIPPED"] == 1)
 	{
-		output("\n\nYou yell out in garbled syllables as that last hit breaks something within you. You can feel it grow and settle within: a hot, burning ache that doubles down on your whip wounds. The sensation makes your eyes stream with moisture: the pain is just too much to hold back against. You find yourself gritting your [pc.teeth] as all that building catharsis gives way to physical distress. So close to breaking through...");
+		output("\n\nYou yell out in garbled syllables as that last hit breaks something within you. You can feel it grow and settle within: a hot, burning ache that doubles down on your whip wounds. The sensation makes your eyes stream with moisture: the pain is just too much to hold back against. You find yourself gritting your teeth as all that building catharsis gives way to physical distress. So close to breaking through...");
 		output("\n\n<i>“I think that’s enough for you, precious. Uh, Cheo, the um... you know, thing,”</i> you hear Akane say from behind, pausing as she tries to think of the right word.");
 		output("\n\nOnce again, a cold and wet sensation dribbles from your collarbones down your back, the cool infusion turning your patchwork of lash marks into a pleasant mesh of dull aches.");
 		output("\n\nAkane approaches from your side, her hands moving to rest under your jaw.");
@@ -1265,7 +1265,7 @@ public function akanePleaseComeAgain():void
 		if (pc.hasVaginas()) output("then comes another, similar pressure to your other pussy. [pc.eachVagina] gets the same treament, the smoothly inserted toys exciting your nerves to no end. ");
 	}
 	
-	output("One extra pressure pushes in between your [pc.ass] and butts against your [pc.asshole]. You wince and whine as you understand what’s going to happen next, that thought blurred out as your teased hole is painfully parted. You find yourself gritting your [pc.teeth] as the object get’s ever so slightly wider the further it’s pushed in! With an uncomfortable, final shunt");
+	output("One extra pressure pushes in between your [pc.ass] and butts against your [pc.asshole]. You wince and whine as you understand what’s going to happen next, that thought blurred out as your teased hole is painfully parted. You find yourself gritting your teeth as the object get’s ever so slightly wider the further it’s pushed in! With an uncomfortable, final shunt");
 	if (pc.hasCock()) output(", and your prostate now firmly pressed in by the dildo");
 	output(", the faux-shaft gets lodged in.\n\n");
 	
@@ -1323,7 +1323,7 @@ public function akaneAgainAndAgainAndAgainAndAgain():void
 
 	if (flags["AKANE_TIMES_FORCED"] == undefined)
 	{
-		output("\n\nYou can’t help but continuously whine in submission as this new sensation takes over you, punctuated by sharp inhalations through gritted [pc.teeth]. What feels like a flame borne out of your bones takes over every joint and muscle as they lock up from this intense fusion of euphoria and agony.");
+		output("\n\nYou can’t help but continuously whine in submission as this new sensation takes over you, punctuated by sharp inhalations through gritted teeth. What feels like a flame borne out of your bones takes over every joint and muscle as they lock up from this intense fusion of euphoria and agony.");
 		output("\n\n<i>“Aw, now now, we’ve barely even begun,”</i> calls out a calm Akane over your bleating, her face overcome by a wide-eyed and blank stare.");
 		output("\n\n<i>More...?!</i>");
 	}
@@ -1356,7 +1356,7 @@ public function akaneItsOverWaitNoItIsnt():void
 	//Damage in Creature.orgasm;
 	else pc.createStatusEffect("Sore Tubes", 0, 0, 0, 0, false, akaneSoreIcon, "Orgasms damage you!", false, 3*24*60, UIStyleSettings.gStatusBadColour);
 	
-	output("All at once, everything reaches its peak; from the pain of tension to the euphoria of release, you clench your [pc.teeth] and scream out. ");
+	output("All at once, everything reaches its peak; from the pain of tension to the euphoria of release, you clench your teeth and scream out. ");
 	if (pc.hasCock()) output("[pc.eachCockHead] erupt" + (pc.hasCocks() ? " with hot [pc.cum]! It pulses out of each" : "s with hot [pc.cum]! It pulses out of your") + " shaft in random directions, landing with audible splatters on you and around you. With a quick foot, Akane uses the arch of her heel to bend the pulsing shaft" + (pc.hasCocks() ? "s" : "") + " towards the grate beneath you. ");
 	if (pc.hasVagina()) output("[pc.eachVagina] grip" + (pc.hasVaginas() ? " and squeeze at the probes" : "s and squeezes at the probe") + " buried within, [pc.girlCum] " + (pc.isSquirter() ? "spurting" : "oozing") + " out of the tight seal" + (pc.hasVaginas() ? "s" : "") + " and all over the floor.");
 

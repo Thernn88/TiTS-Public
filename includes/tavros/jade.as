@@ -161,7 +161,6 @@ public function jadeStoreSetup():void
 	chars["JADE"].inventory.push(new RedPandaPro());
 	chars["JADE"].inventory.push(new SharkBites());
 	chars["JADE"].inventory.push(new Swineapple());
-	chars["JADE"].inventory.push(new Vyspidin());
 	//Nice, neat inventory complete :3
 	
 	//itemScreen = mainGameMenu;
@@ -1257,7 +1256,7 @@ public function eatMuffDumplings():void
 	if(chars["JADE"].breastRows[0].nippleType == GLOBAL.NIPPLE_TYPE_TENTACLED) output("nipples");
 	else output("breasts");
 	output(" as she coos and moans from the fun going on downstairs. She holds you like this for a while, passing dumplings from her lips to yours as she basks in the euphoria.");
-	output("\n\nEventually though, the stimulation from each serving of sweetness adds up, her moans becoming more audible as she finds herself on the precipice of climax. Noticing this, you decide to pass up on the dumplings, instead choosing to tongue her clit. You suck on her nub, gently bite it, and even grind it in between your [pc.teeth], careful not to cause more pain than pleasure. In due time your hard work pays off as you push her over the edge.");
+	output("\n\nEventually though, the stimulation from each serving of sweetness adds up, her moans becoming more audible as she finds herself on the precipice of climax. Noticing this, you decide to pass up on the dumplings, instead choosing to tongue her clit. You suck on her nub, gently bite it, and even grind it in between your teeth, careful not to cause more pain than pleasure. In due time your hard work pays off as you push her over the edge.");
 	output("\n\nHer body quakes and quivers, her cries suppressed by your new pair of thigh shaped earmuffs. She lets go of your head and moves her hands to her ");
 	if(chars["JADE"].breastRows[0].nippleType == GLOBAL.NIPPLE_TYPE_TENTACLED) output("nipples");
 	else output("breasts");
@@ -1281,4 +1280,4 @@ public function eatMuffDumplings():void
 	pc.lust(30+rand(11));
 	clearMenu();
 	addButton(0,"Next",move,rooms[currentLocation].eastExit);
-}
+}

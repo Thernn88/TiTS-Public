@@ -2421,7 +2421,7 @@ public function vanaeMaidenPCDefeatTakeVirginity():void
 		output(". All you can think of right now is getting off.");
 	}
 
-	output("\n\nAs you seize one of her [enemy.nipples] between your [pc.teeth], she gives a startled little jump. You suck on it and flick her tip with your tongue. Soon she is letting out a low moan as you roll her bud around in your mouth, teasing it to stiffness.");
+	output("\n\nAs you seize one of her [enemy.nipples] between your teeth, she gives a startled little jump. You suck on it and flick her tip with your tongue. Soon she is letting out a low moan as you roll her bud around in your mouth, teasing it to stiffness.");
 
 	output("\n\nThe floral aroma of her [enemy.skin] fills your nostrils, innocently accompanied by the sweet scent of her arousal. After a while of nipple play you’re fairly sure she’s wet, and tell her it’s okay to proceed.");
 

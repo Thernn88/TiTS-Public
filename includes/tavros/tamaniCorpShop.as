@@ -775,7 +775,7 @@ public function lerrisSuckleMilky69():void
 	
 	output("\n\n<i>“W-wait for me,”</i> Lerris breathes, bucking her hips against your hand. <i>“Wait for me!”</i>");
 	
-	output("\n\nOh, damn. You grit your [pc.teeth] between suckles, clenching down");
+	output("\n\nOh, damn. You grit your teeth between suckles, clenching down");
 	if (!pc.hasCock()) output(" around Lerris’s fingers");
 	else output(" in her grasp");
 	output(" to try and hold yourself back. Even as she’s begging you to keep yourself for her, Lerris’s fingers never let up. The tension in your loins burns, and your vision becomes a blurry haze, consumed by visions of bouncy kitty-titty and wasted [lerris.milk]. You moan with lust, gasping for breath as her [lerris.milk] floods your mouth in a sweet, sweet downpour.");
