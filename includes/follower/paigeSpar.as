@@ -157,7 +157,7 @@ public function paigeSparAction(arg:Number = 1):void
 			}
 			else if(paigeMove == 2)
 			{
-				output("Her hand rushes in and up, coming in low, for a devastating uppercut to your exposed jaw. Your teeth crunch together in the blow, and the shock rattles your whole head.");
+				output("Her hand rushes in and up, coming in low, for a devastating uppercut to your exposed jaw. your [pc.teeth] crunch together in the blow, and the shock rattles your whole head.");
 			}
 			else output("Her fist comes in from the side, catching you completely off guard. Ouch!");
 			pc.addStatusValue("PAIGE_SPAR",2,-1);
@@ -428,7 +428,7 @@ public function FFLV():void
 		output("\n\nThe talk is as much for her benefit as it is for you, and the ideas she’s been sharing with you have had an effect on her performance: her hips jackhammer you into the floor, taking all the pleasure she can for herself from you at ferocious, greedy speeds. She licks you again. <i>“Maybe I can start. And you’d be my alpha bottom bitch; my number-one go-to for a hot pot to jill off with. Would you like that?”</i> You don’t want to admit anything with words, but you whimper as your orgasm approaches. <i>“Let me show you how much that idea turns me on, too.”</i>");
 		output("\n\nWith a few more humps, she takes a sharp breath and holds still. You feel her body tighten on top of you, followed by a low groan, followed by a particular gushing of her fluids onto your ");
 		if(pc.hasVagina()) output("[pc.vagina], her juices overflowing yours as she marks you. Your own flows from you in response to your dominator’s unspoken command: your [pc.girlCum] squirts from you in waves, the liquids mixing into a unique tonic of [pc.race] and Ausar girl-cum, soaking you both to the bone. When you think Paige is done, she convulses again, intent on making sure you don’t cum more than she does, until she’s got nothing left to squirt with");
-		else output("pelvis, her juices overflowing as she marks you. You feel intensely frustrated, unable to join her orgasmic state: you clench your hands and your teeth in agony as Paige paints your legs with her Ausar liquids, and you’re helpless to vent your own lust for your dominator in kind. On top of everything – losing the fight; being forced to remain still as Paige fucks you; and your ever-mounting lust with no outlet – being unable to obey to Paige’s unspoken command to cum with her has you feel lame as a submissive");
+		else output("pelvis, her juices overflowing as she marks you. You feel intensely frustrated, unable to join her orgasmic state: you clench your hands and your [pc.teeth] in agony as Paige paints your legs with her Ausar liquids, and you’re helpless to vent your own lust for your dominator in kind. On top of everything – losing the fight; being forced to remain still as Paige fucks you; and your ever-mounting lust with no outlet – being unable to obey to Paige’s unspoken command to cum with her has you feel lame as a submissive");
 		output(".");
 		pc.applyCumSoaked();
 	}
@@ -490,7 +490,7 @@ public function FFLA():void
 
 	output("\n\n<i>“But the good Gods probably shouldn’t have made taking it up the butt so much fun! Maybe it’s because it’s so wrong? Maybe it’s because my ass is one of my sexier assets? Whatever the case, I’m getting about the same results. What do you think?”</i>");
 
-	output("\n\nYou can’t muster any sort of reply, focused too much on taking her punishment. <i>“That’s what I thought, [pc.name].”</i> Paige breathes calmly through her nose as she fucks you; you wince through clenched teeth as you take it. Paige’s hips move fluidly and with a sort of grace that only a yoga master could achieve with something in their butt; the few times you find pleasure between her ruthless pounding is insulted by your agitated body fidgeting helplessly beneath you.");
+	output("\n\nYou can’t muster any sort of reply, focused too much on taking her punishment. <i>“That’s what I thought, [pc.name].”</i> Paige breathes calmly through her nose as she fucks you; you wince through clenched [pc.teeth] as you take it. Paige’s hips move fluidly and with a sort of grace that only a yoga master could achieve with something in their butt; the few times you find pleasure between her ruthless pounding is insulted by your agitated body fidgeting helplessly beneath you.");
 
 	output("\n\nYou attempt to involve yourself in the sex a bit, raising your hands to grab onto something of hers: a thick globe of ass, or a strong thigh, or a bouncy boob. But Paige angrily slaps your hands away each time you try and punishes you by squatting on you and clenching even harder, somehow. <i>“Don’t go getting comfortable on me, now,”</i> she taunts. <i>“When you win, you get to touch whatever you want, [pc.name], but until then, you’re</i> my <i>bitch, useful for nothing but a good reaming, got me?”</i>");
 
@@ -1188,7 +1188,7 @@ public function FFWVOH(args:Array):void
 	else if(pc.hasVagina()) output("Your [pc.vagina] dominates her poor quim, slapping against her and bruising it and her powerful hips with every collision; you thrust high enough against her that you’re practically fucking her belly, and on the downswing, you bounce low enough to shake the floor");
 	output(". Paige’s hands grip onto you tightly and she moans out, incapable of doing anything more.");
 
-	output("\n\n<i>“You like... when I’m on top... do you?”</i> you ask her, stuttering between thrusts. You clench your teeth so that you don’t accidentally bite into your [pc.tongue] during your rocky motions. <i>“Maybe that’s wrong. Maybe... you like losing? You like... being the bottom</i> bitch?!”</i>");
+	output("\n\n<i>“You like... when I’m on top... do you?”</i> you ask her, stuttering between thrusts. You clench your [pc.teeth] so that you don’t accidentally bite into your [pc.tongue] during your rocky motions. <i>“Maybe that’s wrong. Maybe... you like losing? You like... being the bottom</i> bitch?!”</i>");
 
 	output("\n\nPaige exclaims her pleasure to the room, surrendering herself, mind and body, to your onslaught. When she breathes, it’s with long inhales and broken exhales. Her body clenches around you, from her shoulders to her ");
 	if(x >= 0) output("tight pussy, eager and greedy for every single drop you can give it");
@@ -1237,7 +1237,7 @@ public function FFWVDC(args:Array):void
 		if(pc.balls > 0) output("r [pc.balls], coinciding with the wet slapping they make against her ass on every thrust");
 	}
 	else if(pc.hasVagina()) output("the building rush of an orgasm puffing your [pc.vagina], ready to douse your Ausar beneath you");
-	output(". You lean forward, removing one hand from a boob and replacing it with your [pc.lips], suckling on the nipple hidden beneath her short fur, nibbling it gently with your front teeth even as you pound into Paige down below.");
+	output(". You lean forward, removing one hand from a boob and replacing it with your [pc.lips], suckling on the nipple hidden beneath her short fur, nibbling it gently with your front [pc.teeth] even as you pound into Paige down below.");
 
 	output("\n\nPaige’s noises rise in pitch every second thrust, until her moans become yips and then barely-restrained shouts. You feel her body tense, and then a blast of warm liquid coats your [pc.crotch], proving to you just how much she’s appreciating the careless attitude of yours; how she, from time to time, enjoys being the inferior to someone like yourself. Maybe she even threw the match between you two.");
 
@@ -1544,4 +1544,4 @@ public function FFWAE(args:Array):void
 	output("\n\n");
 	clearMenu();
 	addButton(0,"Next",paigeExitWrapper);
-}
+}

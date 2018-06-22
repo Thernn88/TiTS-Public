@@ -968,7 +968,7 @@ public function FTDN3(args:Array):void
 	output("\n\n<i>“I don’t think I’ll last much longer,”</i> she laughs nervously. <i>“God again, I feel like it’s my first time all over, going only a few minutes.”</i>");
 	output("\n\n<i>“Who says we’ll only be doing this once?”</i> you ask her. She laughs again, though this one was more of an exhalation: she’s very close. <i>“Don’t hold back on my account. We’ll do this as many times as it takes, Paige.”</i>");
 	output("\n\n<i>“You know just what to say,”</i> she whispers. Her grip on your hand tightens. <i>“But I don’t want to finish without you.”</i>");
-	output("\n\nYou push your [pc.hips] up for emphasis as you tell her, through gritted teeth, <i>“you won’t have to worry about that.”</i>");
+	output("\n\nYou push your [pc.hips] up for emphasis as you tell her, through gritted [pc.teeth], <i>“you won’t have to worry about that.”</i>");
 	output("\n\nHer body quakes at the news and she rocks atop you once, twice, and a third time, before her body stiffens. You only need one or two more yourself, and then...");
 
 	processTime(5);
@@ -1071,7 +1071,7 @@ public function FT69E(args:Array):void
 	clearOutput();
 	showPaige(true);
 	args.push("FT69E");
-	output("Paige’s hips stiffen and her muscles, from her abs to her rump and all the way down to her calves, become taut. Paige whines once, loudly, and you feel her explode into your mouth: her pussy convulses against your [pc.lips], squirting Paige’s distinct femcum across your tongue and down into your waiting, thirsty maw. Her clear, salty honey coats your teeth and your cheeks, and you let it, before you willingly swallow – and yet she’s not done, squirting again.");
+	output("Paige’s hips stiffen and her muscles, from her abs to her rump and all the way down to her calves, become taut. Paige whines once, loudly, and you feel her explode into your mouth: her pussy convulses against your [pc.lips], squirting Paige’s distinct femcum across your tongue and down into your waiting, thirsty maw. Her clear, salty honey coats your [pc.teeth] and your cheeks, and you let it, before you willingly swallow – and yet she’s not done, squirting again.");
 
 	// Continue here if the PC is male or herm
 	if(pc.hasCock())
@@ -1578,7 +1578,7 @@ public function SSVCh(args:Array):void
 {
 	clearOutput();
 	showPaige(true);
-	output("You sit up with Paige, your face flush with her mounds. You kind of like the new, active direction the sex has gone, and it emboldens you to try something a little riskier. You wrap your arms around her body, keeping her close, then open wide and latch onto a tit – teeth included.");
+	output("You sit up with Paige, your face flush with her mounds. You kind of like the new, active direction the sex has gone, and it emboldens you to try something a little riskier. You wrap your arms around her body, keeping her close, then open wide and latch onto a tit – [pc.teeth] included.");
 	output("\n\nYou don’t bite, of course; you’re careful to not be forceful enough to damage the goods, but you’re just intense enough. The sharp electric sensation causes Paige to jolt upright, breathing sharply through her nose. <i>“That’s a new one,”</i> she says. You release your jaw, but not your [pc.lips], then clamp down again, your tongue slathering across her nipple each time.");
 	output("\n\n<i>“Little gentler,”</i> she instructs, and you comply. <i>“Too gentle,”</i> she admonishes, and you comply. It’s a difficult balance! <i>“Now the other one.”</i> You release her boob and move to the other, biting into it. You catch a glimpse of the damage you’ve done to her first: enough to indent her fur and irritate the skin, but not enough to leave a mark.");
 	output("\n\n<i>“Little harder!”</i> she shouts – which you’d love to do, but her increased bouncing and excitement is making it difficult to strike that balance. Paige’s breathing has increased and her pitch is rising, and, although you can hear her wince when you chew just a little too hard, she’s not telling you to stop. <i>“Fuck, I’m nearly there!”</i> she shouts.");
@@ -1912,7 +1912,7 @@ public function SSVAG(args:Array):void
 	{
 		output("You know exactly when to take an opportunity when you see one. ");
 		//if {SSVCh}
-		if(InCollection("SSVCh", args)) output("The girls are going to feel that in the morning – but they wouldn’t mind feeling it a whole lot more.”</i> You grin exaggeratingly, showing off your teeth and give them a quick gloss with your tongue. <i>“Not too rough, and just rough enough,”</i> she says, rubbing her tit with her free hand where you bit her. <i>“You have some really impressive control.”</i>");
+		if (InCollection("SSVCh", args)) output("The girls are going to feel that in the morning – but they wouldn’t mind feeling it a whole lot more.”</i> You grin exaggeratingly, showing off your [pc.teeth] and give them a quick gloss with your tongue. <i>“Not too rough, and just rough enough,”</i> she says, rubbing her tit with her free hand where you bit her. <i>“You have some really impressive control.”</i>");
 		//if {SSVAP}
 		if(InCollection("SSVAP", args)) output("I liked what you did at the end, too. Don’t be afraid to twist me around,”</i> she winks. <i>“All those years doing yoga, a weird position like that isn’t going to hurt me at all.”</i> Her hand reaches out to yours, interlocking your fingers again. <i>“If you’re the top, you do</i> whatever <i>you want. I’m all yours, sweet thing.”</i>");
 		//if {SSVG}
@@ -4678,4 +4678,4 @@ public function SSR():void
 	addButton(0,"Embrace Her",FTEH1,args);
 	addButton(1,"Grab Her Ass",FTGHA1,args);
 	addButton(2,"Do Nothing",FTDN1,args);
-}
+}
