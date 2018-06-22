@@ -135,12 +135,9 @@ public function statisticsScreen(showID:String = "All"):void
 		else output2(" None");
 		if(pc.hasAntennae()) output2("\n<b>* Antennae:</b> " + pc.antennae + ", " + GLOBAL.TYPE_NAMES[pc.antennaeType]);
 		output2("\n<b>* Ears:</b>");
-		if(pc.earType!=GLOBAL.TYPE_VYSP)
-			{	
-				if(pc.hasLongEars()) output2(" " + prettifyLength(pc.earLength) + ",");
-				output2(" " + GLOBAL.TYPE_NAMES[pc.earType]);
-				if(pc.earsPierced != 0) output2("\n<b>* Ear Piercing:</b> " + pc.earsPierced + " " + StringUtil.toDisplayCase(pc.earsPShort));
-			}
+		if(pc.hasLongEars()) output2(" " + prettifyLength(pc.earLength) + ",");
+		output2(" " + GLOBAL.TYPE_NAMES[pc.earType]);
+		if(pc.earsPierced != 0) output2("\n<b>* Ear Piercing:</b> " + pc.earsPierced + " " + StringUtil.toDisplayCase(pc.earsPShort));
 		output2("\n<b>* Eyes:</b>");
 		if(pc.eyeColor != "") output2(" " + StringUtil.toDisplayCase(pc.eyeColor) + ",");
 		output2(" " + GLOBAL.TYPE_NAMES[pc.eyeType]);
@@ -542,19 +539,12 @@ public function statisticsScreen(showID:String = "All"):void
 		}
 		if(pc.hasOvipositor())
 		{
-			if(pc.hasOvipositor())
-		{
 			output2("\n<b><u>Ovipositor Organs</u></b>");
 			output2("\n<b>* Total Count:</b> " + pc.totalOvipositors());
-			if(pc.statusEffectv1("Nyrea Eggs") > 0&&pc.cumType==GLOBAL.FLUID_TYPE_NYREA_CUM) output2("\n<b>* Fertility, Nyrean Eggs, Total:</b> " + pc.statusEffectv1("Nyrea Eggs"));
-			else if(pc.statusEffectv1("Vysp Royal") > 0&&pc.tailType==GLOBAL.TYPE_VYSP) output2("\n<b>* Fertility, Vysp Eggs, Total:</b> " + pc.statusEffectv1("Vysp Royal"));
-			else
-			{
-				if(pc.eggCount() > 0) output2("\n<b>* Fertility, Ovipositor Eggs, Total:</b> " + pc.eggCount());
-				if(pc.eggCount(-1) > 0) output2("\n<b>* Fertility, Ovipositor Eggs, Unfertilized, Total:</b> " + pc.eggCount(-1));
-				if(pc.eggCount(1) > 0) output2("\n<b>* Fertility, Ovipositor Eggs, Fertilized, Total:</b> " + pc.eggCount(1));
-			}
-		}
+			if(pc.eggCount() > 0) output2("\n<b>* Fertility, Ovipositor Eggs, Total:</b> " + pc.eggCount());
+			if(pc.eggCount(-1) > 0) output2("\n<b>* Fertility, Ovipositor Eggs, Unfertilized, Total:</b> " + pc.eggCount(-1));
+			if(pc.eggCount(1) > 0) output2("\n<b>* Fertility, Ovipositor Eggs, Fertilized, Total:</b> " + pc.eggCount(1));
+			if(pc.statusEffectv1("Nyrea Eggs") > 0) output2("\n<b>* Fertility, Nyrean Eggs, Total:</b> " + pc.statusEffectv1("Nyrea Eggs"));
 		}
 		
 		// Belly
@@ -1150,8 +1140,6 @@ public function statisticsScreen(showID:String = "All"):void
 					output2("\n<b>* Sired, Sam’s Children:</b> " + StatTracking.getStat("pregnancy/sam sired"));
 				if(StatTracking.getStat("pregnancy/sera sired") > 0)
 					output2("\n<b>* Sired, Sera’s Children:</b> " + StatTracking.getStat("pregnancy/sera sired"));
-				if(StatTracking.getStat("pregnancy/Stella children sired/total") > 0)
-					output2("\n<b>* Sired, Stella’s Children:</b> " + StatTracking.getStat("pregnancy/Stella children sired/total"));	
 				if(StatTracking.getStat("pregnancy/tam sired") > 0)
 					output2("\n<b>* Sired, Tam’s Children:</b> " + StatTracking.getStat("pregnancy/tam sired"));
 				if(StatTracking.getStat("pregnancy/ula sired") > 0)
@@ -5144,25 +5132,8 @@ public function displayEncounterLog(showID:String = "All"):void
 					if(flags["SEXED_VERUSHA"] != undefined) output2("\n<b>* Verusha, Times Sexed:</b> " + flags["SEXED_VERUSHA"]);
 					if(flags["VERUSHA_ORALED"] != undefined) output2("\n<b>* Verusha, Times You Sucked Her Cock:</b> " + flags["VERUSHA_ORALED"]);
 				}
-								
 				// Unknown waitress
-				if (flags["HAS_ORDERED_FOOD_AT_THE_MESS"] != undefined) output2("\n<b>* Waitress:</b> Ordered food from her, Food never received");
-				// Tessa
-				if(flags["TESSA_MET"] != undefined)
-				{
-					output2("\n<b><u>Tessa,the White Woman</u></b>");
-					output2("\n<b>* Tessa:</b> Met her");
-					if(flags["TESSA_TRUST"] != undefined) output2("\n<b>* Tessa, Trust:</b> " + flags["TESSA_TRUST"] + " %");
-					if(flags["TESSA_SENSEPLAY"] != undefined) output2("\n<b>* Tessa, Times Experienced Senseplay:</b> " + flags["TESSA_SENSEPLAY"]);
-					if(flags["TESSA_FJ_MALE"] != undefined) output2("\n<b>* Tessa, Times Experienced Male Footjob:</b> " + flags["TESSA_FJ_MALE"]);
-					if(flags["TESSA_FJ_FEMALE"] != undefined) output2("\n<b>* Tessa, Times Experienced Female Footjob:</b> " + flags["TESSA_FJ_FEMALE"]);
-					if(flags["TESSA_GONEDOWN"] != undefined) output2("\n<b>* Tessa, Times You've Gone Down on Tessa:</b> " + flags["TESSA_GONEDOWN"]);
-					if(flags["TESSA_BJS"] != undefined) output2("\n<b>* Tessa, Times She Sucked You Off:</b> " + flags["TESSA_BJS"]);
-					if(flags["TESSA_LICKS"] != undefined) output2("\n<b>* Tessa, Times She Licked You Off :</b> " + flags["TESSA_LICKS"]);
-					if(flags["TESSA_BREASTPLAY"] != undefined) output2("\n<b>* Tessa, Times She Played With Your Breasts:</b> " + flags["TESSA_BREASTPLAY"]);
-					if(flags["TESSA_SHOWER"] != undefined) output2("\n<b>* Tessa, Times You Showered With Tessa:</b> " + flags["TESSA_SHOWER"]);
-				}
-				
+				if(flags["HAS_ORDERED_FOOD_AT_THE_MESS"] != undefined) output2("\n<b>* Waitress:</b> Ordered food from her, Food never received");
 				variousCount++;
 			}
 			// Anno
