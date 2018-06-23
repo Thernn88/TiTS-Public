@@ -340,7 +340,16 @@
 					}
 				}else output("\n\n" + target.skinTypeLockedMessage());
 				
-					
+				if (target.tallness > 96)
+				{
+					target.tallness = 72;
+					output("\n\n<b>The ground suddenly looms closer and you realize you've shrunk!</b>"); 
+				}
+				if (target.tallness < 72)
+				{
+					target.tallness = 72;
+					output("\n\n<b>The ground suddenly seems much farther away and you realize you've grown!</b>");					
+				}
 							
 				//Eye Transformation
 				if(target.eyeTypeUnlocked(GLOBAL.TYPE_VYSP))
