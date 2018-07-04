@@ -160,6 +160,7 @@
 		include "../includes/events/pexigaQuest/pexigaQuest.as";
 		include "../includes/events/pexigaQuest/follower.pexiga.as";
 		include "../includes/events/plantationQuest/plantationQuestMain.as";
+		include "../includes/events/plantationQuest/plantationQuestXPack1.as";
 		include "../includes/events/spaceYakuza/spaceYakuza.as";
 		include "../includes/events/spaceYakuza/akaneQuest.as";
 
@@ -199,6 +200,9 @@
 		include "../includes/travelEvents/fallOfThePhoenix.as";
 		include "../includes/travelEvents/kiro.as";
 		include "../includes/travelEvents/kiroRescue.as";
+		include "../includes/travelEvents/shizuya.as";
+		include "../includes/travelEvents/shizuyaGreatMajin.as";
+		include "../includes/travelEvents/shizuyaGreatMajinFunctions.as";
 
 		//Tavros Station
 		include "../includes/tavros/akane.as";
@@ -394,8 +398,11 @@
 		include "../includes/myrellion/xenogenbiotech.as";
 
 		//FIFTH PLANET: ZHENG SHI
+		include "../includes/zhengShiStation/boredJumper.as";
+		include "../includes/zhengShiStation/maike.as";
 		include "../includes/zhengShiStation/rooms.as";
 		include "../includes/zhengShiStation/roomFunctions.as";
+		include "../includes/zhengShiStation/rozPowerGoo.as";
 		include "../includes/zhengShiStation/tivf.as";
 		include "../includes/zhengShiStation/urbolg.as";
 		
@@ -567,7 +574,7 @@
 
 			trace("TiTS Constructor")
 
-			version = "0.7.179";
+			version = "0.7.189";
 
 			//temporary nonsense variables.
 			temp = 0;
@@ -622,6 +629,7 @@
 			initVesperiaRoom();
 			initBreedwellRooms();
 			fqInitRooms();
+			initGreatMajinRooms();
 			
 			mapper = new Mapper(this.rooms)
 
@@ -1624,6 +1632,10 @@
 		public function get frostwyrm():Frostwyrm
 		{
 			return chars["FROSTWYRM"];
+		}
+		public function get lah():RKLah
+		{
+			return chars["LAH"];
 		}
 
 		public function testShipCombat():void

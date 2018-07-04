@@ -1767,7 +1767,7 @@
 					buffer = armor.longName;
 					break;
 				case "weapon":
-					buffer = getWeaponName();
+					buffer = getWeaponName(true);
 					break;
 				case "meleeWeapon":
 				case "weaponMelee":
@@ -3511,13 +3511,13 @@
 				{
 					//Mimbrane feeding
 					kGAMECLASS.mimbraneFeed("cock");
-					if(hasStatusEffect("Blue Balls") && balls > 0)
-					{
-						AddLogEvent(ParseText("With a satisfied sigh, your [pc.balls] " + (balls <= 1 ? "is" : "are") + " finally relieved of all the pent-up " + (rand(2) == 0 ? "seed" : "[pc.cumNoun]") + "."), "passive", -1);
-						removeStatusEffect("Blue Balls", true);
-					}
 					if(balls > 0)
 					{
+						if(hasStatusEffect("Blue Balls", true) && ballFullness < 100)
+						{
+							AddLogEvent(ParseText("With a satisfied sigh, your [pc.balls] " + (balls <= 1 ? "is" : "are") + " finally relieved of all the pent-up " + (rand(2) == 0 ? "seed" : "[pc.cumNoun]") + "."), "passive", -1);
+							removeStatusEffect("Blue Balls", true);
+						}
 						//'Nuki Ball Reduction
 						if(perkv1("'Nuki Nuts") > 0)
 						{
@@ -3569,9 +3569,9 @@
 					flags["GOO_BIOMASS"] = 0;
 				}
 				//Slamazon shit
-				if(hasStatusEffect("Amazonian Endurance Report Needed")) 
+				if(hasStatusEffect("Amazonian Endurance Report Needed", true)) 
 				{
-					kGAMECLASS.eventQueue.push(kGAMECLASS.amazonEnduranceNotice);
+					kGAMECLASS.amazonEnduranceNotice();
 					removeStatusEffect("Amazonian Endurance Report Needed", true);
 				}
 				StatTracking.track("sex/player/orgasms");
@@ -4570,6 +4570,7 @@
 
 			var currPhys:int = physiqueRaw + physiqueMod;
 
+			currPhys += statusEffectv1("Dispassion Fruit");
 			if (hasStatusEffect("Tripped")) currPhys -= 4;
 			if (hasStatusEffect("Crunched")) currPhys -= 8;
 			if (hasStatusEffect("Psychic Leech")) currPhys *= 0.85;
@@ -4609,12 +4610,16 @@
 			var bonus:int = 0;
 			bonus += statusEffectv1("Sera Spawn Reflex Mod");
 			bonus += statusEffectv1("Riya Spawn Reflex Mod");
+			bonus += statusEffectv1("Lah Pregnancy Reflex Mod");
 			bonus += statusEffectv1("Zil Pregnancy Reflex Mod");
 			bonus += statusEffectv2("Cum High");
 
 			var currReflexes:int = reflexesRaw + reflexesMod + bonus;
 
 			//Debuffs!
+			currReflexes += statusEffectv2("Dispassion Fruit");
+			currReflexes += statusEffectv1("Plumpkin");
+			currReflexes += statusEffectv1("Peprika");
 			if (hasStatusEffect("Tripped")) currReflexes -= 4;
 			if (hasStatusEffect("Staggered")) currReflexes *= 0.8;
 			if (hasStatusEffect("Watered Down")) currReflexes *= 0.9;
@@ -4729,6 +4734,7 @@
 			var bonus:Number = 0;
 			bonus -= statusEffectv1("Adorahol");
 			bonus += statusEffectv3("Cum High");
+			if(accessory is GooCore && isGoo()) bonus += 20;
 
 			var currInt:int = intelligenceRaw + intelligenceMod + bonus;
 			
@@ -4782,6 +4788,7 @@
 
 			var bonus:Number = 0;
 			if(accessory is BeatricesScarf) bonus += 3;
+			if(accessory is GooCore && isGoo()) bonus += 20;
 			bonus += statusEffectv4("Cum High");
 
 			var currWill:int = willpowerRaw + willpowerMod + bonus;
@@ -4842,11 +4849,13 @@
 				currLib += perkv1("Slut Stamp");
 			}
 			if (perkv1("Dumb4Cum") > 24) currLib += (perkv1("Dumb4Cum") - 24);
+			currLib += statusEffectv3("Dispassion Fruit");
 			currLib += statusEffectv3("Heat");
 			currLib += statusEffectv1("Rut");
 			currLib += statusEffectv1("Lagonic Rut");
 			currLib += statusEffectv1("Undetected Locofever");
 			currLib += statusEffectv1("Locofever");
+			currLib += statusEffectv1("Fried Cunt Snake");
 			if (hasStatusEffect("Priapin")) currLib *= statusEffectv3("Priapin");
 			if (pluggedVaginas() > 0 || isPlugged(-1)) currLib *= 2;
 			if (currLib > libidoMax())
@@ -4943,6 +4952,7 @@
 			bonus += statusEffectv2("Rut");
 			bonus += statusEffectv2("Lagonic Rut");
 			bonus += statusEffectv1("Omega Oil");
+			bonus += statusEffectv2("Fried Cunt Snake");
 
 			if (hasStatusEffect("Lane Detoxing Weakness"))
 			{
@@ -4965,6 +4975,7 @@
 		}
 		public function reflexesMax(raw:Boolean = false): Number {
 			var bonuses:int = 0;
+			bonuses += statusEffectv2("Peprika");
 			if(hasStatusEffect("Perfect Simulant")) bonuses += 3;
 			
 			var scalar:Number = 1;
@@ -6277,7 +6288,12 @@
 			}
 			return faceo;
 		}
-
+		
+		public function faceHasFangs():Boolean
+		{
+			return InCollection(faceType, [GLOBAL.TYPE_NALEEN_FACE, GLOBAL.TYPE_SNAKE, GLOBAL.TYPE_ARACHNID]);
+		}
+		
 		public function faceLipMimbraneDescript(): String {
 			//Mimbrane additions in relation to face.
 			var facemim: String = "";
@@ -6635,7 +6651,6 @@
 		public function legFurScales():String 
 		{
 			var output: String = "";
-			var temp:*;
 			var noun:String = "";
 			var adjectives:Array = [];
 			//Figure out if we're talking skin or fur.
@@ -6657,7 +6672,7 @@
 					if (noun == "fur") adjectives.push("fluffy");
 					if (noun == "feathers") adjectives.push("downy");
 				}
-				output += RandomInCollection(adjectives);
+				if(adjectives.length > 0) output += RandomInCollection(adjectives);
 			}
 			//25% of time, describe tone.
 			if (rand(4) == 0) {
@@ -6674,7 +6689,6 @@
 		}
 		public function skinFurScales(forceTone: Boolean = false, forceAdjective: Boolean = false, skin: Boolean = false, appearance: Boolean = false): String {
 			var output: String = "";
-			var temp:*;
 			var adjectives:Array = [];
 			//33% of the time, add an adjective.
 			if (forceAdjective || rand(3) == 0) {
@@ -6706,8 +6720,8 @@
 						if (skinType == GLOBAL.SKIN_TYPE_SCALES || skinType == GLOBAL.SKIN_TYPE_CHITIN || skinType == GLOBAL.SKIN_TYPE_LATEX) adjectives.push(RandomInCollection(["glossy", "glistening", "slick"]));
 						if (skinType == GLOBAL.SKIN_TYPE_PLANT || skinType == GLOBAL.SKIN_TYPE_BARK) adjectives.push(RandomInCollection(["dewy", "damp", "moist"]));
 					}
-					if(adjectives.length > 0) output += RandomInCollection(adjectives);
 				}
+				if(adjectives.length > 0) output += RandomInCollection(adjectives);
 			}
 			//25% of time, describe skin tone.
 			if (forceTone || rand(4) == 0) {
@@ -8065,8 +8079,8 @@
 		}
 		//CHECKING IF HAS A SPECIFIC STORAGE ITEM
 		//Status
-		public function hasStatusEffect(statusName: String): Boolean {
-			return hasStorageName(statusEffects, statusName);
+		public function hasStatusEffect(statusName: String, ignoreHidden:Boolean = false): Boolean {
+			return hasStorageName(statusEffects, statusName, ignoreHidden);
 		}
 		public function hasStatusEffectCount(statusName:String):Number
 		{
@@ -8080,11 +8094,11 @@
 			return amount;
 		}
 		//Perk
-		public function hasPerk(perkName: String): Boolean {
-			return hasStorageName(perks, perkName);
+		public function hasPerk(perkName: String, ignoreHidden:Boolean = false): Boolean {
+			return hasStorageName(perks, perkName, ignoreHidden);
 		}
-		public function hasKeyItem(keyName: String): Boolean {
-			return hasStorageName(keyItems, keyName);
+		public function hasKeyItem(keyName: String, ignoreHidden:Boolean = false): Boolean {
+			return hasStorageName(keyItems, keyName, ignoreHidden);
 		}
 		public function getKeyItem(keyName:String):StorageClass
 		{
@@ -8096,12 +8110,12 @@
 			return null;
 		}
 		//General function.
-		public function hasStorageName(array:Array, storageName: String): Boolean {
+		public function hasStorageName(array:Array, storageName: String, ignoreHidden:Boolean = false): Boolean {
 			var counter: Number = array.length;
 			if (array.length <= 0) return false;
 			while (counter > 0) {
 				counter--;
-				if (array[counter].storageName == storageName) return true;
+				if (array[counter].storageName == storageName && (!ignoreHidden || array[counter].tooltip != "< REMOVE >")) return true;
 			}
 			return false;
 		}
@@ -20699,6 +20713,11 @@
 					case "The Treatment":
 						if(thisStatus.minutesLeft <= 0) thisStatus.minutesLeft = 1;
 						break;
+					case "Furpies Simplex H":
+					case "Furpies Simplex C":
+					case "Furpies Simplex D":
+						if(thisStatus.minutesLeft <= 0 && thisStatus.value4 < 12) thisStatus.minutesLeft = 1;
+						break;
 					case "Ovilium":
 						if(thisStatus.minutesLeft < deltaT) thisStatus.minutesLeft = (deltaT + 1);
 						break;
@@ -21598,6 +21617,30 @@
 		{
 			if(accessory is KordiiakLeash || accessory is GrunchLeash || accessory is NogwichLeash) return true;
 			return false;
+		}
+		
+		// Silicone
+		public function siliconeRating(sType:String):Number
+		{
+			var nRating:Number = 0;
+			
+			switch(sType)
+			{
+				case "hips":
+					nRating += statusEffectv1("Nym-Foe Injections");
+					break;
+				case "butt":
+					nRating += statusEffectv2("Nym-Foe Injections");
+					break;
+				case "tits":
+					nRating += statusEffectv3("Nym-Foe Injections");
+					break;
+				case "lips":
+					nRating += statusEffectv4("Nym-Foe Injections");
+					break;
+			}
+			
+			return nRating;
 		}
 	}
 }
