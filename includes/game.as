@@ -1963,13 +1963,8 @@ public function flyMenu():void
 	
 	if(zhengCoordinatesUnlocked())
 	{
-<<<<<<< HEAD
-		if (shipLocation != "ZS L50")addButton(4,"ZhengShi",flyTo,"ZhengShi");
-		else addDisabledButton(4,"ZhengShi","ZhengShi", "You're already here.");
-=======
 		if (shipLocation != "ZS L50") addButton(4, "ZhengShi", flyTo, "ZhengShi");
 		else addDisabledButton(4, "ZhengShi", "Zhèng Shi Station", "You’re already here.");
->>>>>>> pr/5
 	}
 	else addDisabledButton(4, "Locked", "Locked", "You need to find one of your father’s probes to access this location’s coordinates.");
 
@@ -4638,4 +4633,3 @@ public function taintedLove():void
 	addButton(0, "Again", taintedLove);
 	addButton(14, "Back", mainGameMenu);
 }
-
